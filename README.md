@@ -11,6 +11,18 @@ Sensitive runtime state is intentionally ignored (`.gitignore`), including:
 - API keys and tokens
 - device identity and pairing files
 - logs, media, and transient session data
+- personal workspace/session content
+
+## Privacy Mode
+
+This repository is configured as `PRIVATE` on GitHub.
+
+To reduce accidental leaks, the current `.gitignore` defaults to treating runtime
+directories as local-only (`workspace/`, `skills/`, `extensions/`, `plugins/`,
+`cron/`, `agents/`, etc.).
+
+If you want to version a specific runtime file later, remove or narrow the
+matching ignore rule first and commit intentionally.
 
 ## Repository Purpose
 

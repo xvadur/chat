@@ -1,6 +1,16 @@
 # macOS
 .DS_Store
 
+# Runtime workspace (local-only)
+workspace/
+agents/
+canvas/
+completions/
+cron/
+extensions/
+plugins/
+skills/
+
 # Runtime secrets and identity
 credentials/
 identity/
@@ -13,14 +23,11 @@ openclaw.json.bak*
 # Logs and transient runtime data
 logs/
 media/
-cron/runs/
 chatui-legacy.launchd.*
 task-monitor-server.launchd.*
 update-check.json
 
 # Local runtime/generated state
-agents/**/sessions/
-agents/**/agent/auth*.json
 delivery-queue/
 
 # Node dependencies/build output
@@ -30,8 +37,5 @@ delivery-queue/
 # Optional local backups
 extensions-backups/
 
-# Workspace personal memory/content (local only)
-workspace/memory/
-workspace/onboarding-data/
-workspace/MEMORY.md
-workspace/HEARTBEAT.md
+# Safety: nested VCS data
+**/.git/
