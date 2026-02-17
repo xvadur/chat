@@ -1,0 +1,37 @@
+# macOS
+.DS_Store
+
+# Runtime secrets and identity
+credentials/
+identity/
+devices/
+telegram/
+exec-approvals.json
+openclaw.json
+openclaw.json.bak*
+
+# Logs and transient runtime data
+logs/
+media/
+cron/runs/
+chatui-legacy.launchd.*
+task-monitor-server.launchd.*
+update-check.json
+
+# Local runtime/generated state
+agents/**/sessions/
+agents/**/agent/auth*.json
+delivery-queue/
+
+# Node dependencies/build output
+**/node_modules/
+**/dist/
+
+# Optional local backups
+extensions-backups/
+
+# Workspace personal memory/content (local only)
+workspace/memory/
+workspace/onboarding-data/
+workspace/MEMORY.md
+workspace/HEARTBEAT.md
