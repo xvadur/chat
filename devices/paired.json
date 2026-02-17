@@ -1,0 +1,91 @@
+{
+  "9367471ab7fb0ba3c9456e2ff841860061468a25a5d99f6d74bcec4a5184dad1": {
+    "deviceId": "9367471ab7fb0ba3c9456e2ff841860061468a25a5d99f6d74bcec4a5184dad1",
+    "publicKey": "G08ICqU39j8gxAxWmMcHxDa4gUJytrzyfk8N0g6tBUk",
+    "platform": "darwin",
+    "clientId": "gateway-client",
+    "clientMode": "ui",
+    "role": "operator",
+    "roles": [
+      "operator"
+    ],
+    "scopes": [
+      "operator.admin",
+      "operator.approvals",
+      "operator.pairing"
+    ],
+    "tokens": {
+      "operator": {
+        "token": "T1KWWCS4v2iXIdo0iUcukA0LfcLWi5kWTgeHwalMEw8",
+        "role": "operator",
+        "scopes": [
+          "operator.admin",
+          "operator.approvals",
+          "operator.pairing"
+        ],
+        "createdAtMs": 1771158442320
+      }
+    },
+    "createdAtMs": 1771158442320,
+    "approvedAtMs": 1771158442320,
+    "displayName": "openclaw-tui"
+  },
+  "3219955860171f0feb690d7bf3142417d76313423d18121de3ad8edb1567032b": {
+    "deviceId": "3219955860171f0feb690d7bf3142417d76313423d18121de3ad8edb1567032b",
+    "publicKey": "Frbx2F2o9Mq16CfkBlSyVxfSCZq-273RNmf72HaQZS4",
+    "platform": "MacIntel",
+    "clientId": "openclaw-control-ui",
+    "clientMode": "webchat",
+    "role": "operator",
+    "roles": [
+      "operator"
+    ],
+    "scopes": [
+      "operator.admin",
+      "operator.approvals",
+      "operator.pairing"
+    ],
+    "tokens": {
+      "operator": {
+        "token": "o4qoMkVdhSL0q1nfIPkJ-tLbdPJTDUEcCSCrS6osNhU",
+        "role": "operator",
+        "scopes": [
+          "operator.admin",
+          "operator.approvals",
+          "operator.pairing"
+        ],
+        "createdAtMs": 1771169360294,
+        "lastUsedAtMs": 1771364800882
+      }
+    },
+    "createdAtMs": 1771169360294,
+    "approvedAtMs": 1771169360294
+  },
+  "d325cc6fd2842ad5c6fe1c6d559c82bfad60af2cd8d45626c5b3918133715e87": {
+    "deviceId": "d325cc6fd2842ad5c6fe1c6d559c82bfad60af2cd8d45626c5b3918133715e87",
+    "publicKey": "GYjbg7RhAMbyN3QPk2fP6Q2_vuKcDMR-MRwQMLJK9uY",
+    "displayName": "kimi-bridge-connector",
+    "platform": "darwin",
+    "clientId": "gateway-client",
+    "clientMode": "backend",
+    "role": "operator",
+    "roles": [
+      "operator"
+    ],
+    "scopes": [
+      "operator.admin"
+    ],
+    "tokens": {
+      "operator": {
+        "token": "Y1ac14uRoBXGDOkjR6saKuDl2NKNOh8wnD9E_mfGJjo",
+        "role": "operator",
+        "scopes": [
+          "operator.admin"
+        ],
+        "createdAtMs": 1771253414413
+      }
+    },
+    "createdAtMs": 1771253414413,
+    "approvedAtMs": 1771253414413
+  }
+}

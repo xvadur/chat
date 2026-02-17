@@ -1,0 +1,32 @@
+{
+  "name": "kimi-claw",
+  "version": "0.4.7",
+  "description": "OpenClaw connector that bridges a remote /gateway server with the local OpenClaw Gateway.",
+  "type": "module",
+  "main": "dist/index.js",
+  "files": [
+    "dist/",
+    "openclaw.plugin.json"
+  ],
+  "openclaw": {
+    "extensions": [
+      "./dist/index.js"
+    ]
+  },
+  "scripts": {
+    "clean": "rm -rf dist",
+    "build": "npm run clean && tsc -p tsconfig.build.json && mkdir -p dist/src && cp src/message-filter.js dist/src/message-filter.js",
+    "test": "node --experimental-transform-types --test tests/*.test.ts",
+    "test:cases": "node --experimental-transform-types tests/acp-case-runner.ts",
+    "test:coverage:baseline": "node --experimental-transform-types --experimental-test-coverage --test-coverage-include='src/**/*.ts' --test tests/*.test.ts"
+  },
+  "dependencies": {
+    "node-pty": "^1.1.0",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.2.2",
+    "@types/ws": "^8.18.1",
+    "typescript": "^5.6.3"
+  }
+}

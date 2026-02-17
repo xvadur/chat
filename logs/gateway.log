@@ -1,0 +1,967 @@
+2026-02-15T12:27:20.232Z [gateway] Control UI assets missing; building (ui:build, auto-installs UI deps)…
+2026-02-15T12:27:22.109Z [canvas] host mounted at http://127.0.0.1:18789/__openclaw__/canvas/ (root /Users/_xvadur/.openclaw/canvas)
+2026-02-15T12:27:22.150Z [heartbeat] started
+2026-02-15T12:27:22.152Z [gateway] agent model: openrouter/minimax/minimax-m2.5
+2026-02-15T12:27:22.152Z [gateway] listening on ws://127.0.0.1:18789 (PID 5273)
+2026-02-15T12:27:22.153Z [gateway] listening on ws://[::1]:18789
+2026-02-15T12:27:22.153Z [gateway] log file: /tmp/openclaw/openclaw-2026-02-15.log
+2026-02-15T12:27:22.176Z [browser/service] Browser control service ready (profiles=2)
+2026-02-15T12:27:22.297Z [hooks:loader] Registered hook: boot-md -> gateway:startup
+2026-02-15T12:27:22.311Z [hooks:loader] Registered hook: bootstrap-extra-files -> agent:bootstrap
+2026-02-15T12:27:22.312Z [hooks:loader] Registered hook: command-logger -> command
+2026-02-15T12:27:22.314Z [hooks:loader] Registered hook: session-memory -> command:new
+2026-02-15T12:27:22.315Z [hooks] loaded 4 internal hook handlers
+2026-02-15T12:27:22.321Z [gateway] device pairing auto-approved device=9367471ab7fb0ba3c9456e2ff841860061468a25a5d99f6d74bcec4a5184dad1 role=operator
+2026-02-15T12:27:22.536Z [telegram] [default] starting provider (@JarvisXvadurbot)
+2026-02-15T12:27:22.539Z [telegram] autoSelectFamily=false (default-node22)
+2026-02-15T12:27:22.633Z [ws] ⇄ res ✓ health 308ms conn=4de86c3d…05e2 id=0340b54f…b1a1
+2026-02-15T12:29:34.663Z [ws] ⇄ res ✗ sessions.patch 34ms errorCode=INVALID_REQUEST errorMessage=model not allowed: openrouter/google/gemini-3-flash-preview conn=fa6d2599…61d5 id=7cd5f085…425a
+2026-02-15T12:30:23.703Z [ws] ⇄ res ✗ sessions.patch 27ms errorCode=INVALID_REQUEST errorMessage=model not allowed: openrouter/z-ai/glm-5 conn=fa6d2599…61d5 id=88414e51…063c
+2026-02-15T12:31:30.857Z [ws] ⇄ res ✗ sessions.patch 35ms errorCode=INVALID_REQUEST errorMessage=model not allowed: openrouter/google/gemini-3-flash-preview conn=fa6d2599…61d5 id=04b069a0…c23c
+2026-02-15T12:32:59.826Z [ws] ⇄ res ✗ sessions.patch 42ms errorCode=INVALID_REQUEST errorMessage=model not allowed: openrouter/google/gemini-3-flash-preview conn=fa6d2599…61d5 id=7dbb0fda…4153
+2026-02-15T12:41:45.733Z [ws] ⇄ res ✓ chat.send 64ms runId=7e4cf0dc-6ad1-4877-abae-76feabc06cf1 conn=fa6d2599…61d5 id=c182e752…231c
+2026-02-15T12:43:35.978Z [ws] ⇄ res ✓ config.get 125ms conn=7cee8e62…c709 id=35d1cdd4…9ebd
+2026-02-15T12:43:45.617Z [reload] config change detected; evaluating reload (meta.lastTouchedAt, agents.defaults.models.openrouter/anthropic/claude-opus-4.6, agents.defaults.compaction)
+2026-02-15T12:43:45.623Z [reload] config change applied (dynamic reads: meta.lastTouchedAt, agents.defaults.models.openrouter/anthropic/claude-opus-4.6, agents.defaults.compaction)
+2026-02-15T12:43:50.548Z [reload] config change detected; evaluating reload (meta.lastTouchedAt, agents.defaults.model.primary)
+2026-02-15T12:43:50.549Z [reload] config change applied (dynamic reads: meta.lastTouchedAt, agents.defaults.model.primary)
+2026-02-15T12:43:53.537Z [gateway] signal SIGUSR1 received
+2026-02-15T12:43:53.540Z [gateway] received SIGUSR1; restarting
+2026-02-15T12:43:53.570Z [gmail-watcher] gmail watcher stopped
+2026-02-15T12:43:53.863Z [gateway] restart mode: full process restart (spawned pid 8086)
+2026-02-15T12:43:56.415Z [canvas] host mounted at http://127.0.0.1:18789/__openclaw__/canvas/ (root /Users/_xvadur/.openclaw/canvas)
+2026-02-15T12:43:56.454Z [heartbeat] started
+2026-02-15T12:43:56.456Z [gateway] agent model: openrouter/anthropic/claude-opus-4.6
+2026-02-15T12:43:56.457Z [gateway] listening on ws://127.0.0.1:18789 (PID 8086)
+2026-02-15T12:43:56.457Z [gateway] listening on ws://[::1]:18789
+2026-02-15T12:43:56.458Z [gateway] log file: /tmp/openclaw/openclaw-2026-02-15.log
+2026-02-15T12:43:56.474Z [browser/service] Browser control service ready (profiles=2)
+2026-02-15T12:43:56.591Z [hooks:loader] Registered hook: boot-md -> gateway:startup
+2026-02-15T12:43:56.606Z [hooks:loader] Registered hook: bootstrap-extra-files -> agent:bootstrap
+2026-02-15T12:43:56.609Z [hooks:loader] Registered hook: command-logger -> command
+2026-02-15T12:43:56.611Z [hooks:loader] Registered hook: session-memory -> command:new
+2026-02-15T12:43:56.612Z [hooks] loaded 4 internal hook handlers
+2026-02-15T12:43:56.775Z [telegram] [default] starting provider (@JarvisXvadurbot)
+2026-02-15T12:43:56.777Z [telegram] autoSelectFamily=false (default-node22)
+2026-02-15T14:08:36.153Z [ws] ⇄ res ✓ config.get 167ms conn=635f5935…23df id=884c1900…d441
+2026-02-15T14:08:36.156Z [ws] ⇄ res ✓ status 176ms conn=635f5935…23df id=34b172b1…9d8e
+2026-02-15T14:52:50.414Z [ws] ⇄ res ✓ chat.send 70ms runId=3a7bf4be-bf7d-4afd-86e4-6577e92020c9 conn=d77f28fc…c12b id=a8d95276…97d2
+2026-02-15T14:59:01.473Z [ws] ⇄ res ✓ channels.status 199ms conn=c86e958b…58a5 id=36581075…6eb0
+2026-02-15T15:23:45.463Z [ws] ⇄ res ✓ channels.status 172ms conn=c37b5f99…04b1 id=74932a44…685f
+2026-02-15T15:23:45.991Z [reload] config change detected; evaluating reload (meta.lastTouchedAt, wizard.lastRunAt, wizard.lastRunCommand, agents.defaults.compaction)
+2026-02-15T15:23:45.996Z [reload] config change applied (dynamic reads: meta.lastTouchedAt, wizard.lastRunAt, wizard.lastRunCommand, agents.defaults.compaction)
+2026-02-15T15:23:56.042Z [reload] config change detected; evaluating reload (meta.lastTouchedAt, gateway.auth.token)
+2026-02-15T15:23:56.044Z [gateway] signal SIGUSR1 received
+2026-02-15T15:23:56.045Z [gateway] received SIGUSR1; restarting
+2026-02-15T15:23:56.058Z [gmail-watcher] gmail watcher stopped
+2026-02-15T15:24:10.362Z [gateway] restart mode: full process restart (spawned pid 72999)
+2026-02-15T15:24:11.806Z [canvas] host mounted at http://127.0.0.1:18789/__openclaw__/canvas/ (root /Users/_xvadur/.openclaw/canvas)
+2026-02-15T15:24:11.850Z [heartbeat] started
+2026-02-15T15:24:11.852Z [gateway] agent model: openrouter/anthropic/claude-opus-4.6
+2026-02-15T15:24:11.852Z [gateway] listening on ws://127.0.0.1:18789 (PID 72959)
+2026-02-15T15:24:11.852Z [gateway] listening on ws://[::1]:18789
+2026-02-15T15:24:11.853Z [gateway] log file: /tmp/openclaw/openclaw-2026-02-15.log
+2026-02-15T15:24:11.866Z [browser/service] Browser control service ready (profiles=2)
+2026-02-15T15:24:11.984Z [hooks:loader] Registered hook: boot-md -> gateway:startup
+2026-02-15T15:24:11.994Z [hooks:loader] Registered hook: bootstrap-extra-files -> agent:bootstrap
+2026-02-15T15:24:11.994Z [hooks:loader] Registered hook: command-logger -> command
+2026-02-15T15:24:11.997Z [hooks:loader] Registered hook: session-memory -> command:new
+2026-02-15T15:24:11.997Z [hooks] loaded 4 internal hook handlers
+2026-02-15T15:24:12.201Z [telegram] [default] starting provider (@JarvisXvadurbot)
+2026-02-15T15:24:12.204Z [telegram] autoSelectFamily=false (default-node22)
+2026-02-15T15:29:04.162Z [ws] ⇄ res ✓ config.get 108ms conn=5d0e8b1a…ec94 id=6bfb136f…c97d
+2026-02-15T15:29:04.163Z [ws] ⇄ res ✓ status 111ms conn=5d0e8b1a…ec94 id=b1e25ee9…baa1
+2026-02-15T15:29:20.299Z [gateway] device pairing auto-approved device=3219955860171f0feb690d7bf3142417d76313423d18121de3ad8edb1567032b role=operator
+2026-02-15T15:29:20.302Z [ws] webchat connected conn=5518350b-f7ce-4263-b135-265b35ae02be remote=127.0.0.1 client=openclaw-control-ui webchat vdev
+2026-02-15T15:29:26.436Z [ws] webchat connected conn=5e0336f7-cb60-49b1-89fb-d8bddc3039f4 remote=127.0.0.1 client=openclaw-control-ui webchat vdev
+2026-02-15T15:40:56.241Z [ws] ⇄ res ✓ node.list 75ms conn=5518350b…02be id=97662408…22d2
+2026-02-15T15:46:47.204Z [ws] ⇄ res ✓ chat.send 63ms runId=edd58c0d-1db4-469c-85f3-b1d53ed57719 conn=5518350b…02be id=63248b20…ea5f
+2026-02-15T16:26:00.304Z [ws] webchat disconnected code=1001 reason=n/a conn=5e0336f7-cb60-49b1-89fb-d8bddc3039f4
+2026-02-15T17:04:34.415Z [ws] ⇄ res ✓ node.list 86ms conn=5518350b…02be id=c8605933…ed59
+2026-02-15T17:47:35.260Z [ws] ⇄ res ✓ node.list 152ms conn=5518350b…02be id=4afe63f8…35e5
+2026-02-15T17:50:36.432Z [ws] ⇄ res ✓ usage.cost 102ms conn=5518350b…02be id=3ff50cd7…481e
+2026-02-15T17:50:36.437Z [ws] ⇄ res ✓ sessions.usage 163ms conn=5518350b…02be id=9d189329…6b55
+2026-02-15T17:51:03.140Z [ws] ⇄ res ✓ chat.history 107ms conn=5518350b…02be id=040a69c5…7cd3
+2026-02-15T17:51:14.751Z [ws] ⇄ res ✓ sessions.usage 63ms conn=5518350b…02be id=f5185add…5a0a
+2026-02-15T17:51:43.991Z [ws] ⇄ res ✓ channels.status 105ms conn=5518350b…02be id=180958d4…f345
+2026-02-15T17:51:49.660Z [ws] ⇄ res ✓ channels.status 297ms conn=5518350b…02be id=f0783d53…e2f2
+2026-02-15T17:52:22.324Z [ws] ⇄ res ✓ skills.status 181ms conn=5518350b…02be id=170980a2…032d
+2026-02-15T17:56:19.816Z [ws] ⇄ res ✓ chat.history 66ms conn=5518350b…02be id=cf1df5e8…4fda
+2026-02-15T17:57:39.540Z [ws] ⇄ res ✓ node.list 89ms conn=5518350b…02be id=7d564c57…b030
+2026-02-15T17:58:06.183Z [ws] ⇄ res ✓ agents.list 425ms conn=5518350b…02be id=5d548822…fdb4
+2026-02-15T17:58:19.823Z [ws] ⇄ res ✓ config.get 57ms conn=5518350b…02be id=46f7751a…32bf
+2026-02-15T17:58:42.370Z [ws] ⇄ res ✓ chat.send 64ms runId=d427f817-677e-4053-9d4f-e1e5a83a952f conn=75dc3ae3…7951 id=88e155ec…70c0
+2026-02-15T17:58:58.170Z [ws] ⇄ res ✓ chat.history 59ms conn=5518350b…02be id=678bfa63…ad9d
+2026-02-15T17:59:11.632Z [ws] ⇄ res ✓ chat.history 75ms conn=5518350b…02be id=437caba6…574b
+2026-02-15T17:59:58.230Z [reload] config change detected; evaluating reload (meta.lastTouchedAt, agents.defaults.model.primary, agents.defaults.compaction)
+2026-02-15T17:59:58.233Z [reload] config change applied (dynamic reads: meta.lastTouchedAt, agents.defaults.model.primary, agents.defaults.compaction)
+2026-02-15T18:00:07.479Z [gateway] signal SIGTERM received
+2026-02-15T18:00:07.482Z [gateway] received SIGTERM; shutting down
+2026-02-15T18:00:07.518Z [gmail-watcher] gmail watcher stopped
+2026-02-15T18:00:07.771Z [ws] webchat disconnected code=1012 reason=service restart conn=5518350b-f7ce-4263-b135-265b35ae02be
+2026-02-15T18:00:09.924Z [canvas] host mounted at http://127.0.0.1:18789/__openclaw__/canvas/ (root /Users/_xvadur/.openclaw/canvas)
+2026-02-15T18:00:10.068Z [heartbeat] started
+2026-02-15T18:00:10.071Z [gateway] agent model: openrouter/minimax/minimax-m2.5
+2026-02-15T18:00:10.071Z [gateway] listening on ws://127.0.0.1:18789 (PID 211)
+2026-02-15T18:00:10.072Z [gateway] listening on ws://[::1]:18789
+2026-02-15T18:00:10.073Z [gateway] log file: /tmp/openclaw/openclaw-2026-02-15.log
+2026-02-15T18:00:10.101Z [browser/service] Browser control service ready (profiles=2)
+2026-02-15T18:00:10.545Z [hooks:loader] Registered hook: boot-md -> gateway:startup
+2026-02-15T18:00:10.565Z [hooks:loader] Registered hook: bootstrap-extra-files -> agent:bootstrap
+2026-02-15T18:00:10.566Z [hooks:loader] Registered hook: command-logger -> command
+2026-02-15T18:00:10.568Z [hooks:loader] Registered hook: session-memory -> command:new
+2026-02-15T18:00:10.569Z [hooks] loaded 4 internal hook handlers
+2026-02-15T18:00:10.877Z [ws] ⇄ res ✓ chat.history 57ms conn=bca0adc6…0856 id=fa05c756…0f9c
+2026-02-15T18:00:10.881Z [telegram] [default] starting provider (@JarvisXvadurbot)
+2026-02-15T18:00:10.885Z [telegram] autoSelectFamily=false (default-node22)
+2026-02-15T18:00:11.463Z [ws] webchat connected conn=d1e42a88-259b-4a08-81ee-28a4f74070ab remote=127.0.0.1 client=openclaw-control-ui webchat vdev
+2026-02-15T18:00:12.668Z [ws] ⇄ res ✓ config.get 281ms conn=de636762…4662 id=dffd17a2…5656
+2026-02-15T18:00:12.669Z [ws] ⇄ res ✓ status 284ms conn=de636762…4662 id=b26b01f2…0c7f
+2026-02-15T18:01:03.088Z [ws] ⇄ res ✓ chat.send 66ms runId=da442cd8-d086-481d-b2ef-5d28d82301c6 conn=d1e42a88…70ab id=20aeaee9…018d
+2026-02-15T18:04:19.587Z [ws] ⇄ res ✓ node.list 62ms conn=d1e42a88…70ab id=1a8c235e…ddd7
+2026-02-15T18:04:25.099Z [ws] ⇄ res ✓ node.list 196ms conn=d1e42a88…70ab id=4468e772…6b22
+2026-02-15T18:05:57.667Z [ws] ⇄ res ✓ chat.history 73ms conn=d1e42a88…70ab id=9de9a973…a830
+2026-02-15T18:10:27.621Z [ws] ⇄ res ✓ chat.history 54ms conn=bca0adc6…0856 id=a4c5e235…16b8
+2026-02-15T19:05:06.457Z [ws] ⇄ res ✓ chat.history 172ms conn=d1e42a88…70ab id=1b322957…d875
+2026-02-15T19:22:39.480Z [ws] ⇄ res ✓ chat.send 50ms runId=12b5e2b6-7629-4b23-ac01-b62d4a4006f9 conn=d1e42a88…70ab id=23c9ad0f…d41d
+2026-02-15T19:25:29.455Z [ws] ⇄ res ✓ node.list 56ms conn=d1e42a88…70ab id=3bda3703…dd72
+2026-02-15T19:25:49.770Z [ws] ⇄ res ✓ node.list 225ms conn=d1e42a88…70ab id=f5b63b2f…b0b2
+2026-02-15T19:33:23.369Z [ws] ⇄ res ✓ node.list 61ms conn=d1e42a88…70ab id=868343d4…76b3
+2026-02-15T19:37:59.482Z [ws] ⇄ res ✓ node.list 60ms conn=d1e42a88…70ab id=47be2deb…b43a
+2026-02-15T19:45:05.401Z [ws] ⇄ res ✓ chat.send 54ms runId=fc9187e9-4205-4cd1-9564-6f4a7b589f7b conn=d1e42a88…70ab id=2571df7e…9579
+2026-02-15T19:48:34.250Z [ws] ⇄ res ✓ chat.history 58ms conn=d1e42a88…70ab id=82b79800…a294
+2026-02-15T19:49:04.390Z [ws] ⇄ res ✓ node.list 61ms conn=d1e42a88…70ab id=8bfdc510…0548
+2026-02-15T19:51:49.918Z [ws] ⇄ res ✓ chat.send 88ms runId=e342c2d9-109e-42a2-b99d-8850b86aa8cb conn=d1e42a88…70ab id=bf34bd47…56fb
+2026-02-15T19:57:57.363Z [ws] ⇄ res ✓ chat.send 66ms runId=697594cf-4954-49e2-a957-186a2802f692 conn=d1e42a88…70ab id=7ac5fba4…a7cc
+2026-02-15T19:58:56.925Z [ws] ⇄ res ✓ chat.history 150ms conn=d1e42a88…70ab id=a9f8684e…4155
+2026-02-15T20:01:23.989Z [ws] ⇄ res ✓ chat.send 89ms runId=8dc5b40d-a1b0-4f9c-af96-5a6c5f0d9e97 conn=d1e42a88…70ab id=12f2db93…3454
+2026-02-15T20:02:32.460Z [ws] ⇄ res ✓ chat.history 289ms conn=d1e42a88…70ab id=f592be29…781f
+2026-02-15T20:05:25.661Z [gateway] signal SIGTERM received
+2026-02-15T20:05:25.674Z [gateway] received SIGTERM; shutting down
+2026-02-15T20:05:25.721Z [gmail-watcher] gmail watcher stopped
+2026-02-15T20:05:26.037Z [ws] webchat disconnected code=1012 reason=service restart conn=d1e42a88-259b-4a08-81ee-28a4f74070ab
+2026-02-15T20:05:29.924Z [canvas] host mounted at http://127.0.0.1:18789/__openclaw__/canvas/ (root /Users/_xvadur/.openclaw/canvas)
+2026-02-15T20:05:29.964Z [heartbeat] started
+2026-02-15T20:05:29.966Z [gateway] agent model: openrouter/minimax/minimax-m2.5
+2026-02-15T20:05:29.966Z [gateway] listening on ws://127.0.0.1:18789 (PID 42218)
+2026-02-15T20:05:29.967Z [gateway] listening on ws://[::1]:18789
+2026-02-15T20:05:29.967Z [gateway] log file: /tmp/openclaw/openclaw-2026-02-15.log
+2026-02-15T20:05:29.974Z [browser/service] Browser control service ready (profiles=2)
+2026-02-15T20:05:30.098Z [hooks:loader] Registered hook: boot-md -> gateway:startup
+2026-02-15T20:05:30.108Z [hooks:loader] Registered hook: bootstrap-extra-files -> agent:bootstrap
+2026-02-15T20:05:30.109Z [hooks:loader] Registered hook: command-logger -> command
+2026-02-15T20:05:30.112Z [hooks:loader] Registered hook: session-memory -> command:new
+2026-02-15T20:05:30.112Z [hooks] loaded 4 internal hook handlers
+2026-02-15T20:05:30.391Z [telegram] [default] starting provider (@JarvisXvadurbot)
+2026-02-15T20:05:30.394Z [telegram] autoSelectFamily=false (default-node22)
+2026-02-15T20:05:32.326Z [ws] webchat connected conn=b7ec26fe-47ce-4c7e-b00c-57383e6e8b6f remote=127.0.0.1 client=openclaw-control-ui webchat vdev
+2026-02-15T20:15:58.428Z [ws] ⇄ res ✓ config.get 128ms conn=f342ed52…ca31 id=e3d566b4…44c0
+2026-02-15T20:15:58.430Z [ws] ⇄ res ✓ status 133ms conn=f342ed52…ca31 id=e57a4971…84bb
+2026-02-15T20:19:47.644Z [ws] ⇄ res ✓ node.list 65ms conn=b7ec26fe…8b6f id=4144f01f…921b
+2026-02-15T20:20:54.358Z [ws] ⇄ res ✓ channels.status 268ms conn=dddf9e5e…b4fe id=807b0a85…610f
+2026-02-15T20:21:17.306Z [gateway] signal SIGTERM received
+2026-02-15T20:21:17.310Z [gateway] received SIGTERM; shutting down
+2026-02-15T20:21:17.343Z [gmail-watcher] gmail watcher stopped
+2026-02-15T20:21:17.614Z [ws] webchat disconnected code=1012 reason=service restart conn=b7ec26fe-47ce-4c7e-b00c-57383e6e8b6f
+2026-02-15T20:21:19.795Z [canvas] host mounted at http://127.0.0.1:18789/__openclaw__/canvas/ (root /Users/_xvadur/.openclaw/canvas)
+2026-02-15T20:21:19.830Z [heartbeat] started
+2026-02-15T20:21:19.832Z [gateway] agent model: openrouter/minimax/minimax-m2.5
+2026-02-15T20:21:19.833Z [gateway] listening on ws://127.0.0.1:18789 (PID 45621)
+2026-02-15T20:21:19.833Z [gateway] listening on ws://[::1]:18789
+2026-02-15T20:21:19.833Z [gateway] log file: /tmp/openclaw/openclaw-2026-02-15.log
+2026-02-15T20:21:19.839Z [browser/service] Browser control service ready (profiles=2)
+2026-02-15T20:21:19.958Z [hooks:loader] Registered hook: boot-md -> gateway:startup
+2026-02-15T20:21:19.967Z [hooks:loader] Registered hook: bootstrap-extra-files -> agent:bootstrap
+2026-02-15T20:21:19.968Z [hooks:loader] Registered hook: command-logger -> command
+2026-02-15T20:21:19.970Z [hooks:loader] Registered hook: session-memory -> command:new
+2026-02-15T20:21:19.971Z [hooks] loaded 4 internal hook handlers
+2026-02-15T20:21:20.150Z [telegram] [default] starting provider (@JarvisXvadurbot)
+2026-02-15T20:21:20.154Z [telegram] autoSelectFamily=false (default-node22)
+2026-02-15T20:21:21.375Z [ws] webchat connected conn=ad508ccf-b3ed-42ee-8ebf-9bbcfda8d581 remote=127.0.0.1 client=openclaw-control-ui webchat vdev
+2026-02-15T20:21:23.528Z [ws] ⇄ res ✓ config.get 268ms conn=a7897071…3de6 id=63032978…5cca
+2026-02-15T20:21:23.529Z [ws] ⇄ res ✓ status 270ms conn=a7897071…3de6 id=813c3b8a…459a
+2026-02-15T20:22:28.011Z [ws] ⇄ res ✓ channels.status 629ms conn=ad508ccf…d581 id=eb136aa4…765f
+2026-02-15T20:22:31.393Z [ws] ⇄ res ✓ chat.history 85ms conn=ad508ccf…d581 id=8c0b1bd8…7882
+2026-02-15T20:22:50.817Z [ws] webchat connected conn=62bf5185-0e41-49a2-bcd0-8b5ed29cf2c3 remote=127.0.0.1 client=openclaw-control-ui webchat vdev
+2026-02-15T20:33:35.327Z [gateway] signal SIGTERM received
+2026-02-15T20:33:35.333Z [gateway] received SIGTERM; shutting down
+2026-02-15T20:33:35.371Z [gmail-watcher] gmail watcher stopped
+2026-02-15T20:33:35.611Z [ws] webchat disconnected code=1012 reason=service restart conn=62bf5185-0e41-49a2-bcd0-8b5ed29cf2c3
+2026-02-15T20:33:35.612Z [ws] webchat disconnected code=1012 reason=service restart conn=ad508ccf-b3ed-42ee-8ebf-9bbcfda8d581
+2026-02-15T20:33:37.764Z [canvas] host mounted at http://127.0.0.1:18789/__openclaw__/canvas/ (root /Users/_xvadur/.openclaw/canvas)
+2026-02-15T20:33:37.800Z [heartbeat] started
+2026-02-15T20:33:37.802Z [gateway] agent model: openrouter/minimax/minimax-m2.5
+2026-02-15T20:33:37.802Z [gateway] listening on ws://127.0.0.1:18789 (PID 48212)
+2026-02-15T20:33:37.803Z [gateway] listening on ws://[::1]:18789
+2026-02-15T20:33:37.803Z [gateway] log file: /tmp/openclaw/openclaw-2026-02-15.log
+2026-02-15T20:33:37.809Z [browser/service] Browser control service ready (profiles=2)
+2026-02-15T20:33:37.927Z [hooks:loader] Registered hook: boot-md -> gateway:startup
+2026-02-15T20:33:37.936Z [hooks:loader] Registered hook: bootstrap-extra-files -> agent:bootstrap
+2026-02-15T20:33:37.937Z [hooks:loader] Registered hook: command-logger -> command
+2026-02-15T20:33:37.940Z [hooks:loader] Registered hook: session-memory -> command:new
+2026-02-15T20:33:37.940Z [hooks] loaded 4 internal hook handlers
+2026-02-15T20:33:38.205Z [telegram] [default] starting provider (@JarvisXvadurbot)
+2026-02-15T20:33:38.210Z [telegram] autoSelectFamily=false (default-node22)
+2026-02-15T20:33:39.381Z [ws] webchat connected conn=0eb7a5e8-f006-4b8c-b506-78b8d6fe70b7 remote=127.0.0.1 client=openclaw-control-ui webchat vdev
+2026-02-15T20:33:39.411Z [ws] webchat connected conn=fb6e0548-4cd4-4935-b0f3-3c9d09ea1985 remote=127.0.0.1 client=openclaw-control-ui webchat vdev
+2026-02-15T20:33:51.335Z [ws] webchat connected conn=2ffd2595-15ee-4618-8615-831feeae2cfd remote=127.0.0.1 client=openclaw-control-ui webchat vdev
+2026-02-15T20:34:06.125Z [ws] webchat disconnected code=1005 reason=n/a conn=2ffd2595-15ee-4618-8615-831feeae2cfd
+2026-02-15T20:34:06.137Z [ws] webchat connected conn=822e0721-f749-4298-b505-e0c8fc5de9b2 remote=127.0.0.1 client=openclaw-control-ui webchat vdev
+2026-02-15T20:37:08.516Z [ws] ⇄ res ✓ chat.send 50ms runId=de25fa3b-947a-4eaa-b7cd-66b984322930 conn=fb6e0548…1985 id=66f8c637…8afa
+2026-02-15T20:42:44.866Z [ws] webchat disconnected code=1001 reason=n/a conn=fb6e0548-4cd4-4935-b0f3-3c9d09ea1985
+2026-02-15T20:42:48.070Z [ws] ⇄ res ✓ chat.history 730ms conn=822e0721…e9b2 id=a782aaba…214b
+2026-02-15T20:43:23.713Z [ws] ⇄ res ✓ channels.status 105ms conn=822e0721…e9b2 id=d80052d0…91a0
+2026-02-15T20:43:25.539Z [ws] ⇄ res ✓ config.schema 203ms conn=822e0721…e9b2 id=72519298…dfa4
+2026-02-15T20:43:25.821Z [ws] ⇄ res ✓ channels.status 505ms conn=822e0721…e9b2 id=0c89de32…c7a2
+2026-02-15T20:45:23.640Z [ws] ⇄ res ✓ chat.history 52ms conn=0eb7a5e8…70b7 id=afbfcbbd…80c4
+2026-02-15T20:45:46.451Z [ws] ⇄ res ✓ node.list 98ms conn=822e0721…e9b2 id=e3944d1c…c28e
+2026-02-15T20:45:54.673Z [ws] ⇄ res ✓ agents.list 778ms conn=822e0721…e9b2 id=7d97db16…3919
+2026-02-15T20:45:59.786Z [ws] ⇄ res ✓ chat.history 289ms conn=822e0721…e9b2 id=54ee0378…5b66
+2026-02-15T20:46:31.608Z [ws] ⇄ res ✓ node.list 57ms conn=822e0721…e9b2 id=1722c08a…8375
+2026-02-15T20:51:48.072Z [gateway] signal SIGTERM received
+2026-02-15T20:51:48.088Z [gateway] received SIGTERM; shutting down
+2026-02-15T20:51:48.170Z [gmail-watcher] gmail watcher stopped
+2026-02-15T20:51:48.809Z [ws] webchat disconnected code=1012 reason=service restart conn=0eb7a5e8-f006-4b8c-b506-78b8d6fe70b7
+2026-02-15T20:51:48.809Z [ws] webchat disconnected code=1012 reason=service restart conn=822e0721-f749-4298-b505-e0c8fc5de9b2
+2026-02-15T20:51:52.453Z [canvas] host mounted at http://127.0.0.1:18789/__openclaw__/canvas/ (root /Users/_xvadur/.openclaw/canvas)
+2026-02-15T20:51:52.500Z [heartbeat] started
+2026-02-15T20:51:52.502Z [gateway] agent model: openrouter/minimax/minimax-m2.5
+2026-02-15T20:51:52.502Z [gateway] listening on ws://127.0.0.1:18789 (PID 54042)
+2026-02-15T20:51:52.503Z [gateway] listening on ws://[::1]:18789
+2026-02-15T20:51:52.503Z [gateway] log file: /tmp/openclaw/openclaw-2026-02-15.log
+2026-02-15T20:51:52.510Z [browser/service] Browser control service ready (profiles=2)
+2026-02-15T20:51:52.641Z [hooks:loader] Registered hook: boot-md -> gateway:startup
+2026-02-15T20:51:52.652Z [hooks:loader] Registered hook: bootstrap-extra-files -> agent:bootstrap
+2026-02-15T20:51:52.653Z [hooks:loader] Registered hook: command-logger -> command
+2026-02-15T20:51:52.656Z [hooks:loader] Registered hook: session-memory -> command:new
+2026-02-15T20:51:52.656Z [hooks] loaded 4 internal hook handlers
+2026-02-15T20:51:52.850Z [telegram] [default] starting provider (@JarvisXvadurbot)
+2026-02-15T20:51:52.853Z [telegram] autoSelectFamily=false (default-node22)
+2026-02-15T20:51:55.436Z [ws] webchat connected conn=b9edaa4e-05e1-42d8-bf98-00d8cd68b673 remote=127.0.0.1 client=openclaw-control-ui webchat vdev
+2026-02-15T20:53:25.705Z [ws] ⇄ res ✓ node.list 154ms conn=b9edaa4e…b673 id=913bbd83…9994
+2026-02-15T20:53:49.195Z [ws] ⇄ res ✓ chat.send 77ms runId=a5b7088b-3a25-4d46-84c0-552b9a4a659d conn=b9edaa4e…b673 id=e992eabe…78d8
+2026-02-15T20:54:38.228Z [gateway] signal SIGTERM received
+2026-02-15T20:54:38.240Z [gateway] received SIGTERM; shutting down
+2026-02-15T20:54:38.292Z [gmail-watcher] gmail watcher stopped
+2026-02-15T20:54:38.693Z [ws] webchat disconnected code=1012 reason=service restart conn=b9edaa4e-05e1-42d8-bf98-00d8cd68b673
+2026-02-15T20:58:38.229Z [canvas] host mounted at http://127.0.0.1:18789/__openclaw__/canvas/ (root /Users/_xvadur/.openclaw/canvas)
+2026-02-15T20:58:38.270Z [heartbeat] started
+2026-02-15T20:58:38.272Z [gateway] agent model: openrouter/minimax/minimax-m2.5
+2026-02-15T20:58:38.272Z [gateway] listening on ws://127.0.0.1:18789 (PID 62505)
+2026-02-15T20:58:38.272Z [gateway] listening on ws://[::1]:18789
+2026-02-15T20:58:38.273Z [gateway] log file: /tmp/openclaw/openclaw-2026-02-15.log
+2026-02-15T20:58:38.282Z [browser/service] Browser control service ready (profiles=2)
+2026-02-15T20:58:38.404Z [hooks:loader] Registered hook: boot-md -> gateway:startup
+2026-02-15T20:58:38.419Z [hooks:loader] Registered hook: bootstrap-extra-files -> agent:bootstrap
+2026-02-15T20:58:38.435Z [hooks:loader] Registered hook: command-logger -> command
+2026-02-15T20:58:38.475Z [hooks:loader] Registered hook: session-memory -> command:new
+2026-02-15T20:58:38.477Z [hooks] loaded 4 internal hook handlers
+2026-02-15T20:58:38.831Z [telegram] [default] starting provider (@JarvisXvadurbot)
+2026-02-15T20:58:38.837Z [telegram] autoSelectFamily=false (default-node22)
+2026-02-15T20:58:40.219Z [ws] ⇄ res ✓ chat.history 171ms conn=9398bcad…f661 id=9b04baab…c3b0
+2026-02-15T20:58:49.436Z [ws] webchat connected conn=601305a3-0f8d-48f3-bd45-95502239a6b5 remote=127.0.0.1 client=openclaw-control-ui webchat vdev
+2026-02-15T20:59:13.924Z [gateway] signal SIGTERM received
+2026-02-15T20:59:13.927Z [gateway] received SIGTERM; shutting down
+2026-02-15T20:59:13.979Z [gmail-watcher] gmail watcher stopped
+2026-02-15T20:59:14.200Z [ws] webchat disconnected code=1012 reason=service restart conn=601305a3-0f8d-48f3-bd45-95502239a6b5
+2026-02-15T20:59:18.411Z [canvas] host mounted at http://127.0.0.1:18789/__openclaw__/canvas/ (root /Users/_xvadur/.openclaw/canvas)
+2026-02-15T20:59:18.445Z [heartbeat] started
+2026-02-15T20:59:18.447Z [gateway] agent model: openrouter/minimax/minimax-m2.5
+2026-02-15T20:59:18.447Z [gateway] listening on ws://127.0.0.1:18789 (PID 63122)
+2026-02-15T20:59:18.448Z [gateway] listening on ws://[::1]:18789
+2026-02-15T20:59:18.448Z [gateway] log file: /tmp/openclaw/openclaw-2026-02-15.log
+2026-02-15T20:59:18.453Z [browser/service] Browser control service ready (profiles=2)
+2026-02-15T20:59:18.572Z [hooks:loader] Registered hook: boot-md -> gateway:startup
+2026-02-15T20:59:18.582Z [hooks:loader] Registered hook: bootstrap-extra-files -> agent:bootstrap
+2026-02-15T20:59:18.583Z [hooks:loader] Registered hook: command-logger -> command
+2026-02-15T20:59:18.585Z [hooks:loader] Registered hook: session-memory -> command:new
+2026-02-15T20:59:18.586Z [hooks] loaded 4 internal hook handlers
+2026-02-15T20:59:18.835Z [telegram] [default] starting provider (@JarvisXvadurbot)
+2026-02-15T20:59:18.838Z [telegram] autoSelectFamily=false (default-node22)
+2026-02-15T20:59:20.443Z [ws] webchat connected conn=5ce7b350-9a0c-4db3-9b1d-b727f4ba4fe7 remote=127.0.0.1 client=openclaw-control-ui webchat vdev
+2026-02-15T21:00:31.257Z [gateway] signal SIGTERM received
+2026-02-15T21:00:31.261Z [gateway] received SIGTERM; shutting down
+2026-02-15T21:00:31.335Z [gmail-watcher] gmail watcher stopped
+2026-02-15T21:00:31.717Z [ws] webchat disconnected code=1012 reason=service restart conn=5ce7b350-9a0c-4db3-9b1d-b727f4ba4fe7
+2026-02-15T21:00:34.549Z [canvas] host mounted at http://127.0.0.1:18789/__openclaw__/canvas/ (root /Users/_xvadur/.openclaw/canvas)
+2026-02-15T21:00:34.592Z [heartbeat] started
+2026-02-15T21:00:34.594Z [gateway] agent model: openrouter/minimax/minimax-m2.5
+2026-02-15T21:00:34.595Z [gateway] listening on ws://127.0.0.1:18789 (PID 63552)
+2026-02-15T21:00:34.595Z [gateway] listening on ws://[::1]:18789
+2026-02-15T21:00:34.596Z [gateway] log file: /tmp/openclaw/openclaw-2026-02-15.log
+2026-02-15T21:00:34.602Z [browser/service] Browser control service ready (profiles=2)
+2026-02-15T21:00:34.759Z [hooks:loader] Registered hook: boot-md -> gateway:startup
+2026-02-15T21:00:34.768Z [hooks:loader] Registered hook: bootstrap-extra-files -> agent:bootstrap
+2026-02-15T21:00:34.769Z [hooks:loader] Registered hook: command-logger -> command
+2026-02-15T21:00:34.771Z [hooks:loader] Registered hook: session-memory -> command:new
+2026-02-15T21:00:34.771Z [hooks] loaded 4 internal hook handlers
+2026-02-15T21:00:35.099Z [telegram] [default] starting provider (@JarvisXvadurbot)
+2026-02-15T21:00:35.102Z [telegram] autoSelectFamily=false (default-node22)
+2026-02-15T21:00:35.445Z [ws] webchat connected conn=e15e51ed-20bc-4091-bbb4-01456c261fea remote=127.0.0.1 client=openclaw-control-ui webchat vdev
+2026-02-15T21:00:43.873Z [gateway] signal SIGTERM received
+2026-02-15T21:00:43.876Z [gateway] received SIGTERM; shutting down
+2026-02-15T21:00:43.901Z [gmail-watcher] gmail watcher stopped
+2026-02-15T21:00:44.106Z [ws] webchat disconnected code=1012 reason=service restart conn=e15e51ed-20bc-4091-bbb4-01456c261fea
+2026-02-15T21:00:46.447Z [canvas] host mounted at http://127.0.0.1:18789/__openclaw__/canvas/ (root /Users/_xvadur/.openclaw/canvas)
+2026-02-15T21:00:46.480Z [heartbeat] started
+2026-02-15T21:00:46.483Z [gateway] agent model: openrouter/minimax/minimax-m2.5
+2026-02-15T21:00:46.483Z [gateway] listening on ws://127.0.0.1:18789 (PID 63625)
+2026-02-15T21:00:46.483Z [gateway] listening on ws://[::1]:18789
+2026-02-15T21:00:46.484Z [gateway] log file: /tmp/openclaw/openclaw-2026-02-15.log
+2026-02-15T21:00:46.490Z [browser/service] Browser control service ready (profiles=2)
+2026-02-15T21:00:46.625Z [hooks:loader] Registered hook: boot-md -> gateway:startup
+2026-02-15T21:00:46.634Z [hooks:loader] Registered hook: bootstrap-extra-files -> agent:bootstrap
+2026-02-15T21:00:46.635Z [hooks:loader] Registered hook: command-logger -> command
+2026-02-15T21:00:46.637Z [hooks:loader] Registered hook: session-memory -> command:new
+2026-02-15T21:00:46.638Z [hooks] loaded 4 internal hook handlers
+2026-02-15T21:00:46.830Z [telegram] [default] starting provider (@JarvisXvadurbot)
+2026-02-15T21:00:46.834Z [telegram] autoSelectFamily=false (default-node22)
+2026-02-15T21:00:47.442Z [ws] webchat connected conn=9c7f9e91-e110-40d1-9ad5-d6609558685d remote=127.0.0.1 client=openclaw-control-ui webchat vdev
+2026-02-15T21:01:13.908Z [ws] ⇄ res ✓ config.get 133ms conn=d380ae7a…2677 id=f2ab5f2f…1709
+2026-02-15T21:01:13.910Z [ws] ⇄ res ✓ status 137ms conn=d380ae7a…2677 id=3c12ae46…8a4d
+2026-02-15T21:01:45.760Z [gateway] signal SIGTERM received
+2026-02-15T21:01:45.763Z [gateway] received SIGTERM; shutting down
+2026-02-15T21:01:45.818Z [gmail-watcher] gmail watcher stopped
+2026-02-15T21:01:46.133Z [ws] webchat disconnected code=1012 reason=service restart conn=9c7f9e91-e110-40d1-9ad5-d6609558685d
+2026-02-15T21:01:48.794Z [canvas] host mounted at http://127.0.0.1:18789/__openclaw__/canvas/ (root /Users/_xvadur/.openclaw/canvas)
+2026-02-15T21:01:48.842Z [heartbeat] started
+2026-02-15T21:01:48.845Z [gateway] agent model: openrouter/minimax/minimax-m2.5
+2026-02-15T21:01:48.845Z [gateway] listening on ws://127.0.0.1:18789 (PID 64101)
+2026-02-15T21:01:48.846Z [gateway] listening on ws://[::1]:18789
+2026-02-15T21:01:48.847Z [gateway] log file: /tmp/openclaw/openclaw-2026-02-15.log
+2026-02-15T21:01:48.855Z [browser/service] Browser control service ready (profiles=2)
+2026-02-15T21:01:49.058Z [hooks:loader] Registered hook: boot-md -> gateway:startup
+2026-02-15T21:01:49.068Z [hooks:loader] Registered hook: bootstrap-extra-files -> agent:bootstrap
+2026-02-15T21:01:49.069Z [hooks:loader] Registered hook: command-logger -> command
+2026-02-15T21:01:49.071Z [hooks:loader] Registered hook: session-memory -> command:new
+2026-02-15T21:01:49.072Z [hooks] loaded 4 internal hook handlers
+2026-02-15T21:01:49.580Z [telegram] [default] starting provider (@JarvisXvadurbot)
+2026-02-15T21:01:49.586Z [telegram] autoSelectFamily=false (default-node22)
+2026-02-15T21:02:47.438Z [gateway] signal SIGTERM received
+2026-02-15T21:02:47.442Z [gateway] received SIGTERM; shutting down
+2026-02-15T21:02:47.484Z [gmail-watcher] gmail watcher stopped
+2026-02-15T21:02:50.256Z [canvas] host mounted at http://127.0.0.1:18789/__openclaw__/canvas/ (root /Users/_xvadur/.openclaw/canvas)
+2026-02-15T21:02:50.295Z [heartbeat] started
+2026-02-15T21:02:50.297Z [gateway] agent model: openrouter/minimax/minimax-m2.5
+2026-02-15T21:02:50.298Z [gateway] listening on ws://127.0.0.1:18789 (PID 64511)
+2026-02-15T21:02:50.298Z [gateway] listening on ws://[::1]:18789
+2026-02-15T21:02:50.299Z [gateway] log file: /tmp/openclaw/openclaw-2026-02-15.log
+2026-02-15T21:02:50.306Z [browser/service] Browser control service ready (profiles=2)
+2026-02-15T21:02:50.473Z [hooks:loader] Registered hook: boot-md -> gateway:startup
+2026-02-15T21:02:50.483Z [hooks:loader] Registered hook: bootstrap-extra-files -> agent:bootstrap
+2026-02-15T21:02:50.484Z [hooks:loader] Registered hook: command-logger -> command
+2026-02-15T21:02:50.486Z [hooks:loader] Registered hook: session-memory -> command:new
+2026-02-15T21:02:50.487Z [hooks] loaded 4 internal hook handlers
+2026-02-15T21:02:50.813Z [telegram] [default] starting provider (@JarvisXvadurbot)
+2026-02-15T21:02:51.038Z [ws] ⇄ res ✓ chat.history 204ms conn=7b822e36…1a4b id=442a8e69…19d3
+2026-02-15T21:02:51.140Z [telegram] autoSelectFamily=false (default-node22)
+2026-02-15T21:04:45.689Z [ws] webchat connected conn=60755a6d-9400-479f-b9a4-ff38709d9205 remote=127.0.0.1 client=openclaw-control-ui webchat vdev
+2026-02-15T21:06:36.821Z [ws] ⇄ res ✓ chat.send 64ms runId=9b084f23-a97e-4610-b36a-2a0f82f308aa conn=aae2afdc…60cf id=480d0866…8229
+2026-02-15T21:07:02.602Z [ws] ⇄ res ✓ chat.history 174ms conn=60755a6d…9205 id=3a240e52…91dc
+2026-02-15T21:07:03.258Z [gateway] signal SIGTERM received
+2026-02-15T21:07:03.260Z [gateway] received SIGTERM; shutting down
+2026-02-15T21:07:03.286Z [gmail-watcher] gmail watcher stopped
+2026-02-15T21:07:03.529Z [ws] webchat disconnected code=1012 reason=service restart conn=60755a6d-9400-479f-b9a4-ff38709d9205
+2026-02-15T21:07:05.967Z [canvas] host mounted at http://127.0.0.1:18789/__openclaw__/canvas/ (root /Users/_xvadur/.openclaw/canvas)
+2026-02-15T21:07:06.010Z [heartbeat] started
+2026-02-15T21:07:06.012Z [gateway] agent model: openrouter/minimax/minimax-m2.5
+2026-02-15T21:07:06.013Z [gateway] listening on ws://127.0.0.1:18789 (PID 65600)
+2026-02-15T21:07:06.013Z [gateway] listening on ws://[::1]:18789
+2026-02-15T21:07:06.014Z [gateway] log file: /tmp/openclaw/openclaw-2026-02-15.log
+2026-02-15T21:07:06.020Z [browser/service] Browser control service ready (profiles=2)
+2026-02-15T21:07:06.154Z [hooks:loader] Registered hook: boot-md -> gateway:startup
+2026-02-15T21:07:06.164Z [hooks:loader] Registered hook: bootstrap-extra-files -> agent:bootstrap
+2026-02-15T21:07:06.165Z [hooks:loader] Registered hook: command-logger -> command
+2026-02-15T21:07:06.168Z [hooks:loader] Registered hook: session-memory -> command:new
+2026-02-15T21:07:06.169Z [hooks] loaded 4 internal hook handlers
+2026-02-15T21:07:06.402Z [ws] ⇄ res ✓ config.get 219ms conn=36986d23…4a3b id=81ddb123…77eb
+2026-02-15T21:07:06.403Z [ws] ⇄ res ✓ status 221ms conn=36986d23…4a3b id=34062a52…5839
+2026-02-15T21:07:06.440Z [ws] webchat connected conn=1944d8db-072e-4ba5-bad2-4a9152b65b62 remote=127.0.0.1 client=openclaw-control-ui webchat vdev
+2026-02-15T21:07:06.531Z [telegram] [default] starting provider (@JarvisXvadurbot)
+2026-02-15T21:07:06.534Z [telegram] autoSelectFamily=false (default-node22)
+2026-02-15T21:07:06.959Z [ws] ⇄ res ✓ health 775ms conn=36986d23…4a3b id=2bc17560…c6af
+2026-02-15T21:07:17.508Z [gateway] signal SIGTERM received
+2026-02-15T21:07:17.511Z [gateway] received SIGTERM; shutting down
+2026-02-15T21:07:17.552Z [gmail-watcher] gmail watcher stopped
+2026-02-15T21:07:17.824Z [ws] webchat disconnected code=1012 reason=service restart conn=1944d8db-072e-4ba5-bad2-4a9152b65b62
+2026-02-15T21:07:19.723Z [canvas] host mounted at http://127.0.0.1:18789/__openclaw__/canvas/ (root /Users/_xvadur/.openclaw/canvas)
+2026-02-15T21:07:19.805Z [heartbeat] started
+2026-02-15T21:07:19.807Z [gateway] agent model: openrouter/minimax/minimax-m2.5
+2026-02-15T21:07:19.808Z [gateway] listening on ws://127.0.0.1:18789 (PID 65852)
+2026-02-15T21:07:19.808Z [gateway] listening on ws://[::1]:18789
+2026-02-15T21:07:19.809Z [gateway] log file: /tmp/openclaw/openclaw-2026-02-15.log
+2026-02-15T21:07:19.815Z [browser/service] Browser control service ready (profiles=2)
+2026-02-15T21:07:19.959Z [hooks:loader] Registered hook: boot-md -> gateway:startup
+2026-02-15T21:07:19.968Z [hooks:loader] Registered hook: bootstrap-extra-files -> agent:bootstrap
+2026-02-15T21:07:19.969Z [hooks:loader] Registered hook: command-logger -> command
+2026-02-15T21:07:19.971Z [hooks:loader] Registered hook: session-memory -> command:new
+2026-02-15T21:07:19.971Z [hooks] loaded 4 internal hook handlers
+2026-02-15T21:07:20.007Z [ws] webchat connected conn=94e1127c-3063-4bc4-a165-b39bdc101881 remote=127.0.0.1 client=openclaw-control-ui webchat vdev
+2026-02-15T21:07:20.187Z [telegram] [default] starting provider (@JarvisXvadurbot)
+2026-02-15T21:07:20.189Z [telegram] autoSelectFamily=false (default-node22)
+2026-02-15T21:07:34.862Z [ws] ⇄ res ✓ config.get 290ms conn=6f659090…3b81 id=8cebe3ef…eba9
+2026-02-15T21:07:34.864Z [ws] ⇄ res ✓ status 293ms conn=6f659090…3b81 id=776c7a55…4dbe
+2026-02-15T21:08:01.736Z [gateway] signal SIGTERM received
+2026-02-15T21:08:01.776Z [gateway] received SIGTERM; shutting down
+2026-02-15T21:08:01.824Z [gmail-watcher] gmail watcher stopped
+2026-02-15T21:08:02.104Z [ws] webchat disconnected code=1012 reason=service restart conn=94e1127c-3063-4bc4-a165-b39bdc101881
+2026-02-15T21:08:04.733Z [canvas] host mounted at http://127.0.0.1:18789/__openclaw__/canvas/ (root /Users/_xvadur/.openclaw/canvas)
+2026-02-15T21:08:04.770Z [heartbeat] started
+2026-02-15T21:08:04.772Z [gateway] agent model: openrouter/minimax/minimax-m2.5
+2026-02-15T21:08:04.773Z [gateway] listening on ws://127.0.0.1:18789 (PID 66261)
+2026-02-15T21:08:04.773Z [gateway] listening on ws://[::1]:18789
+2026-02-15T21:08:04.774Z [gateway] log file: /tmp/openclaw/openclaw-2026-02-15.log
+2026-02-15T21:08:04.779Z [browser/service] Browser control service ready (profiles=2)
+2026-02-15T21:08:04.895Z [hooks:loader] Registered hook: boot-md -> gateway:startup
+2026-02-15T21:08:04.904Z [hooks:loader] Registered hook: bootstrap-extra-files -> agent:bootstrap
+2026-02-15T21:08:04.905Z [hooks:loader] Registered hook: command-logger -> command
+2026-02-15T21:08:04.907Z [hooks:loader] Registered hook: session-memory -> command:new
+2026-02-15T21:08:04.908Z [hooks] loaded 4 internal hook handlers
+2026-02-15T21:08:05.088Z [telegram] [default] starting provider (@JarvisXvadurbot)
+2026-02-15T21:08:05.091Z [telegram] autoSelectFamily=false (default-node22)
+2026-02-15T21:08:06.622Z [ws] webchat connected conn=15c7dfcc-2646-46d8-a10c-96a9eeb13ad8 remote=127.0.0.1 client=openclaw-control-ui webchat vdev
+2026-02-15T21:08:40.112Z [gateway] signal SIGTERM received
+2026-02-15T21:08:40.117Z [gateway] received SIGTERM; shutting down
+2026-02-15T21:08:40.382Z [gmail-watcher] gmail watcher stopped
+2026-02-15T21:08:40.990Z [ws] webchat disconnected code=1012 reason=service restart conn=15c7dfcc-2646-46d8-a10c-96a9eeb13ad8
+2026-02-15T21:08:46.155Z [canvas] host mounted at http://127.0.0.1:18789/__openclaw__/canvas/ (root /Users/_xvadur/.openclaw/canvas)
+2026-02-15T21:08:46.235Z [heartbeat] started
+2026-02-15T21:08:46.253Z [gateway] agent model: openrouter/minimax/minimax-m2.5
+2026-02-15T21:08:46.254Z [gateway] listening on ws://127.0.0.1:18789 (PID 66500)
+2026-02-15T21:08:46.254Z [gateway] listening on ws://[::1]:18789
+2026-02-15T21:08:46.255Z [gateway] log file: /tmp/openclaw/openclaw-2026-02-15.log
+2026-02-15T21:08:46.267Z [browser/service] Browser control service ready (profiles=2)
+2026-02-15T21:08:46.419Z [hooks:loader] Registered hook: boot-md -> gateway:startup
+2026-02-15T21:08:46.430Z [hooks:loader] Registered hook: bootstrap-extra-files -> agent:bootstrap
+2026-02-15T21:08:46.431Z [hooks:loader] Registered hook: command-logger -> command
+2026-02-15T21:08:46.434Z [hooks:loader] Registered hook: session-memory -> command:new
+2026-02-15T21:08:46.435Z [hooks] loaded 4 internal hook handlers
+2026-02-15T21:08:46.478Z [ws] webchat connected conn=db3bc666-b48f-469d-87f7-95b08647bc18 remote=127.0.0.1 client=openclaw-control-ui webchat vdev
+2026-02-15T21:08:46.611Z [telegram] [default] starting provider (@JarvisXvadurbot)
+2026-02-15T21:08:46.641Z [telegram] autoSelectFamily=false (default-node22)
+2026-02-15T21:09:07.232Z [gateway] signal SIGTERM received
+2026-02-15T21:09:07.238Z [gateway] received SIGTERM; shutting down
+2026-02-15T21:09:07.265Z [gmail-watcher] gmail watcher stopped
+2026-02-15T21:09:07.458Z [ws] webchat disconnected code=1012 reason=service restart conn=db3bc666-b48f-469d-87f7-95b08647bc18
+2026-02-15T21:09:09.247Z [canvas] host mounted at http://127.0.0.1:18789/__openclaw__/canvas/ (root /Users/_xvadur/.openclaw/canvas)
+2026-02-15T21:09:09.288Z [heartbeat] started
+2026-02-15T21:09:09.291Z [gateway] agent model: openrouter/minimax/minimax-m2.5
+2026-02-15T21:09:09.292Z [gateway] listening on ws://127.0.0.1:18789 (PID 66772)
+2026-02-15T21:09:09.293Z [gateway] listening on ws://[::1]:18789
+2026-02-15T21:09:09.293Z [gateway] log file: /tmp/openclaw/openclaw-2026-02-15.log
+2026-02-15T21:09:09.300Z [browser/service] Browser control service ready (profiles=2)
+2026-02-15T21:09:09.445Z [hooks:loader] Registered hook: boot-md -> gateway:startup
+2026-02-15T21:09:09.456Z [hooks:loader] Registered hook: bootstrap-extra-files -> agent:bootstrap
+2026-02-15T21:09:09.457Z [hooks:loader] Registered hook: command-logger -> command
+2026-02-15T21:09:09.460Z [hooks:loader] Registered hook: session-memory -> command:new
+2026-02-15T21:09:09.461Z [hooks] loaded 4 internal hook handlers
+2026-02-15T21:09:09.744Z [telegram] [default] starting provider (@JarvisXvadurbot)
+2026-02-15T21:09:09.750Z [telegram] autoSelectFamily=false (default-node22)
+2026-02-15T21:09:10.424Z [ws] webchat connected conn=dcaf1057-d720-4714-923a-7d86cea7231a remote=127.0.0.1 client=openclaw-control-ui webchat vdev
+2026-02-15T21:12:29.862Z [ws] ⇄ res ✓ chat.send 74ms runId=b16f13cd-9d01-4df7-a75d-02cac892e898 conn=dcaf1057…231a id=4f4adac7…4c81
+2026-02-15T21:14:32.888Z [ws] ⇄ res ✓ chat.send 59ms runId=ed5bb24f-b4d9-4382-948c-12ed2b772b33 conn=dcaf1057…231a id=ef2633cd…07f7
+2026-02-15T21:14:51.314Z [ws] ⇄ res ✓ chat.history 370ms conn=dcaf1057…231a id=5350f862…3d5e
+2026-02-15T21:16:15.447Z [ws] ⇄ res ✓ chat.history 66ms conn=dcaf1057…231a id=309d95ae…f82f
+2026-02-15T21:17:34.263Z [ws] ⇄ res ✓ node.list 81ms conn=dcaf1057…231a id=debbbc7c…41f0
+2026-02-15T21:17:41.960Z [ws] ⇄ res ✓ chat.send 114ms runId=c3c2a9fd-f3ff-43ed-a118-69f34579f990 conn=dcaf1057…231a id=710c7937…4610
+2026-02-15T21:18:40.237Z [ws] ⇄ res ✓ chat.history 61ms conn=dcaf1057…231a id=33a22f0a…c8cb
+2026-02-15T21:19:49.558Z [ws] ⇄ res ✓ chat.history 550ms conn=dcaf1057…231a id=5abaa36e…d1d8
+2026-02-15T21:25:36.824Z [ws] ⇄ res ✓ chat.history 299ms conn=dcaf1057…231a id=e73a32be…c168
+2026-02-15T21:25:37.814Z [ws] ⇄ res ✓ sessions.list 109ms conn=9110fb3f…02a5 id=cb4d3a30…b477
+2026-02-15T21:33:05.414Z [ws] ⇄ res ✓ chat.history 58ms conn=9110fb3f…02a5 id=725e94cc…55f6
+2026-02-15T21:49:00.156Z [ws] ⇄ res ✓ chat.history 111ms conn=dcaf1057…231a id=ef1d183d…6a21
+2026-02-15T21:49:02.968Z [ws] ⇄ res ✓ chat.history 56ms conn=dcaf1057…231a id=0d0fad93…3e86
+2026-02-15T21:49:56.021Z [ws] ⇄ res ✓ chat.history 54ms conn=dcaf1057…231a id=f06be876…9b66
+2026-02-15T21:50:50.142Z [ws] ⇄ res ✓ node.list 423ms conn=dcaf1057…231a id=f1db4b44…be0d
+2026-02-15T22:26:33.965Z [ws] ⇄ res ✓ chat.history 61ms conn=46c8884a…0474 id=13b6ce6e…b0ef
+2026-02-15T22:29:37.650Z [ws] ⇄ res ✓ chat.history 57ms conn=46c8884a…0474 id=09f2a284…2dc1
+2026-02-16T05:07:07.499Z [ws] ⇄ res ✓ chat.history 78ms conn=46c8884a…0474 id=05719f2e…2da2
+2026-02-16T05:45:39.861Z [ws] ⇄ res ✓ chat.history 67ms conn=46c8884a…0474 id=48d72272…d889
+2026-02-16T05:57:09.944Z [ws] ⇄ res ✓ chat.history 65ms conn=46c8884a…0474 id=c16ecfb2…a679
+2026-02-16T06:01:50.798Z [ws] ⇄ res ✓ chat.history 3533ms conn=dcaf1057…231a id=d8b3e613…7abb
+2026-02-16T06:01:50.960Z [ws] ⇄ res ✓ chat.history 61ms conn=dcaf1057…231a id=0192e63d…58dd
+2026-02-16T06:03:50.466Z [ws] ⇄ res ✓ chat.history 57ms conn=dcaf1057…231a id=ba42e148…3c11
+2026-02-16T06:07:55.576Z [gateway] signal SIGTERM received
+2026-02-16T06:07:55.580Z [gateway] received SIGTERM; shutting down
+2026-02-16T06:07:55.645Z [gmail-watcher] gmail watcher stopped
+2026-02-16T06:07:56.076Z [ws] webchat disconnected code=1012 reason=service restart conn=dcaf1057-d720-4714-923a-7d86cea7231a
+2026-02-16T06:08:00.268Z [canvas] host mounted at http://127.0.0.1:18789/__openclaw__/canvas/ (root /Users/_xvadur/.openclaw/canvas)
+2026-02-16T06:08:00.316Z [heartbeat] started
+2026-02-16T06:08:00.318Z [gateway] agent model: openrouter/minimax/minimax-m2.5
+2026-02-16T06:08:00.319Z [gateway] listening on ws://127.0.0.1:18789 (PID 79506)
+2026-02-16T06:08:00.319Z [gateway] listening on ws://[::1]:18789
+2026-02-16T06:08:00.320Z [gateway] log file: /tmp/openclaw/openclaw-2026-02-16.log
+2026-02-16T06:08:00.336Z [browser/service] Browser control service ready (profiles=2)
+2026-02-16T06:08:00.470Z [hooks:loader] Registered hook: boot-md -> gateway:startup
+2026-02-16T06:08:00.478Z [hooks:loader] Registered hook: bootstrap-extra-files -> agent:bootstrap
+2026-02-16T06:08:00.479Z [hooks:loader] Registered hook: command-logger -> command
+2026-02-16T06:08:00.481Z [hooks:loader] Registered hook: session-memory -> command:new
+2026-02-16T06:08:00.482Z [hooks] loaded 4 internal hook handlers
+2026-02-16T06:08:00.641Z [telegram] [default] starting provider (@JarvisXvadurbot)
+2026-02-16T06:08:00.645Z [telegram] autoSelectFamily=false (default-node22)
+2026-02-16T06:08:02.363Z [ws] webchat connected conn=c64e9af7-046a-4814-9a8d-2e8c12379472 remote=127.0.0.1 client=openclaw-control-ui webchat vdev
+2026-02-16T06:08:11.330Z [ws] ⇄ res ✓ config.get 97ms conn=2c2bd65a…bb1a id=d073a6c8…539c
+2026-02-16T06:08:11.331Z [ws] ⇄ res ✓ status 100ms conn=2c2bd65a…bb1a id=8ef7132c…8023
+2026-02-16T06:13:01.937Z [ws] ⇄ res ✓ chat.send 76ms runId=ce14ec5f-29d0-4f02-9677-d72ee5c630f6 conn=c64e9af7…9472 id=df20dbf9…cb87
+2026-02-16T06:43:04.931Z [ws] ⇄ res ✓ node.list 114ms conn=c64e9af7…9472 id=4537cbd7…ee94
+2026-02-16T06:45:55.467Z [gateway] signal SIGTERM received
+2026-02-16T06:45:55.478Z [gateway] received SIGTERM; shutting down
+2026-02-16T06:45:55.610Z [gmail-watcher] gmail watcher stopped
+2026-02-16T06:45:56.891Z [ws] webchat disconnected code=1012 reason=service restart conn=c64e9af7-046a-4814-9a8d-2e8c12379472
+2026-02-16T06:46:00.624Z [canvas] host mounted at http://127.0.0.1:18789/__openclaw__/canvas/ (root /Users/_xvadur/.openclaw/canvas)
+2026-02-16T06:46:01.384Z [heartbeat] started
+2026-02-16T06:46:01.388Z [gateway] agent model: openrouter/minimax/minimax-m2.5
+2026-02-16T06:46:01.389Z [gateway] listening on ws://127.0.0.1:18789 (PID 91273)
+2026-02-16T06:46:01.389Z [gateway] listening on ws://[::1]:18789
+2026-02-16T06:46:01.390Z [gateway] log file: /tmp/openclaw/openclaw-2026-02-16.log
+2026-02-16T06:46:01.400Z [browser/service] Browser control service ready (profiles=2)
+2026-02-16T06:46:01.553Z [hooks:loader] Registered hook: boot-md -> gateway:startup
+2026-02-16T06:46:01.562Z [hooks:loader] Registered hook: bootstrap-extra-files -> agent:bootstrap
+2026-02-16T06:46:01.563Z [hooks:loader] Registered hook: command-logger -> command
+2026-02-16T06:46:01.565Z [hooks:loader] Registered hook: session-memory -> command:new
+2026-02-16T06:46:01.566Z [hooks] loaded 4 internal hook handlers
+2026-02-16T06:46:01.784Z [telegram] [default] starting provider (@JarvisXvadurbot)
+2026-02-16T06:46:01.905Z [telegram] autoSelectFamily=false (default-node22)
+2026-02-16T06:46:03.489Z [ws] webchat connected conn=4177cc32-7614-41c4-83b5-7b6c5c03ea59 remote=127.0.0.1 client=openclaw-control-ui webchat vdev
+2026-02-16T06:46:03.792Z [ws] ⇄ res ✓ chat.history 235ms conn=4177cc32…ea59 id=bb9b0360…7dc2
+2026-02-16T06:46:03.815Z [ws] ⇄ res ✓ node.list 289ms conn=4177cc32…ea59 id=98c42596…8a78
+2026-02-16T06:46:03.816Z [ws] ⇄ res ✓ device.pair.list 288ms conn=4177cc32…ea59 id=543314b3…410f
+2026-02-16T06:46:40.331Z [ws] ⇄ res ✓ node.list 101ms conn=4177cc32…ea59 id=f8666663…9f58
+2026-02-16T06:46:42.906Z [ws] ⇄ res ✓ chat.send 74ms runId=2f4cc5ed-3038-405e-87a8-fdfd6cc3576c conn=4177cc32…ea59 id=dd663e0b…f7fd
+2026-02-16T06:48:48.005Z [gateway] signal SIGTERM received
+2026-02-16T06:48:48.025Z [gateway] received SIGTERM; shutting down
+2026-02-16T06:48:48.209Z [gmail-watcher] gmail watcher stopped
+2026-02-16T06:48:49.259Z [ws] webchat disconnected code=1012 reason=service restart conn=4177cc32-7614-41c4-83b5-7b6c5c03ea59
+2026-02-16T06:48:53.955Z [canvas] host mounted at http://127.0.0.1:18789/__openclaw__/canvas/ (root /Users/_xvadur/.openclaw/canvas)
+2026-02-16T06:48:54.010Z [heartbeat] started
+2026-02-16T06:48:54.014Z [gateway] agent model: openrouter/minimax/minimax-m2.5
+2026-02-16T06:48:54.014Z [gateway] listening on ws://127.0.0.1:18789 (PID 93570)
+2026-02-16T06:48:54.015Z [gateway] listening on ws://[::1]:18789
+2026-02-16T06:48:54.015Z [gateway] log file: /tmp/openclaw/openclaw-2026-02-16.log
+2026-02-16T06:48:54.024Z [browser/service] Browser control service ready (profiles=2)
+2026-02-16T06:48:54.228Z [hooks:loader] Registered hook: boot-md -> gateway:startup
+2026-02-16T06:48:54.238Z [hooks:loader] Registered hook: bootstrap-extra-files -> agent:bootstrap
+2026-02-16T06:48:54.239Z [hooks:loader] Registered hook: command-logger -> command
+2026-02-16T06:48:54.242Z [hooks:loader] Registered hook: session-memory -> command:new
+2026-02-16T06:48:54.242Z [hooks] loaded 4 internal hook handlers
+2026-02-16T06:48:54.434Z [telegram] [default] starting provider (@JarvisXvadurbot)
+2026-02-16T06:48:54.437Z [telegram] autoSelectFamily=false (default-node22)
+2026-02-16T06:48:55.488Z [ws] webchat connected conn=144bdaca-82bc-444e-a92d-d5a163fdfc84 remote=127.0.0.1 client=openclaw-control-ui webchat vdev
+2026-02-16T06:48:55.605Z [ws] ⇄ res ✓ chat.history 51ms conn=144bdaca…fc84 id=120b763b…fbb9
+2026-02-16T06:48:55.656Z [ws] ⇄ res ✓ device.pair.list 117ms conn=144bdaca…fc84 id=7a1737ce…6c79
+2026-02-16T06:48:55.658Z [ws] ⇄ res ✓ node.list 120ms conn=144bdaca…fc84 id=35b8d1cd…25fd
+2026-02-16T06:49:18.756Z [ws] ⇄ res ✓ config.get 114ms conn=6e43b6c2…53d7 id=9e28c168…4408
+2026-02-16T06:49:18.757Z [ws] ⇄ res ✓ status 116ms conn=6e43b6c2…53d7 id=a2269870…f97b
+2026-02-16T06:49:26.241Z [ws] ⇄ res ✓ channels.status 182ms conn=8522da81…6a05 id=ba7f5cf6…1e64
+2026-02-16T06:49:29.423Z [ws] ⇄ res ✓ node.list 58ms conn=144bdaca…fc84 id=0cafd0f5…bcd0
+2026-02-16T06:56:20.060Z [ws] ⇄ res ✓ chat.history 104ms conn=f51f5db7…ff29 id=40b469ff…4a7b
+2026-02-16T06:58:55.540Z [ws] ⇄ res ✓ chat.history 182ms conn=144bdaca…fc84 id=01aecda3…e43c
+2026-02-16T06:58:56.419Z [ws] ⇄ res ✓ channels.status 150ms conn=144bdaca…fc84 id=17dbac96…4e9e
+2026-02-16T06:59:00.520Z [ws] webchat disconnected code=1005 reason=n/a conn=144bdaca-82bc-444e-a92d-d5a163fdfc84
+2026-02-16T06:59:00.772Z [ws] webchat connected conn=6480001f-17c8-40ae-99cf-40bf33821ede remote=127.0.0.1 client=openclaw-control-ui webchat vdev
+2026-02-16T06:59:01.916Z [ws] ⇄ res ✓ channels.status 90ms conn=6480001f…1ede id=a2c883af…e28c
+2026-02-16T06:59:05.443Z [ws] ⇄ res ✓ chat.history 1334ms conn=6480001f…1ede id=37ec3f86…90d1
+2026-02-16T06:59:05.875Z [ws] ⇄ res ✓ sessions.list 334ms conn=6480001f…1ede id=4fa93571…8a7f
+2026-02-16T06:59:06.194Z [ws] ⇄ res ✓ node.list 297ms conn=6480001f…1ede id=544c65d3…606c
+2026-02-16T06:59:16.304Z [ws] ⇄ res ✓ chat.send 145ms runId=af0b59e3-894e-49ec-8f32-1a25c80928db conn=6480001f…1ede id=043f950e…c7b1
+2026-02-16T07:00:28.177Z [ws] ⇄ res ✓ chat.send 100ms runId=901ea8f9-cdb9-4156-bb14-33a28c829337 conn=f51f5db7…ff29 id=8412ffeb…c1d1
+2026-02-16T07:00:36.972Z [gateway] signal SIGTERM received
+2026-02-16T07:00:36.979Z [gateway] received SIGTERM; shutting down
+2026-02-16T07:00:37.021Z [gmail-watcher] gmail watcher stopped
+2026-02-16T07:00:37.262Z [ws] webchat disconnected code=1012 reason=service restart conn=6480001f-17c8-40ae-99cf-40bf33821ede
+2026-02-16T07:00:39.490Z [canvas] host mounted at http://127.0.0.1:18789/__openclaw__/canvas/ (root /Users/_xvadur/.openclaw/canvas)
+2026-02-16T07:00:39.543Z [heartbeat] started
+2026-02-16T07:00:39.546Z [gateway] agent model: openrouter/minimax/minimax-m2.5
+2026-02-16T07:00:39.546Z [gateway] listening on ws://127.0.0.1:18789 (PID 3742)
+2026-02-16T07:00:39.546Z [gateway] listening on ws://[::1]:18789
+2026-02-16T07:00:39.547Z [gateway] log file: /tmp/openclaw/openclaw-2026-02-16.log
+2026-02-16T07:00:39.553Z [browser/service] Browser control service ready (profiles=2)
+2026-02-16T07:00:39.681Z [hooks:loader] Registered hook: boot-md -> gateway:startup
+2026-02-16T07:00:39.690Z [hooks:loader] Registered hook: bootstrap-extra-files -> agent:bootstrap
+2026-02-16T07:00:39.691Z [hooks:loader] Registered hook: command-logger -> command
+2026-02-16T07:00:39.693Z [hooks:loader] Registered hook: session-memory -> command:new
+2026-02-16T07:00:39.694Z [hooks] loaded 4 internal hook handlers
+2026-02-16T07:00:39.939Z [telegram] [default] starting provider (@JarvisXvadurbot)
+2026-02-16T07:00:39.942Z [telegram] autoSelectFamily=false (default-node22)
+2026-02-16T07:00:40.434Z [ws] webchat connected conn=8dc40081-9f8e-4e53-a857-3881043591c0 remote=127.0.0.1 client=openclaw-control-ui webchat vdev
+2026-02-16T07:01:09.133Z [ws] ⇄ res ✓ chat.send 56ms runId=1b1116d9-c9d8-4fe7-b9f2-597ddaa027ab conn=255dee97…2ddc id=0492b08f…4366
+2026-02-16T07:16:06.828Z [ws] ⇄ res ✓ node.list 51ms conn=8dc40081…91c0 id=3e5d5bb8…6606
+2026-02-16T07:16:14.340Z [ws] ⇄ res ✓ chat.send 175ms runId=4c082a9d-9d4f-44bf-bf64-76319ed68726 conn=8dc40081…91c0 id=5be61dd8…b3aa
+2026-02-16T07:17:19.889Z [ws] webchat connected conn=6af6cce7-2ab4-4651-bde0-34894fc4e725 remote=127.0.0.1 client=openclaw-control-ui webchat vdev
+2026-02-16T07:17:21.531Z [ws] webchat disconnected code=1001 reason=n/a conn=6af6cce7-2ab4-4651-bde0-34894fc4e725
+2026-02-16T07:19:27.560Z [gateway] signal SIGUSR1 received
+│
+◇  Config ───────────────────────────────────────────────────╮
+│                                                            │
+│  Config invalid; doctor will run with best-effort config.  │
+│                                                            │
+├────────────────────────────────────────────────────────────╯
+│
+◇  Unknown config keys ─╮
+│                       │
+│  - web.braveApiKey    │
+│                       │
+├───────────────────────╯
+│
+◇  Doctor ────────────────────────────────────────────╮
+│                                                     │
+│  Run "openclaw doctor --fix" to remove these keys.  │
+│                                                     │
+├─────────────────────────────────────────────────────╯
+│
+◇  Config ───────────────────────────────────────────────────╮
+│                                                            │
+│  Config invalid; doctor will run with best-effort config.  │
+│                                                            │
+├────────────────────────────────────────────────────────────╯
+│
+◇  Unknown config keys ─╮
+│                       │
+│  - web.braveApiKey    │
+│                       │
+├───────────────────────╯
+│
+◇  Doctor ────────────────────────────────────────────╮
+│                                                     │
+│  Run "openclaw doctor --fix" to remove these keys.  │
+│                                                     │
+├─────────────────────────────────────────────────────╯
+│
+◇  Config ───────────────────────────────────────────────────╮
+│                                                            │
+│  Config invalid; doctor will run with best-effort config.  │
+│                                                            │
+├────────────────────────────────────────────────────────────╯
+│
+◇  Unknown config keys ─╮
+│                       │
+│  - web.braveApiKey    │
+│                       │
+├───────────────────────╯
+│
+◇  Doctor ────────────────────────────────────────────╮
+│                                                     │
+│  Run "openclaw doctor --fix" to remove these keys.  │
+│                                                     │
+├─────────────────────────────────────────────────────╯
+│
+◇  Config ───────────────────────────────────────────────────╮
+│                                                            │
+│  Config invalid; doctor will run with best-effort config.  │
+│                                                            │
+├────────────────────────────────────────────────────────────╯
+│
+◇  Unknown config keys ─╮
+│                       │
+│  - web.braveApiKey    │
+│                       │
+├───────────────────────╯
+│
+◇  Doctor ────────────────────────────────────────────╮
+│                                                     │
+│  Run "openclaw doctor --fix" to remove these keys.  │
+│                                                     │
+├─────────────────────────────────────────────────────╯
+│
+◇  Config ───────────────────────────────────────────────────╮
+│                                                            │
+│  Config invalid; doctor will run with best-effort config.  │
+│                                                            │
+├────────────────────────────────────────────────────────────╯
+│
+◇  Unknown config keys ─╮
+│                       │
+│  - web.braveApiKey    │
+│                       │
+├───────────────────────╯
+│
+◇  Doctor ────────────────────────────────────────────╮
+│                                                     │
+│  Run "openclaw doctor --fix" to remove these keys.  │
+│                                                     │
+├─────────────────────────────────────────────────────╯
+│
+◇  Config ───────────────────────────────────────────────────╮
+│                                                            │
+│  Config invalid; doctor will run with best-effort config.  │
+│                                                            │
+├────────────────────────────────────────────────────────────╯
+│
+◇  Unknown config keys ─╮
+│                       │
+│  - web.braveApiKey    │
+│                       │
+├───────────────────────╯
+│
+◇  Doctor ────────────────────────────────────────────╮
+│                                                     │
+│  Run "openclaw doctor --fix" to remove these keys.  │
+│                                                     │
+├─────────────────────────────────────────────────────╯
+│
+◇  Config ───────────────────────────────────────────────────╮
+│                                                            │
+│  Config invalid; doctor will run with best-effort config.  │
+│                                                            │
+├────────────────────────────────────────────────────────────╯
+│
+◇  Unknown config keys ─╮
+│                       │
+│  - web.braveApiKey    │
+│                       │
+├───────────────────────╯
+│
+◇  Doctor ────────────────────────────────────────────╮
+│                                                     │
+│  Run "openclaw doctor --fix" to remove these keys.  │
+│                                                     │
+├─────────────────────────────────────────────────────╯
+│
+◇  Config ───────────────────────────────────────────────────╮
+│                                                            │
+│  Config invalid; doctor will run with best-effort config.  │
+│                                                            │
+├────────────────────────────────────────────────────────────╯
+│
+◇  Unknown config keys ─╮
+│                       │
+│  - web.braveApiKey    │
+│                       │
+├───────────────────────╯
+│
+◇  Doctor ────────────────────────────────────────────╮
+│                                                     │
+│  Run "openclaw doctor --fix" to remove these keys.  │
+│                                                     │
+├─────────────────────────────────────────────────────╯
+│
+◇  Config ───────────────────────────────────────────────────╮
+│                                                            │
+│  Config invalid; doctor will run with best-effort config.  │
+│                                                            │
+├────────────────────────────────────────────────────────────╯
+│
+◇  Unknown config keys ─╮
+│                       │
+│  - web.braveApiKey    │
+│                       │
+├───────────────────────╯
+│
+◇  Doctor ────────────────────────────────────────────╮
+│                                                     │
+│  Run "openclaw doctor --fix" to remove these keys.  │
+│                                                     │
+├─────────────────────────────────────────────────────╯
+│
+◇  Config ───────────────────────────────────────────────────╮
+│                                                            │
+│  Config invalid; doctor will run with best-effort config.  │
+│                                                            │
+├────────────────────────────────────────────────────────────╯
+│
+◇  Unknown config keys ─╮
+│                       │
+│  - web.braveApiKey    │
+│                       │
+├───────────────────────╯
+│
+◇  Doctor ────────────────────────────────────────────╮
+│                                                     │
+│  Run "openclaw doctor --fix" to remove these keys.  │
+│                                                     │
+├─────────────────────────────────────────────────────╯
+│
+◇  Config ───────────────────────────────────────────────────╮
+│                                                            │
+│  Config invalid; doctor will run with best-effort config.  │
+│                                                            │
+├────────────────────────────────────────────────────────────╯
+│
+◇  Unknown config keys ─╮
+│                       │
+│  - web.braveApiKey    │
+│                       │
+├───────────────────────╯
+│
+◇  Doctor ────────────────────────────────────────────╮
+│                                                     │
+│  Run "openclaw doctor --fix" to remove these keys.  │
+│                                                     │
+├─────────────────────────────────────────────────────╯
+│
+◇  Config ───────────────────────────────────────────────────╮
+│                                                            │
+│  Config invalid; doctor will run with best-effort config.  │
+│                                                            │
+├────────────────────────────────────────────────────────────╯
+│
+◇  Config ───────────────────────────────────────────────────╮
+│                                                            │
+│  Config invalid; doctor will run with best-effort config.  │
+│                                                            │
+├────────────────────────────────────────────────────────────╯
+│
+◇  Config ───────────────────────────────────────────────────╮
+│                                                            │
+│  Config invalid; doctor will run with best-effort config.  │
+│                                                            │
+├────────────────────────────────────────────────────────────╯
+│
+◇  Config ───────────────────────────────────────────────────╮
+│                                                            │
+│  Config invalid; doctor will run with best-effort config.  │
+│                                                            │
+├────────────────────────────────────────────────────────────╯
+2026-02-17T21:19:40.441Z [canvas] host mounted at http://127.0.0.1:18789/__openclaw__/canvas/ (root /Users/_xvadur/.openclaw/canvas)
+2026-02-17T21:19:40.485Z [heartbeat] started
+2026-02-17T21:19:40.488Z [gateway] agent model: openai-codex/gpt-5.3-codex
+2026-02-17T21:19:40.488Z [gateway] listening on ws://127.0.0.1:18789 (PID 3049)
+2026-02-17T21:19:40.489Z [gateway] listening on ws://[::1]:18789
+2026-02-17T21:19:40.490Z [gateway] log file: /tmp/openclaw/openclaw-2026-02-17.log
+2026-02-17T21:19:40.496Z [browser/service] Browser control service ready (profiles=2)
+2026-02-17T21:19:40.626Z [hooks:loader] Registered hook: boot-md -> gateway:startup
+2026-02-17T21:19:40.638Z [hooks:loader] Registered hook: bootstrap-extra-files -> agent:bootstrap
+2026-02-17T21:19:40.639Z [hooks:loader] Registered hook: command-logger -> command
+2026-02-17T21:19:40.642Z [hooks:loader] Registered hook: session-memory -> command:new
+2026-02-17T21:19:40.643Z [hooks] loaded 4 internal hook handlers
+2026-02-17T21:19:40.645Z [gateway] [kimi-bridge] [config] mirrored openclaw config /Users/_xvadur/.openclaw/openclaw.json -> /Users/_xvadur/.kimi/kimi-claw/openclaw.json
+2026-02-17T21:19:40.646Z [gateway] [kimi-bridge] [trace] file logging disabled (log.enabled=false)
+2026-02-17T21:19:40.647Z [gateway] [kimi-bridge] [acp] mode=acp using direct gateway adapter path (no subprocess)
+2026-02-17T21:19:40.647Z [gateway] [kimi-bridge] [acp] prompt timeout fallback=1800000ms
+2026-02-17T21:19:40.648Z [gateway] [kimi-bridge] manual reconnect enabled signal=SIGUSR1
+2026-02-17T21:19:40.648Z [gateway] [kimi-bridge] [bridge-acp] connecting to wss://www.kimi.com/api-claw/bots/agent-ws
+2026-02-17T21:19:40.651Z [gateway] [kimi-bridge] [gateway] connecting to ws://127.0.0.1:18789
+2026-02-17T21:19:40.673Z [gateway] [kimi-bridge] [gateway] handshake complete
+2026-02-17T21:19:40.673Z [gateway] [kimi-bridge] local gateway connected url=ws://127.0.0.1:18789 (acp adapter mode)
+2026-02-17T21:19:40.822Z [telegram] [default] starting provider (@JarvisXvadurbot)
+2026-02-17T21:19:40.825Z [telegram] autoSelectFamily=false (default-node22)
+2026-02-17T21:19:41.750Z [gateway] [kimi-bridge] [bridge-acp] connected
+2026-02-17T21:19:41.754Z [gateway] [kimi-bridge] bridge ACP connected url=wss://www.kimi.com/api-claw/bots/agent-ws instance_id=connector-PrasaciAir.local device_id=PrasaciAir.local
+2026-02-17T21:19:41.891Z [ws] webchat connected conn=65069510-a9b4-4a7d-8672-b3c9ef6bafb5 remote=127.0.0.1 client=openclaw-control-ui webchat vdev
+2026-02-17T21:22:25.974Z [ws] ⇄ res ✓ node.list 73ms conn=65069510…afb5 id=955c29fa…59d8
+2026-02-17T21:22:35.427Z [ws] ⇄ res ✓ chat.history 88ms conn=65069510…afb5 id=f69b2ba4…d604
+2026-02-17T21:23:26.947Z [ws] ⇄ res ✓ node.list 390ms conn=65069510…afb5 id=b636dd71…5df1
+2026-02-17T21:23:53.850Z [ws] ⇄ res ✓ chat.history 595ms conn=65069510…afb5 id=87251c26…23ab
+2026-02-17T21:24:25.120Z [ws] ⇄ res ✓ chat.history 777ms conn=65069510…afb5 id=12f3aa5e…93d7
+2026-02-17T21:27:27.028Z [ws] ⇄ res ✓ chat.history 70ms conn=65069510…afb5 id=b981972f…b90f
+2026-02-17T21:28:26.010Z [ws] ⇄ res ✓ node.list 93ms conn=65069510…afb5 id=6dbcf8c9…8ceb
+2026-02-17T21:30:25.967Z [ws] ⇄ res ✓ node.list 79ms conn=65069510…afb5 id=cf26e227…134f
+2026-02-17T21:37:25.964Z [ws] ⇄ res ✓ node.list 57ms conn=65069510…afb5 id=21738153…ef73
+2026-02-17T21:38:26.063Z [ws] ⇄ res ✓ node.list 128ms conn=65069510…afb5 id=7e0f67b4…c7fc
+2026-02-17T21:39:34.510Z [canvas] host mounted at http://127.0.0.1:18789/__openclaw__/canvas/ (root /Users/_xvadur/.openclaw/canvas)
+2026-02-17T21:39:34.592Z [heartbeat] started
+2026-02-17T21:39:34.598Z [gateway] agent model: openai-codex/gpt-5.3-codex
+2026-02-17T21:39:34.600Z [gateway] listening on ws://127.0.0.1:18789 (PID 11739)
+2026-02-17T21:39:34.601Z [gateway] listening on ws://[::1]:18789
+2026-02-17T21:39:34.602Z [gateway] log file: /tmp/openclaw/openclaw-2026-02-17.log
+2026-02-17T21:39:34.615Z [browser/service] Browser control service ready (profiles=2)
+2026-02-17T21:39:34.824Z [hooks:loader] Registered hook: boot-md -> gateway:startup
+2026-02-17T21:39:34.851Z [hooks:loader] Registered hook: bootstrap-extra-files -> agent:bootstrap
+2026-02-17T21:39:34.852Z [hooks:loader] Registered hook: command-logger -> command
+2026-02-17T21:39:34.856Z [hooks:loader] Registered hook: session-memory -> command:new
+2026-02-17T21:39:34.858Z [hooks] loaded 4 internal hook handlers
+2026-02-17T21:39:34.869Z [gateway] [kimi-bridge] [config] mirrored openclaw config /Users/_xvadur/.openclaw/openclaw.json -> /Users/_xvadur/.kimi/kimi-claw/openclaw.json
+2026-02-17T21:39:34.870Z [gateway] [kimi-bridge] [trace] file logging disabled (log.enabled=false)
+2026-02-17T21:39:34.871Z [gateway] [kimi-bridge] [acp] mode=acp using direct gateway adapter path (no subprocess)
+2026-02-17T21:39:34.872Z [gateway] [kimi-bridge] [acp] prompt timeout fallback=1800000ms
+2026-02-17T21:39:34.873Z [gateway] [kimi-bridge] manual reconnect enabled signal=SIGUSR1
+2026-02-17T21:39:34.874Z [gateway] [kimi-bridge] [bridge-acp] connecting to wss://www.kimi.com/api-claw/bots/agent-ws
+2026-02-17T21:39:34.878Z [gateway] [kimi-bridge] [gateway] connecting to ws://127.0.0.1:18789
+2026-02-17T21:39:34.905Z [gateway] [kimi-bridge] [gateway] handshake complete
+2026-02-17T21:39:34.906Z [gateway] [kimi-bridge] local gateway connected url=ws://127.0.0.1:18789 (acp adapter mode)
+2026-02-17T21:39:35.051Z [telegram] [default] starting provider (@JarvisXvadurbot)
+2026-02-17T21:39:35.056Z [telegram] autoSelectFamily=false (default-node22)
+2026-02-17T21:39:35.906Z [ws] webchat connected conn=7e27218e-8e61-49df-bf86-d59e96f1249e remote=127.0.0.1 client=openclaw-control-ui webchat vdev
+2026-02-17T21:39:35.974Z [ws] ⇄ res ✓ node.list 51ms conn=7e27218e…249e id=b4153598…1149
+2026-02-17T21:39:35.976Z [ws] ⇄ res ✓ device.pair.list 55ms conn=7e27218e…249e id=97524da5…2beb
+2026-02-17T21:39:35.986Z [ws] ⇄ res ✓ chat.history 64ms conn=7e27218e…249e id=b8cd4cce…9a94
+2026-02-17T21:39:36.001Z [gateway] [kimi-bridge] [bridge-acp] connected
+2026-02-17T21:39:36.004Z [gateway] [kimi-bridge] bridge ACP connected url=wss://www.kimi.com/api-claw/bots/agent-ws instance_id=connector-PrasaciAir.local device_id=PrasaciAir.local
+2026-02-17T21:40:25.940Z [ws] ⇄ res ✓ node.list 55ms conn=7e27218e…249e id=9de6745b…8620
+2026-02-17T21:41:11.196Z [ws] ⇄ res ✓ sessions.patch 57ms conn=80f54a03…1671 id=737d27a6…d9d4
+2026-02-17T21:42:00.523Z [ws] ⇄ res ✓ chat.history 118ms conn=7e27218e…249e id=eb06787a…0fec
+2026-02-17T21:42:52.407Z [ws] ⇄ res ✓ chat.history 50ms conn=7e27218e…249e id=a7319fa0…0c62
+2026-02-17T21:44:51.721Z [reload] config change detected; evaluating reload (meta.lastTouchedAt, messages.tts.elevenlabs.voiceId)
+2026-02-17T21:44:51.723Z [reload] config change applied (dynamic reads: meta.lastTouchedAt, messages.tts.elevenlabs.voiceId)
+2026-02-17T21:44:58.153Z [canvas] host mounted at http://127.0.0.1:18789/__openclaw__/canvas/ (root /Users/_xvadur/.openclaw/canvas)
+2026-02-17T21:44:58.339Z [heartbeat] started
+2026-02-17T21:44:58.342Z [gateway] agent model: openai-codex/gpt-5.3-codex
+2026-02-17T21:44:58.343Z [gateway] listening on ws://127.0.0.1:18789 (PID 14778)
+2026-02-17T21:44:58.343Z [gateway] listening on ws://[::1]:18789
+2026-02-17T21:44:58.344Z [gateway] log file: /tmp/openclaw/openclaw-2026-02-17.log
+2026-02-17T21:44:58.351Z [browser/service] Browser control service ready (profiles=2)
+2026-02-17T21:44:58.514Z [hooks:loader] Registered hook: boot-md -> gateway:startup
+2026-02-17T21:44:58.527Z [hooks:loader] Registered hook: bootstrap-extra-files -> agent:bootstrap
+2026-02-17T21:44:58.528Z [hooks:loader] Registered hook: command-logger -> command
+2026-02-17T21:44:58.530Z [hooks:loader] Registered hook: session-memory -> command:new
+2026-02-17T21:44:58.537Z [hooks] loaded 4 internal hook handlers
+2026-02-17T21:44:58.546Z [gateway] [kimi-bridge] [config] mirrored openclaw config /Users/_xvadur/.openclaw/openclaw.json -> /Users/_xvadur/.kimi/kimi-claw/openclaw.json
+2026-02-17T21:44:58.546Z [gateway] [kimi-bridge] [trace] file logging disabled (log.enabled=false)
+2026-02-17T21:44:58.547Z [gateway] [kimi-bridge] [acp] mode=acp using direct gateway adapter path (no subprocess)
+2026-02-17T21:44:58.547Z [gateway] [kimi-bridge] [acp] prompt timeout fallback=1800000ms
+2026-02-17T21:44:58.548Z [gateway] [kimi-bridge] manual reconnect enabled signal=SIGUSR1
+2026-02-17T21:44:58.549Z [gateway] [kimi-bridge] [bridge-acp] connecting to wss://www.kimi.com/api-claw/bots/agent-ws
+2026-02-17T21:44:58.551Z [gateway] [kimi-bridge] [gateway] connecting to ws://127.0.0.1:18789
+2026-02-17T21:44:58.659Z [gateway] [kimi-bridge] [gateway] handshake complete
+2026-02-17T21:44:58.660Z [gateway] [kimi-bridge] local gateway connected url=ws://127.0.0.1:18789 (acp adapter mode)
+2026-02-17T21:44:58.752Z [telegram] [default] starting provider (@JarvisXvadurbot)
+2026-02-17T21:44:58.756Z [telegram] autoSelectFamily=false (default-node22)
+2026-02-17T21:44:59.630Z [gateway] [kimi-bridge] [bridge-acp] connected
+2026-02-17T21:44:59.633Z [gateway] [kimi-bridge] bridge ACP connected url=wss://www.kimi.com/api-claw/bots/agent-ws instance_id=connector-PrasaciAir.local device_id=PrasaciAir.local
+2026-02-17T21:44:59.908Z [ws] webchat connected conn=9e1fad25-bd42-4a97-90b9-c5b35f7a152b remote=127.0.0.1 client=openclaw-control-ui webchat vdev
+2026-02-17T21:45:26.274Z [ws] ⇄ res ✓ node.list 131ms conn=9e1fad25…152b id=b12c7c3d…ee4a
+2026-02-17T21:45:29.284Z [ws] ⇄ res ✓ chat.history 235ms conn=9e1fad25…152b id=4836bf7e…261b
+2026-02-17T21:46:28.928Z [ws] ⇄ res ✓ channels.status 263ms conn=09e0b4d6…a411 id=4cdefe46…d45e
+2026-02-17T21:46:34.819Z [reload] config change detected; evaluating reload (meta.lastTouchedAt, messages.tts.auto)
+2026-02-17T21:46:34.820Z [reload] config change applied (dynamic reads: meta.lastTouchedAt, messages.tts.auto)
+2026-02-17T21:46:40.656Z [canvas] host mounted at http://127.0.0.1:18789/__openclaw__/canvas/ (root /Users/_xvadur/.openclaw/canvas)
+2026-02-17T21:46:40.697Z [heartbeat] started
+2026-02-17T21:46:40.700Z [gateway] agent model: openai-codex/gpt-5.3-codex
+2026-02-17T21:46:40.700Z [gateway] listening on ws://127.0.0.1:18789 (PID 15423)
+2026-02-17T21:46:40.701Z [gateway] listening on ws://[::1]:18789
+2026-02-17T21:46:40.702Z [gateway] log file: /tmp/openclaw/openclaw-2026-02-17.log
+2026-02-17T21:46:40.709Z [browser/service] Browser control service ready (profiles=2)
+2026-02-17T21:46:40.838Z [hooks:loader] Registered hook: boot-md -> gateway:startup
+2026-02-17T21:46:40.850Z [hooks:loader] Registered hook: bootstrap-extra-files -> agent:bootstrap
+2026-02-17T21:46:40.851Z [hooks:loader] Registered hook: command-logger -> command
+2026-02-17T21:46:40.854Z [hooks:loader] Registered hook: session-memory -> command:new
+2026-02-17T21:46:40.855Z [hooks] loaded 4 internal hook handlers
+2026-02-17T21:46:40.857Z [gateway] [kimi-bridge] [config] mirrored openclaw config /Users/_xvadur/.openclaw/openclaw.json -> /Users/_xvadur/.kimi/kimi-claw/openclaw.json
+2026-02-17T21:46:40.858Z [gateway] [kimi-bridge] [trace] file logging disabled (log.enabled=false)
+2026-02-17T21:46:40.858Z [gateway] [kimi-bridge] [acp] mode=acp using direct gateway adapter path (no subprocess)
+2026-02-17T21:46:40.859Z [gateway] [kimi-bridge] [acp] prompt timeout fallback=1800000ms
+2026-02-17T21:46:40.860Z [gateway] [kimi-bridge] manual reconnect enabled signal=SIGUSR1
+2026-02-17T21:46:40.861Z [gateway] [kimi-bridge] [bridge-acp] connecting to wss://www.kimi.com/api-claw/bots/agent-ws
+2026-02-17T21:46:40.863Z [gateway] [kimi-bridge] [gateway] connecting to ws://127.0.0.1:18789
+2026-02-17T21:46:40.877Z [gateway] [kimi-bridge] [gateway] handshake complete
+2026-02-17T21:46:40.878Z [gateway] [kimi-bridge] local gateway connected url=ws://127.0.0.1:18789 (acp adapter mode)
+2026-02-17T21:46:40.901Z [ws] webchat connected conn=5a11dd3b-bdb9-4d6e-8c37-42a62de19e5f remote=127.0.0.1 client=openclaw-control-ui webchat vdev
+2026-02-17T21:46:41.120Z [telegram] [default] starting provider (@JarvisXvadurbot)
+2026-02-17T21:46:41.128Z [telegram] autoSelectFamily=false (default-node22)
+2026-02-17T21:46:41.969Z [gateway] [kimi-bridge] [bridge-acp] connected
+2026-02-17T21:46:41.971Z [gateway] [kimi-bridge] bridge ACP connected url=wss://www.kimi.com/api-claw/bots/agent-ws instance_id=connector-PrasaciAir.local device_id=PrasaciAir.local
+2026-02-17T21:48:03.102Z [ws] ⇄ res ✓ sessions.patch 50ms conn=bbcdab54…ea5b id=14d1f7a6…37ea
+2026-02-17T21:50:26.018Z [ws] ⇄ res ✓ node.list 61ms conn=5a11dd3b…9e5f id=a755c82a…9b1c
+2026-02-17T21:51:40.224Z [ws] ⇄ res ✓ chat.send 68ms runId=db2ee22d-9000-4880-92e2-6b9ba74717cf conn=bbcdab54…ea5b id=77af1f64…0012
+2026-02-17T21:52:14.316Z [ws] ⇄ res ✓ chat.send 72ms runId=b7ba354d-c684-4791-a7d8-3ec39895da86 conn=bbcdab54…ea5b id=815a25c4…5dfd
+2026-02-17T21:52:34.754Z [ws] ⇄ res ✓ chat.send 63ms runId=fd3ccb10-a578-406c-b8dc-f15f09ec9dc6 conn=bbcdab54…ea5b id=8786f1b7…9377
+2026-02-17T21:52:56.174Z [ws] ⇄ res ✓ chat.send 57ms runId=6e6ce45b-89a1-4e18-a2af-37d0f834c850 conn=bbcdab54…ea5b id=de44518f…9c8c
+2026-02-17T21:53:04.761Z [ws] ⇄ res ✓ chat.history 107ms conn=5a11dd3b…9e5f id=20542940…cac5
+2026-02-17T21:55:53.285Z [ws] ⇄ res ✓ chat.send 83ms runId=3ffd33f5-2041-4ff7-a373-c3335a0933b2 conn=bbcdab54…ea5b id=e0247741…7714
+2026-02-17T21:59:25.912Z [ws] ⇄ res ✓ node.list 53ms conn=5a11dd3b…9e5f id=dcff6be3…ba46
+2026-02-17T22:00:26.006Z [ws] ⇄ res ✓ node.list 88ms conn=5a11dd3b…9e5f id=27a37ce8…102c
+2026-02-17T22:04:25.959Z [ws] ⇄ res ✓ node.list 70ms conn=5a11dd3b…9e5f id=6ac0f419…5f37
+2026-02-17T22:06:25.968Z [ws] ⇄ res ✓ node.list 84ms conn=5a11dd3b…9e5f id=66946c7c…ce44
+2026-02-17T22:08:26.033Z [ws] ⇄ res ✓ node.list 114ms conn=5a11dd3b…9e5f id=ce641909…8934
+2026-02-17T22:09:25.938Z [ws] ⇄ res ✓ node.list 64ms conn=5a11dd3b…9e5f id=1e25f517…d75b
+2026-02-17T22:11:25.912Z [ws] ⇄ res ✓ node.list 70ms conn=5a11dd3b…9e5f id=f25700ee…946e
+2026-02-17T22:14:25.976Z [ws] ⇄ res ✓ node.list 97ms conn=5a11dd3b…9e5f id=462343a3…bac4
+2026-02-17T22:15:26.080Z [ws] ⇄ res ✓ node.list 52ms conn=5a11dd3b…9e5f id=56fcba86…4da8
+2026-02-17T22:21:26.489Z [ws] ⇄ res ✓ node.list 195ms conn=5a11dd3b…9e5f id=c17cdabe…f85b
+2026-02-17T22:22:25.941Z [ws] ⇄ res ✓ node.list 66ms conn=5a11dd3b…9e5f id=ad76ce46…3ed8
+2026-02-17T22:23:23.333Z [ws] ⇄ res ✓ chat.history 76ms conn=7ac59b63…8277 id=05baaa21…317d
+2026-02-17T22:24:25.942Z [ws] ⇄ res ✓ node.list 51ms conn=5a11dd3b…9e5f id=502d5738…742f
+2026-02-17T22:25:18.042Z [ws] ⇄ res ✓ chat.send 116ms runId=60b9acf5-4151-434f-9002-e55567c8fc7c conn=7ac59b63…8277 id=8798d51c…7a81
+2026-02-17T22:25:25.968Z [ws] ⇄ res ✓ node.list 92ms conn=5a11dd3b…9e5f id=ae22f9d0…b1e6
+2026-02-17T22:25:47.938Z [ws] ⇄ res ✓ chat.history 67ms conn=5a11dd3b…9e5f id=4ee29b9b…a4ef
+2026-02-17T22:25:48.457Z [ws] ⇄ res ✓ sessions.list 102ms conn=bbcdab54…ea5b id=aef90705…944c
