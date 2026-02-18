@@ -1,0 +1,16 @@
+Ahoj,
+
+Všimol som si Izy Stay v Bratislava – máte hodnotenie 3.9 (75 recenzií), pekný signál, že máte dobrý servis.
+
+Recepcia je casto zatazena opakovanimi otazkami a to berie cas timu.
+Pomahame ubytovaniam nasadit AI recepciu, ktora:
+- odpovie hostom 24/7 (SK/EN),
+- vybavi check-in/check-out, parkovanie, dostupnost a bezne otazky,
+- pri specialnom pripade prepoji hosta na cloveka.
+
+Odlahcenie recepcie od opakovanych otazok.
+
+Ak chces, ukazem ti 15-min demo na realnych scenaroch pre Izy Stay.
+Vyhovuje skor utorok 10:00 alebo streda 14:30?
+
+- Adam

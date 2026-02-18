@@ -1,0 +1,12 @@
+{
+  "input_rows": 117,
+  "processed_rows": 50,
+  "report_rows": 50,
+  "outbound_rows": 21,
+  "readiness_csv": "/Users/_xvadur/.openclaw/workspace/outbound/v2/hotel_readiness_report.csv",
+  "segments_csv": "/Users/_xvadur/.openclaw/workspace/outbound/v2/hotel_segments.csv",
+  "outbound_csv": "/Users/_xvadur/.openclaw/workspace/outbound/v2/outbound_v2.csv",
+  "send_script": "/Users/_xvadur/.openclaw/workspace/outbound/v2/send_batch_v2.sh",
+  "cache_path": "/Users/_xvadur/.openclaw/workspace/outbound/v2/brave_cache.json",
+  "generated_at": 1771380003
+}

@@ -1,3 +1,23 @@
-# Track full runtime state in this private repository.
-# Only OS noise stays ignored.
+# OS noise
 .DS_Store
+
+# Secrets & auth
+openclaw.json
+identity/
+devices/
+
+# Agent runtime (sessions, auth profiles, transient state)
+agents/
+
+# Logs & transient service files
+logs/
+*.launchd.err
+*.launchd.log
+
+# Messaging/runtime transient state
+telegram/update-offset-default.json
+media/
+cron/
+
+# Keep workspace + project assets tracked
+# (workspace/**, docs, scripts, etc.)

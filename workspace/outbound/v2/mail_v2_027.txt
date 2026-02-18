@@ -1,0 +1,16 @@
+Ahoj,
+
+Všimol som si BlueBell Hotel v Bratislava – máte hodnotenie 4.5 (346 recenzií), pekný signál, že máte dobrý servis.
+
+Mate dobru online pritomnost, takze AI recepcia vie rychlo pridat dalsiu vrstvu dostupnosti.
+Pomahame ubytovaniam nasadit AI recepciu, ktora:
+- odpovie hostom 24/7 (SK/EN),
+- vybavi check-in/check-out, parkovanie, dostupnost a bezne otazky,
+- pri specialnom pripade prepoji hosta na cloveka.
+
+AI recepcia pre 24/7 odpovede a handoff.
+
+Ak chces, ukazem ti 15-min demo na realnych scenaroch pre BlueBell Hotel.
+Vyhovuje skor utorok 10:00 alebo streda 14:30?
+
+- Adam

@@ -1,0 +1,801 @@
+idx,company,city,email,segment,readiness_score,confidence_score,offer_angle,query,brave_hits,from_cache,email_valid,generic_email,phone_present,website_present,online_booking_present,after_hours_claim,faq_coverage,multilingual_support,messaging_channel,handoff_signal,subject_v2,email_v2
+1,Coimex Lufthansa City Center,Bratislava,,invalid_contact,10,91,Manualny kontakt,Coimex Lufthansa City Center Bratislava hotel booking check-in phone,5,1,0,0,1,0,1,1,1,1,1,1,Coimex Lufthansa City Center: odlahcenie recepcie cez AI,"Ahoj,
+
+Narazil som na Coimex Lufthansa City Center v Bratislava a zaujalo ma, že veľa hostí rieši otázky ešte pred príchodom (check-in, parkovanie, dostupnosť).
+
+Nemam overeny kontakt, preto posielam len navrh textu.
+Pomahame ubytovaniam nasadit AI recepciu, ktora:
+- odpovie hostom 24/7 (SK/EN),
+- vybavi check-in/check-out, parkovanie, dostupnost a bezne otazky,
+- pri specialnom pripade prepoji hosta na cloveka.
+
+Manualny kontakt.
+
+Ak chces, ukazem ti 15-min demo na realnych scenaroch pre Coimex Lufthansa City Center.
+Vyhovuje skor utorok 10:00 alebo streda 14:30?
+
+- Adam"
+2,REVON Art - deco apartment Laurinska,Bratislava,revon.sro@gmail.com,automation_candidate,91,91,AI recepcia pre 24/7 odpovede a handoff,REVON Art - deco apartment Laurinska Bratislava hotel booking check-in phone site:www.revon.sk,1,0,1,0,1,1,1,1,1,0,1,1,REVON Art - deco apartment Laurinska: AI recepcia pre 24/7 hosti,"Ahoj,
+
+Všimol som si REVON Art - deco apartment Laurinska v Bratislava – máte hodnotenie 5.0 (1 recenzií), pekný signál, že máte dobrý servis.
+
+Mate dobru online pritomnost, takze AI recepcia vie rychlo pridat dalsiu vrstvu dostupnosti.
+Pomahame ubytovaniam nasadit AI recepciu, ktora:
+- odpovie hostom 24/7 (SK/EN),
+- vybavi check-in/check-out, parkovanie, dostupnost a bezne otazky,
+- pri specialnom pripade prepoji hosta na cloveka.
+
+AI recepcia pre 24/7 odpovede a handoff.
+
+Ak chces, ukazem ti 15-min demo na realnych scenaroch pre REVON Art - deco apartment Laurinska.
+Vyhovuje skor utorok 10:00 alebo streda 14:30?
+
+- Adam"
+3,Einsteinova UFO Bridge,Petržalka,,invalid_contact,5,67,Manualny kontakt,Einsteinova UFO Bridge Petržalka hotel booking check-in phone,0,0,0,0,0,0,1,1,1,0,1,0,Einsteinova UFO Bridge: odlahcenie recepcie cez AI,"Ahoj,
+
+Všimol som si Einsteinova UFO Bridge v Petržalka – máte hodnotenie 1.0 (2 recenzií), pekný signál, že máte dobrý servis.
+
+Nemam overeny kontakt, preto posielam len navrh textu.
+Pomahame ubytovaniam nasadit AI recepciu, ktora:
+- odpovie hostom 24/7 (SK/EN),
+- vybavi check-in/check-out, parkovanie, dostupnost a bezne otazky,
+- pri specialnom pripade prepoji hosta na cloveka.
+
+Manualny kontakt.
+
+Ak chces, ukazem ti 15-min demo na realnych scenaroch pre Einsteinova UFO Bridge.
+Vyhovuje skor utorok 10:00 alebo streda 14:30?
+
+- Adam"
+4,Ikaros Hotel,Bratislava,,invalid_contact,5,67,Manualny kontakt,Ikaros Hotel Bratislava hotel booking check-in phone,0,0,0,0,0,0,1,1,1,0,1,0,Ikaros Hotel: odlahcenie recepcie cez AI,"Ahoj,
+
+Všimol som si Ikaros Hotel v Bratislava – máte hodnotenie 4.6 (5 recenzií), pekný signál, že máte dobrý servis.
+
+Nemam overeny kontakt, preto posielam len navrh textu.
+Pomahame ubytovaniam nasadit AI recepciu, ktora:
+- odpovie hostom 24/7 (SK/EN),
+- vybavi check-in/check-out, parkovanie, dostupnost a bezne otazky,
+- pri specialnom pripade prepoji hosta na cloveka.
+
+Manualny kontakt.
+
+Ak chces, ukazem ti 15-min demo na realnych scenaroch pre Ikaros Hotel.
+Vyhovuje skor utorok 10:00 alebo streda 14:30?
+
+- Adam"
+5,"Cozy, Brighton room with free parking",Bratislava,,invalid_contact,15,99,Manualny kontakt,"Cozy, Brighton room with free parking Bratislava hotel booking check-in phone site:booking.com",5,1,0,0,1,1,1,1,1,1,1,1,"Cozy, Brighton room with free parking: odlahcenie recepcie cez AI","Ahoj,
+
+Všimol som si Cozy, Brighton room with free parking v Bratislava – máte hodnotenie 4.8 (6 recenzií), pekný signál, že máte dobrý servis.
+
+Nemam overeny kontakt, preto posielam len navrh textu.
+Pomahame ubytovaniam nasadit AI recepciu, ktora:
+- odpovie hostom 24/7 (SK/EN),
+- vybavi check-in/check-out, parkovanie, dostupnost a bezne otazky,
+- pri specialnom pripade prepoji hosta na cloveka.
+
+Manualny kontakt.
+
+Ak chces, ukazem ti 15-min demo na realnych scenaroch pre Cozy, Brighton room with free parking.
+Vyhovuje skor utorok 10:00 alebo streda 14:30?
+
+- Adam"
+6,Garage Vysoka (AC Hotel),Bratislava,,invalid_contact,15,91,Manualny kontakt,Garage Vysoka (AC Hotel) Bratislava hotel booking check-in phone site:acbratislava.com,0,0,0,0,1,1,1,1,1,0,1,1,Garage Vysoka (AC Hotel): odlahcenie recepcie cez AI,"Ahoj,
+
+Všimol som si Garage Vysoka (AC Hotel) v Bratislava – máte hodnotenie 4.4 (7 recenzií), pekný signál, že máte dobrý servis.
+
+Nemam overeny kontakt, preto posielam len navrh textu.
+Pomahame ubytovaniam nasadit AI recepciu, ktora:
+- odpovie hostom 24/7 (SK/EN),
+- vybavi check-in/check-out, parkovanie, dostupnost a bezne otazky,
+- pri specialnom pripade prepoji hosta na cloveka.
+
+Manualny kontakt.
+
+Ak chces, ukazem ti 15-min demo na realnych scenaroch pre Garage Vysoka (AC Hotel).
+Vyhovuje skor utorok 10:00 alebo streda 14:30?
+
+- Adam"
+7,Gremium apartments,Staré Mesto,,invalid_contact,15,91,Manualny kontakt,Gremium apartments Staré Mesto hotel booking check-in phone site:gremiumapartments.sk,0,0,0,0,1,1,1,1,1,0,1,1,Gremium apartments: odlahcenie recepcie cez AI,"Ahoj,
+
+Všimol som si Gremium apartments v Staré Mesto – máte hodnotenie 4.0 (8 recenzií), pekný signál, že máte dobrý servis.
+
+Nemam overeny kontakt, preto posielam len navrh textu.
+Pomahame ubytovaniam nasadit AI recepciu, ktora:
+- odpovie hostom 24/7 (SK/EN),
+- vybavi check-in/check-out, parkovanie, dostupnost a bezne otazky,
+- pri specialnom pripade prepoji hosta na cloveka.
+
+Manualny kontakt.
+
+Ak chces, ukazem ti 15-min demo na realnych scenaroch pre Gremium apartments.
+Vyhovuje skor utorok 10:00 alebo streda 14:30?
+
+- Adam"
+8,Optimum Devinska,Devínska Nová Ves,,invalid_contact,5,67,Manualny kontakt,Optimum Devinska Devínska Nová Ves hotel booking check-in phone,0,0,0,0,0,0,1,1,1,0,1,0,Optimum Devinska: odlahcenie recepcie cez AI,"Ahoj,
+
+Všimol som si Optimum Devinska v Devínska Nová Ves – máte hodnotenie 4.1 (14 recenzií), pekný signál, že máte dobrý servis.
+
+Nemam overeny kontakt, preto posielam len navrh textu.
+Pomahame ubytovaniam nasadit AI recepciu, ktora:
+- odpovie hostom 24/7 (SK/EN),
+- vybavi check-in/check-out, parkovanie, dostupnost a bezne otazky,
+- pri specialnom pripade prepoji hosta na cloveka.
+
+Manualny kontakt.
+
+Ak chces, ukazem ti 15-min demo na realnych scenaroch pre Optimum Devinska.
+Vyhovuje skor utorok 10:00 alebo streda 14:30?
+
+- Adam"
+9,Zen Zone Hostel,Bratislava,,invalid_contact,10,83,Manualny kontakt,Zen Zone Hostel Bratislava hotel booking check-in phone,0,0,0,0,1,0,1,1,1,0,1,1,Zen Zone Hostel: odlahcenie recepcie cez AI,"Ahoj,
+
+Všimol som si Zen Zone Hostel v Bratislava – máte hodnotenie 3.5 (26 recenzií), pekný signál, že máte dobrý servis.
+
+Nemam overeny kontakt, preto posielam len navrh textu.
+Pomahame ubytovaniam nasadit AI recepciu, ktora:
+- odpovie hostom 24/7 (SK/EN),
+- vybavi check-in/check-out, parkovanie, dostupnost a bezne otazky,
+- pri specialnom pripade prepoji hosta na cloveka.
+
+Manualny kontakt.
+
+Ak chces, ukazem ti 15-min demo na realnych scenaroch pre Zen Zone Hostel.
+Vyhovuje skor utorok 10:00 alebo streda 14:30?
+
+- Adam"
+10,Best view apartment,Bratislava,,invalid_contact,10,83,Manualny kontakt,Best view apartment Bratislava hotel booking check-in phone,0,0,0,0,1,0,1,1,1,0,1,1,Best view apartment: odlahcenie recepcie cez AI,"Ahoj,
+
+Všimol som si Best view apartment v Bratislava – máte hodnotenie 4.5 (27 recenzií), pekný signál, že máte dobrý servis.
+
+Nemam overeny kontakt, preto posielam len navrh textu.
+Pomahame ubytovaniam nasadit AI recepciu, ktora:
+- odpovie hostom 24/7 (SK/EN),
+- vybavi check-in/check-out, parkovanie, dostupnost a bezne otazky,
+- pri specialnom pripade prepoji hosta na cloveka.
+
+Manualny kontakt.
+
+Ak chces, ukazem ti 15-min demo na realnych scenaroch pre Best view apartment.
+Vyhovuje skor utorok 10:00 alebo streda 14:30?
+
+- Adam"
+11,Living Bratislava Centrum &Mlynské Nivy& Bus station,Ružinov,,invalid_contact,10,83,Manualny kontakt,Living Bratislava Centrum &Mlynské Nivy& Bus station Ružinov hotel booking check-in phone,0,0,0,0,1,0,1,1,1,0,1,1,Living Bratislava Centrum &Mlynské Nivy& Bus station: odlahcenie recepcie cez AI,"Ahoj,
+
+Všimol som si Living Bratislava Centrum &Mlynské Nivy& Bus station v Ružinov – máte hodnotenie 4.1 (34 recenzií), pekný signál, že máte dobrý servis.
+
+Nemam overeny kontakt, preto posielam len navrh textu.
+Pomahame ubytovaniam nasadit AI recepciu, ktora:
+- odpovie hostom 24/7 (SK/EN),
+- vybavi check-in/check-out, parkovanie, dostupnost a bezne otazky,
+- pri specialnom pripade prepoji hosta na cloveka.
+
+Manualny kontakt.
+
+Ak chces, ukazem ti 15-min demo na realnych scenaroch pre Living Bratislava Centrum &Mlynské Nivy& Bus station.
+Vyhovuje skor utorok 10:00 alebo streda 14:30?
+
+- Adam"
+12,Reverie Hotel,Bratislava,info@senger.sk,automation_candidate,79,91,AI recepcia pre 24/7 odpovede a handoff,Reverie Hotel Bratislava hotel booking check-in phone site:myhotel.sk,0,0,1,1,1,1,1,1,1,0,1,1,Reverie Hotel: AI recepcia pre 24/7 hosti,"Ahoj,
+
+Všimol som si Reverie Hotel v Bratislava – máte hodnotenie 4.1 (41 recenzií), pekný signál, že máte dobrý servis.
+
+Mate dobru online pritomnost, takze AI recepcia vie rychlo pridat dalsiu vrstvu dostupnosti.
+Pomahame ubytovaniam nasadit AI recepciu, ktora:
+- odpovie hostom 24/7 (SK/EN),
+- vybavi check-in/check-out, parkovanie, dostupnost a bezne otazky,
+- pri specialnom pripade prepoji hosta na cloveka.
+
+AI recepcia pre 24/7 odpovede a handoff.
+
+Ak chces, ukazem ti 15-min demo na realnych scenaroch pre Reverie Hotel.
+Vyhovuje skor utorok 10:00 alebo streda 14:30?
+
+- Adam"
+13,Apollis Business & Budget by Ambiente,Bratislava,sales@ambiente-apartments.com,automation_candidate,85,91,AI recepcia pre 24/7 odpovede a handoff,Apollis Business & Budget by Ambiente Bratislava hotel booking check-in phone site:www.ambiente-apartments.com,5,1,1,1,1,1,1,1,1,0,1,1,Apollis Business & Budget by Ambiente: AI recepcia pre 24/7 hosti,"Ahoj,
+
+Všimol som si Apollis Business & Budget by Ambiente v Bratislava – máte hodnotenie 4.3 (47 recenzií), pekný signál, že máte dobrý servis.
+
+Mate dobru online pritomnost, takze AI recepcia vie rychlo pridat dalsiu vrstvu dostupnosti.
+Pomahame ubytovaniam nasadit AI recepciu, ktora:
+- odpovie hostom 24/7 (SK/EN),
+- vybavi check-in/check-out, parkovanie, dostupnost a bezne otazky,
+- pri specialnom pripade prepoji hosta na cloveka.
+
+AI recepcia pre 24/7 odpovede a handoff.
+
+Ak chces, ukazem ti 15-min demo na realnych scenaroch pre Apollis Business & Budget by Ambiente.
+Vyhovuje skor utorok 10:00 alebo streda 14:30?
+
+- Adam"
+14,Aapartamentoos,Bratislava,typed.js@2.1.0,invalid_contact,15,99,Manualny kontakt,Aapartamentoos Bratislava hotel booking check-in phone site:www.aapartamentoos.sk,1,1,0,0,1,1,1,1,1,1,1,1,Aapartamentoos: odlahcenie recepcie cez AI,"Ahoj,
+
+Všimol som si Aapartamentoos v Bratislava – máte hodnotenie 3.6 (61 recenzií), pekný signál, že máte dobrý servis.
+
+Nemam overeny kontakt, preto posielam len navrh textu.
+Pomahame ubytovaniam nasadit AI recepciu, ktora:
+- odpovie hostom 24/7 (SK/EN),
+- vybavi check-in/check-out, parkovanie, dostupnost a bezne otazky,
+- pri specialnom pripade prepoji hosta na cloveka.
+
+Manualny kontakt.
+
+Ak chces, ukazem ti 15-min demo na realnych scenaroch pre Aapartamentoos.
+Vyhovuje skor utorok 10:00 alebo streda 14:30?
+
+- Adam"
+15,WE STAY | APARTMENTS,Bratislava,,invalid_contact,15,91,Manualny kontakt,WE STAY | APARTMENTS Bratislava hotel booking check-in phone site:www.westay.sk,0,0,0,0,1,1,1,1,1,0,1,1,WE STAY | APARTMENTS: odlahcenie recepcie cez AI,"Ahoj,
+
+Všimol som si WE STAY | APARTMENTS v Bratislava – máte hodnotenie 4.0 (62 recenzií), pekný signál, že máte dobrý servis.
+
+Nemam overeny kontakt, preto posielam len navrh textu.
+Pomahame ubytovaniam nasadit AI recepciu, ktora:
+- odpovie hostom 24/7 (SK/EN),
+- vybavi check-in/check-out, parkovanie, dostupnost a bezne otazky,
+- pri specialnom pripade prepoji hosta na cloveka.
+
+Manualny kontakt.
+
+Ak chces, ukazem ti 15-min demo na realnych scenaroch pre WE STAY | APARTMENTS.
+Vyhovuje skor utorok 10:00 alebo streda 14:30?
+
+- Adam"
+16,Izy Stay,Bratislava,izybratislava@gmail.com,frontdesk_overload,71,75,Odlahcenie recepcie od opakovanych otazok,Izy Stay Bratislava hotel booking check-in phone site:www.izy-stay.com,0,0,1,0,0,1,1,1,1,0,1,0,Izy Stay: odlahcenie recepcie cez AI,"Ahoj,
+
+Všimol som si Izy Stay v Bratislava – máte hodnotenie 3.9 (75 recenzií), pekný signál, že máte dobrý servis.
+
+Recepcia je casto zatazena opakovanimi otazkami a to berie cas timu.
+Pomahame ubytovaniam nasadit AI recepciu, ktora:
+- odpovie hostom 24/7 (SK/EN),
+- vybavi check-in/check-out, parkovanie, dostupnost a bezne otazky,
+- pri specialnom pripade prepoji hosta na cloveka.
+
+Odlahcenie recepcie od opakovanych otazok.
+
+Ak chces, ukazem ti 15-min demo na realnych scenaroch pre Izy Stay.
+Vyhovuje skor utorok 10:00 alebo streda 14:30?
+
+- Adam"
+17,Petra Inn Apartments in historical palace Bratislava,Bratislava,,invalid_contact,10,83,Manualny kontakt,Petra Inn Apartments in historical palace Bratislava Bratislava hotel booking check-in phone,0,0,0,0,1,0,1,1,1,0,1,1,Petra Inn Apartments in historical palace Bratislava: odlahcenie recepcie cez AI,"Ahoj,
+
+Všimol som si Petra Inn Apartments in historical palace Bratislava v Bratislava – máte hodnotenie 3.2 (79 recenzií), pekný signál, že máte dobrý servis.
+
+Nemam overeny kontakt, preto posielam len navrh textu.
+Pomahame ubytovaniam nasadit AI recepciu, ktora:
+- odpovie hostom 24/7 (SK/EN),
+- vybavi check-in/check-out, parkovanie, dostupnost a bezne otazky,
+- pri specialnom pripade prepoji hosta na cloveka.
+
+Manualny kontakt.
+
+Ak chces, ukazem ti 15-min demo na realnych scenaroch pre Petra Inn Apartments in historical palace Bratislava.
+Vyhovuje skor utorok 10:00 alebo streda 14:30?
+
+- Adam"
+18,Vila Ria,Bratislava,cestovanie@riasro.sk,automation_candidate,91,91,AI recepcia pre 24/7 odpovede a handoff,Vila Ria Bratislava hotel booking check-in phone site:www.riasro.sk,1,0,1,0,1,1,1,1,1,0,1,1,Vila Ria: AI recepcia pre 24/7 hosti,"Ahoj,
+
+Všimol som si Vila Ria v Bratislava – máte hodnotenie 4.3 (83 recenzií), pekný signál, že máte dobrý servis.
+
+Mate dobru online pritomnost, takze AI recepcia vie rychlo pridat dalsiu vrstvu dostupnosti.
+Pomahame ubytovaniam nasadit AI recepciu, ktora:
+- odpovie hostom 24/7 (SK/EN),
+- vybavi check-in/check-out, parkovanie, dostupnost a bezne otazky,
+- pri specialnom pripade prepoji hosta na cloveka.
+
+AI recepcia pre 24/7 odpovede a handoff.
+
+Ak chces, ukazem ti 15-min demo na realnych scenaroch pre Vila Ria.
+Vyhovuje skor utorok 10:00 alebo streda 14:30?
+
+- Adam"
+19,Villa Bea,Bratislava,e-mail: info@villabea.sk,invalid_contact,15,91,Manualny kontakt,Villa Bea Bratislava hotel booking check-in phone site:www.villabea.sk,0,0,0,0,1,1,1,1,1,0,1,1,Villa Bea: odlahcenie recepcie cez AI,"Ahoj,
+
+Všimol som si Villa Bea v Bratislava – máte hodnotenie 4.4 (83 recenzií), pekný signál, že máte dobrý servis.
+
+Nemam overeny kontakt, preto posielam len navrh textu.
+Pomahame ubytovaniam nasadit AI recepciu, ktora:
+- odpovie hostom 24/7 (SK/EN),
+- vybavi check-in/check-out, parkovanie, dostupnost a bezne otazky,
+- pri specialnom pripade prepoji hosta na cloveka.
+
+Manualny kontakt.
+
+Ak chces, ukazem ti 15-min demo na realnych scenaroch pre Villa Bea.
+Vyhovuje skor utorok 10:00 alebo streda 14:30?
+
+- Adam"
+20,Smart & Green Living by Ambiente,Bratislava,sales@ambiente-apartments.com,automation_candidate,85,91,AI recepcia pre 24/7 odpovede a handoff,Smart & Green Living by Ambiente Bratislava hotel booking check-in phone site:www.ambiente-apartments.com,0,0,1,1,1,1,1,1,1,0,1,1,Smart & Green Living by Ambiente: AI recepcia pre 24/7 hosti,"Ahoj,
+
+Všimol som si Smart & Green Living by Ambiente v Bratislava – máte hodnotenie 4.4 (88 recenzií), pekný signál, že máte dobrý servis.
+
+Mate dobru online pritomnost, takze AI recepcia vie rychlo pridat dalsiu vrstvu dostupnosti.
+Pomahame ubytovaniam nasadit AI recepciu, ktora:
+- odpovie hostom 24/7 (SK/EN),
+- vybavi check-in/check-out, parkovanie, dostupnost a bezne otazky,
+- pri specialnom pripade prepoji hosta na cloveka.
+
+AI recepcia pre 24/7 odpovede a handoff.
+
+Ak chces, ukazem ti 15-min demo na realnych scenaroch pre Smart & Green Living by Ambiente.
+Vyhovuje skor utorok 10:00 alebo streda 14:30?
+
+- Adam"
+21,DIMAEL Hostel and Apartments,Bratislava,dimael@dimael.sk,automation_candidate,91,91,AI recepcia pre 24/7 odpovede a handoff,DIMAEL Hostel and Apartments Bratislava hotel booking check-in phone site:www.dimael.sk,0,0,1,0,1,1,1,1,1,0,1,1,DIMAEL Hostel and Apartments: AI recepcia pre 24/7 hosti,"Ahoj,
+
+Všimol som si DIMAEL Hostel and Apartments v Bratislava – máte hodnotenie 4.9 (95 recenzií), pekný signál, že máte dobrý servis.
+
+Mate dobru online pritomnost, takze AI recepcia vie rychlo pridat dalsiu vrstvu dostupnosti.
+Pomahame ubytovaniam nasadit AI recepciu, ktora:
+- odpovie hostom 24/7 (SK/EN),
+- vybavi check-in/check-out, parkovanie, dostupnost a bezne otazky,
+- pri specialnom pripade prepoji hosta na cloveka.
+
+AI recepcia pre 24/7 odpovede a handoff.
+
+Ak chces, ukazem ti 15-min demo na realnych scenaroch pre DIMAEL Hostel and Apartments.
+Vyhovuje skor utorok 10:00 alebo streda 14:30?
+
+- Adam"
+22,Hostel Narva,Rača,,invalid_contact,10,83,Manualny kontakt,Hostel Narva Rača hotel booking check-in phone,0,0,0,0,1,0,1,1,1,0,1,1,Hostel Narva: odlahcenie recepcie cez AI,"Ahoj,
+
+Všimol som si Hostel Narva v Rača – máte hodnotenie 4.2 (104 recenzií), pekný signál, že máte dobrý servis.
+
+Nemam overeny kontakt, preto posielam len navrh textu.
+Pomahame ubytovaniam nasadit AI recepciu, ktora:
+- odpovie hostom 24/7 (SK/EN),
+- vybavi check-in/check-out, parkovanie, dostupnost a bezne otazky,
+- pri specialnom pripade prepoji hosta na cloveka.
+
+Manualny kontakt.
+
+Ak chces, ukazem ti 15-min demo na realnych scenaroch pre Hostel Narva.
+Vyhovuje skor utorok 10:00 alebo streda 14:30?
+
+- Adam"
+23,Tempus Club Garni Hotel,Bratislava,,invalid_contact,15,91,Manualny kontakt,Tempus Club Garni Hotel Bratislava hotel booking check-in phone site:club.tempus.sk,2,0,0,0,1,1,1,1,1,0,1,1,Tempus Club Garni Hotel: odlahcenie recepcie cez AI,"Ahoj,
+
+Všimol som si Tempus Club Garni Hotel v Bratislava – máte hodnotenie 4.2 (110 recenzií), pekný signál, že máte dobrý servis.
+
+Nemam overeny kontakt, preto posielam len navrh textu.
+Pomahame ubytovaniam nasadit AI recepciu, ktora:
+- odpovie hostom 24/7 (SK/EN),
+- vybavi check-in/check-out, parkovanie, dostupnost a bezne otazky,
+- pri specialnom pripade prepoji hosta na cloveka.
+
+Manualny kontakt.
+
+Ak chces, ukazem ti 15-min demo na realnych scenaroch pre Tempus Club Garni Hotel.
+Vyhovuje skor utorok 10:00 alebo streda 14:30?
+
+- Adam"
+24,Apartments City Centre s.r.o.,Bratislava,info@apartmentscitycentre.sk,automation_candidate,85,91,AI recepcia pre 24/7 odpovede a handoff,Apartments City Centre s.r.o. Bratislava hotel booking check-in phone site:apartmentscitycentre.sk,5,1,1,1,1,1,1,1,1,0,1,1,Apartments City Centre s.r.o.: AI recepcia pre 24/7 hosti,"Ahoj,
+
+Všimol som si Apartments City Centre s.r.o. v Bratislava – máte hodnotenie 4.3 (123 recenzií), pekný signál, že máte dobrý servis.
+
+Mate dobru online pritomnost, takze AI recepcia vie rychlo pridat dalsiu vrstvu dostupnosti.
+Pomahame ubytovaniam nasadit AI recepciu, ktora:
+- odpovie hostom 24/7 (SK/EN),
+- vybavi check-in/check-out, parkovanie, dostupnost a bezne otazky,
+- pri specialnom pripade prepoji hosta na cloveka.
+
+AI recepcia pre 24/7 odpovede a handoff.
+
+Ak chces, ukazem ti 15-min demo na realnych scenaroch pre Apartments City Centre s.r.o..
+Vyhovuje skor utorok 10:00 alebo streda 14:30?
+
+- Adam"
+25,Penzión DONET,Bratislava,martinatalapkova@gmail.com,automation_candidate,91,91,AI recepcia pre 24/7 odpovede a handoff,Penzión DONET Bratislava hotel booking check-in phone site:www.penziondonet.sk,0,0,1,0,1,1,1,1,1,0,1,1,Penzión DONET: AI recepcia pre 24/7 hosti,"Ahoj,
+
+Všimol som si Penzión DONET v Bratislava – máte hodnotenie 4.8 (128 recenzií), pekný signál, že máte dobrý servis.
+
+Mate dobru online pritomnost, takze AI recepcia vie rychlo pridat dalsiu vrstvu dostupnosti.
+Pomahame ubytovaniam nasadit AI recepciu, ktora:
+- odpovie hostom 24/7 (SK/EN),
+- vybavi check-in/check-out, parkovanie, dostupnost a bezne otazky,
+- pri specialnom pripade prepoji hosta na cloveka.
+
+AI recepcia pre 24/7 odpovede a handoff.
+
+Ak chces, ukazem ti 15-min demo na realnych scenaroch pre Penzión DONET.
+Vyhovuje skor utorok 10:00 alebo streda 14:30?
+
+- Adam"
+26,Raj Zdravia,Nové Mesto,raj@rajzdravia.sk,automation_candidate,85,91,AI recepcia pre 24/7 odpovede a handoff,Raj Zdravia Nové Mesto hotel booking check-in phone site:www.rajzdravia.sk,0,0,1,0,1,1,1,1,1,0,1,1,Raj Zdravia: AI recepcia pre 24/7 hosti,"Ahoj,
+
+Všimol som si Raj Zdravia v Nové Mesto – máte hodnotenie 4.2 (136 recenzií), pekný signál, že máte dobrý servis.
+
+Mate dobru online pritomnost, takze AI recepcia vie rychlo pridat dalsiu vrstvu dostupnosti.
+Pomahame ubytovaniam nasadit AI recepciu, ktora:
+- odpovie hostom 24/7 (SK/EN),
+- vybavi check-in/check-out, parkovanie, dostupnost a bezne otazky,
+- pri specialnom pripade prepoji hosta na cloveka.
+
+AI recepcia pre 24/7 odpovede a handoff.
+
+Ak chces, ukazem ti 15-min demo na realnych scenaroch pre Raj Zdravia.
+Vyhovuje skor utorok 10:00 alebo streda 14:30?
+
+- Adam"
+27,Ubytovanie v súkromí Privat Rooms Vilo,Bratislava,support@smartweb.sk,automation_candidate,79,91,AI recepcia pre 24/7 odpovede a handoff,Ubytovanie v súkromí Privat Rooms Vilo Bratislava hotel booking check-in phone site:www.penzionvilo.sk,1,1,1,1,1,1,1,1,1,0,1,1,Ubytovanie v súkromí Privat Rooms Vilo: AI recepcia pre 24/7 hosti,"Ahoj,
+
+Všimol som si Ubytovanie v súkromí Privat Rooms Vilo v Bratislava – máte hodnotenie 3.9 (138 recenzií), pekný signál, že máte dobrý servis.
+
+Mate dobru online pritomnost, takze AI recepcia vie rychlo pridat dalsiu vrstvu dostupnosti.
+Pomahame ubytovaniam nasadit AI recepciu, ktora:
+- odpovie hostom 24/7 (SK/EN),
+- vybavi check-in/check-out, parkovanie, dostupnost a bezne otazky,
+- pri specialnom pripade prepoji hosta na cloveka.
+
+AI recepcia pre 24/7 odpovede a handoff.
+
+Ak chces, ukazem ti 15-min demo na realnych scenaroch pre Ubytovanie v súkromí Privat Rooms Vilo.
+Vyhovuje skor utorok 10:00 alebo streda 14:30?
+
+- Adam"
+28,More Than Accommodation,Petržalka,recepcia@morethan.sk,automation_candidate,85,91,AI recepcia pre 24/7 odpovede a handoff,More Than Accommodation Petržalka hotel booking check-in phone site:www.morethan.sk,0,0,1,1,1,1,1,1,1,0,1,1,More Than Accommodation: AI recepcia pre 24/7 hosti,"Ahoj,
+
+Všimol som si More Than Accommodation v Petržalka – máte hodnotenie 4.7 (146 recenzií), pekný signál, že máte dobrý servis.
+
+Mate dobru online pritomnost, takze AI recepcia vie rychlo pridat dalsiu vrstvu dostupnosti.
+Pomahame ubytovaniam nasadit AI recepciu, ktora:
+- odpovie hostom 24/7 (SK/EN),
+- vybavi check-in/check-out, parkovanie, dostupnost a bezne otazky,
+- pri specialnom pripade prepoji hosta na cloveka.
+
+AI recepcia pre 24/7 odpovede a handoff.
+
+Ak chces, ukazem ti 15-min demo na realnych scenaroch pre More Than Accommodation.
+Vyhovuje skor utorok 10:00 alebo streda 14:30?
+
+- Adam"
+29,Petit Dependance,Bratislava,info@senger.sk,automation_candidate,79,91,AI recepcia pre 24/7 odpovede a handoff,Petit Dependance Bratislava hotel booking check-in phone site:myhotel.sk,0,0,1,1,1,1,1,1,1,0,1,1,Petit Dependance: AI recepcia pre 24/7 hosti,"Ahoj,
+
+Všimol som si Petit Dependance v Bratislava – máte hodnotenie 3.8 (152 recenzií), pekný signál, že máte dobrý servis.
+
+Mate dobru online pritomnost, takze AI recepcia vie rychlo pridat dalsiu vrstvu dostupnosti.
+Pomahame ubytovaniam nasadit AI recepciu, ktora:
+- odpovie hostom 24/7 (SK/EN),
+- vybavi check-in/check-out, parkovanie, dostupnost a bezne otazky,
+- pri specialnom pripade prepoji hosta na cloveka.
+
+AI recepcia pre 24/7 odpovede a handoff.
+
+Ak chces, ukazem ti 15-min demo na realnych scenaroch pre Petit Dependance.
+Vyhovuje skor utorok 10:00 alebo streda 14:30?
+
+- Adam"
+30,Hostel ZERO,Bratislava,cookie@2.4.0,invalid_contact,15,91,Manualny kontakt,Hostel ZERO Bratislava hotel booking check-in phone site:www.megaubytovanie.sk,0,0,0,0,1,1,1,1,1,0,1,1,Hostel ZERO: odlahcenie recepcie cez AI,"Ahoj,
+
+Všimol som si Hostel ZERO v Bratislava – máte hodnotenie 4.4 (173 recenzií), pekný signál, že máte dobrý servis.
+
+Nemam overeny kontakt, preto posielam len navrh textu.
+Pomahame ubytovaniam nasadit AI recepciu, ktora:
+- odpovie hostom 24/7 (SK/EN),
+- vybavi check-in/check-out, parkovanie, dostupnost a bezne otazky,
+- pri specialnom pripade prepoji hosta na cloveka.
+
+Manualny kontakt.
+
+Ak chces, ukazem ti 15-min demo na realnych scenaroch pre Hostel ZERO.
+Vyhovuje skor utorok 10:00 alebo streda 14:30?
+
+- Adam"
+31,Schöndorf Hostel,Bratislava,info@schoendorfhostel.comphone,invalid_contact,15,91,Manualny kontakt,Schöndorf Hostel Bratislava hotel booking check-in phone site:www.schoendorfhostel.com,0,0,0,1,1,1,1,1,1,0,1,1,Schöndorf Hostel: odlahcenie recepcie cez AI,"Ahoj,
+
+Všimol som si Schöndorf Hostel v Bratislava – máte hodnotenie 4.4 (192 recenzií), pekný signál, že máte dobrý servis.
+
+Nemam overeny kontakt, preto posielam len navrh textu.
+Pomahame ubytovaniam nasadit AI recepciu, ktora:
+- odpovie hostom 24/7 (SK/EN),
+- vybavi check-in/check-out, parkovanie, dostupnost a bezne otazky,
+- pri specialnom pripade prepoji hosta na cloveka.
+
+Manualny kontakt.
+
+Ak chces, ukazem ti 15-min demo na realnych scenaroch pre Schöndorf Hostel.
+Vyhovuje skor utorok 10:00 alebo streda 14:30?
+
+- Adam"
+32,Wilson Palace Bratislava,Bratislava,,invalid_contact,15,91,Manualny kontakt,Wilson Palace Bratislava Bratislava hotel booking check-in phone site:www.loftpremiumhotel.sk,0,0,0,0,1,1,1,1,1,0,1,1,Wilson Palace Bratislava: odlahcenie recepcie cez AI,"Ahoj,
+
+Všimol som si Wilson Palace Bratislava v Bratislava – máte hodnotenie 4.8 (192 recenzií), pekný signál, že máte dobrý servis.
+
+Nemam overeny kontakt, preto posielam len navrh textu.
+Pomahame ubytovaniam nasadit AI recepciu, ktora:
+- odpovie hostom 24/7 (SK/EN),
+- vybavi check-in/check-out, parkovanie, dostupnost a bezne otazky,
+- pri specialnom pripade prepoji hosta na cloveka.
+
+Manualny kontakt.
+
+Ak chces, ukazem ti 15-min demo na realnych scenaroch pre Wilson Palace Bratislava.
+Vyhovuje skor utorok 10:00 alebo streda 14:30?
+
+- Adam"
+33,Hostel Bratislava,Bratislava,kontakt@example.com,invalid_contact,15,99,Manualny kontakt,Hostel Bratislava Bratislava hotel booking check-in phone site:www.hostelslovakia.sk,0,0,0,1,1,1,1,1,1,1,1,1,Hostel Bratislava: odlahcenie recepcie cez AI,"Ahoj,
+
+Všimol som si Hostel Bratislava v Bratislava – máte hodnotenie 4.5 (195 recenzií), pekný signál, že máte dobrý servis.
+
+Nemam overeny kontakt, preto posielam len navrh textu.
+Pomahame ubytovaniam nasadit AI recepciu, ktora:
+- odpovie hostom 24/7 (SK/EN),
+- vybavi check-in/check-out, parkovanie, dostupnost a bezne otazky,
+- pri specialnom pripade prepoji hosta na cloveka.
+
+Manualny kontakt.
+
+Ak chces, ukazem ti 15-min demo na realnych scenaroch pre Hostel Bratislava.
+Vyhovuje skor utorok 10:00 alebo streda 14:30?
+
+- Adam"
+34,BEIGLI Hotel & Garden,Bratislava,office@hotelbeigli.sk,automation_candidate,85,91,AI recepcia pre 24/7 odpovede a handoff,BEIGLI Hotel & Garden Bratislava hotel booking check-in phone site:www.hotelbeigli.sk,0,0,1,1,1,1,1,1,1,0,1,1,BEIGLI Hotel & Garden: AI recepcia pre 24/7 hosti,"Ahoj,
+
+Všimol som si BEIGLI Hotel & Garden v Bratislava – máte hodnotenie 4.7 (202 recenzií), pekný signál, že máte dobrý servis.
+
+Mate dobru online pritomnost, takze AI recepcia vie rychlo pridat dalsiu vrstvu dostupnosti.
+Pomahame ubytovaniam nasadit AI recepciu, ktora:
+- odpovie hostom 24/7 (SK/EN),
+- vybavi check-in/check-out, parkovanie, dostupnost a bezne otazky,
+- pri specialnom pripade prepoji hosta na cloveka.
+
+AI recepcia pre 24/7 odpovede a handoff.
+
+Ak chces, ukazem ti 15-min demo na realnych scenaroch pre BEIGLI Hotel & Garden.
+Vyhovuje skor utorok 10:00 alebo streda 14:30?
+
+- Adam"
+35,Charming & Cozy - Ambiente Apartments - Check-in Point,Bratislava,sales@ambiente-apartments.com,automation_candidate,85,91,AI recepcia pre 24/7 odpovede a handoff,Charming & Cozy - Ambiente Apartments - Check-in Point Bratislava hotel booking check-in phone site:www.ambiente-apartments.com,0,0,1,1,1,1,1,1,1,0,1,1,Charming & Cozy - Ambiente Apartments - Check-in Point: AI recepcia pre 24/7 hosti,"Ahoj,
+
+Všimol som si Charming & Cozy - Ambiente Apartments - Check-in Point v Bratislava – máte hodnotenie 4.5 (215 recenzií), pekný signál, že máte dobrý servis.
+
+Mate dobru online pritomnost, takze AI recepcia vie rychlo pridat dalsiu vrstvu dostupnosti.
+Pomahame ubytovaniam nasadit AI recepciu, ktora:
+- odpovie hostom 24/7 (SK/EN),
+- vybavi check-in/check-out, parkovanie, dostupnost a bezne otazky,
+- pri specialnom pripade prepoji hosta na cloveka.
+
+AI recepcia pre 24/7 odpovede a handoff.
+
+Ak chces, ukazem ti 15-min demo na realnych scenaroch pre Charming & Cozy - Ambiente Apartments - Check-in Point.
+Vyhovuje skor utorok 10:00 alebo streda 14:30?
+
+- Adam"
+36,Garni Hotel DOCK,Bratislava,recepcia@hoteldock.sk,automation_candidate,85,91,AI recepcia pre 24/7 odpovede a handoff,Garni Hotel DOCK Bratislava hotel booking check-in phone site:www.hoteldock.sk,0,1,1,1,1,1,1,1,1,0,1,1,Garni Hotel DOCK: AI recepcia pre 24/7 hosti,"Ahoj,
+
+Všimol som si Garni Hotel DOCK v Bratislava – máte hodnotenie 4.6 (224 recenzií), pekný signál, že máte dobrý servis.
+
+Mate dobru online pritomnost, takze AI recepcia vie rychlo pridat dalsiu vrstvu dostupnosti.
+Pomahame ubytovaniam nasadit AI recepciu, ktora:
+- odpovie hostom 24/7 (SK/EN),
+- vybavi check-in/check-out, parkovanie, dostupnost a bezne otazky,
+- pri specialnom pripade prepoji hosta na cloveka.
+
+AI recepcia pre 24/7 odpovede a handoff.
+
+Ak chces, ukazem ti 15-min demo na realnych scenaroch pre Garni Hotel DOCK.
+Vyhovuje skor utorok 10:00 alebo streda 14:30?
+
+- Adam"
+37,7Days B&B,Bratislava,info@senger.sk,automation_candidate,85,91,AI recepcia pre 24/7 odpovede a handoff,7Days B&B Bratislava hotel booking check-in phone site:www.myhotel.sk,0,0,1,1,1,1,1,1,1,0,1,1,7Days B&B: AI recepcia pre 24/7 hosti,"Ahoj,
+
+Všimol som si 7Days B&B v Bratislava – máte hodnotenie 4.4 (225 recenzií), pekný signál, že máte dobrý servis.
+
+Mate dobru online pritomnost, takze AI recepcia vie rychlo pridat dalsiu vrstvu dostupnosti.
+Pomahame ubytovaniam nasadit AI recepciu, ktora:
+- odpovie hostom 24/7 (SK/EN),
+- vybavi check-in/check-out, parkovanie, dostupnost a bezne otazky,
+- pri specialnom pripade prepoji hosta na cloveka.
+
+AI recepcia pre 24/7 odpovede a handoff.
+
+Ak chces, ukazem ti 15-min demo na realnych scenaroch pre 7Days B&B.
+Vyhovuje skor utorok 10:00 alebo streda 14:30?
+
+- Adam"
+38,BAROK Hotel a Apartmany,Bratislava,bootstrap@5.0.0-beta1,invalid_contact,15,99,Manualny kontakt,BAROK Hotel a Apartmany Bratislava hotel booking check-in phone site:www.barok.sk,5,0,0,0,1,1,1,1,1,1,1,1,BAROK Hotel a Apartmany: odlahcenie recepcie cez AI,"Ahoj,
+
+Všimol som si BAROK Hotel a Apartmany v Bratislava – máte hodnotenie 4.6 (228 recenzií), pekný signál, že máte dobrý servis.
+
+Nemam overeny kontakt, preto posielam len navrh textu.
+Pomahame ubytovaniam nasadit AI recepciu, ktora:
+- odpovie hostom 24/7 (SK/EN),
+- vybavi check-in/check-out, parkovanie, dostupnost a bezne otazky,
+- pri specialnom pripade prepoji hosta na cloveka.
+
+Manualny kontakt.
+
+Ak chces, ukazem ti 15-min demo na realnych scenaroch pre BAROK Hotel a Apartmany.
+Vyhovuje skor utorok 10:00 alebo streda 14:30?
+
+- Adam"
+39,Botel Dunajsky Pivovar,Bratislava,dunajskypivovar@dunajskypivovar.sk,automation_candidate,85,91,AI recepcia pre 24/7 odpovede a handoff,Botel Dunajsky Pivovar Bratislava hotel booking check-in phone site:www.dunajskypivovar.sk,0,0,1,0,1,1,1,1,1,0,1,1,Botel Dunajsky Pivovar: AI recepcia pre 24/7 hosti,"Ahoj,
+
+Všimol som si Botel Dunajsky Pivovar v Bratislava – máte hodnotenie 3.7 (238 recenzií), pekný signál, že máte dobrý servis.
+
+Mate dobru online pritomnost, takze AI recepcia vie rychlo pridat dalsiu vrstvu dostupnosti.
+Pomahame ubytovaniam nasadit AI recepciu, ktora:
+- odpovie hostom 24/7 (SK/EN),
+- vybavi check-in/check-out, parkovanie, dostupnost a bezne otazky,
+- pri specialnom pripade prepoji hosta na cloveka.
+
+AI recepcia pre 24/7 odpovede a handoff.
+
+Ak chces, ukazem ti 15-min demo na realnych scenaroch pre Botel Dunajsky Pivovar.
+Vyhovuje skor utorok 10:00 alebo streda 14:30?
+
+- Adam"
+40,Uninova Hostel,Bratislava,uninovahostel@uninovahostel.sk,automation_candidate,92,99,AI recepcia pre 24/7 odpovede a handoff,Uninova Hostel Bratislava hotel booking check-in phone site:www.uninovahostel.sk,5,1,1,0,1,1,1,1,1,1,1,1,Uninova Hostel: AI recepcia pre 24/7 hosti,"Ahoj,
+
+Všimol som si Uninova Hostel v Bratislava – máte hodnotenie 3.6 (249 recenzií), pekný signál, že máte dobrý servis.
+
+Mate dobru online pritomnost, takze AI recepcia vie rychlo pridat dalsiu vrstvu dostupnosti.
+Pomahame ubytovaniam nasadit AI recepciu, ktora:
+- odpovie hostom 24/7 (SK/EN),
+- vybavi check-in/check-out, parkovanie, dostupnost a bezne otazky,
+- pri specialnom pripade prepoji hosta na cloveka.
+
+AI recepcia pre 24/7 odpovede a handoff.
+
+Ak chces, ukazem ti 15-min demo na realnych scenaroch pre Uninova Hostel.
+Vyhovuje skor utorok 10:00 alebo streda 14:30?
+
+- Adam"
+41,Reštaurácia Albrecht,Staré Mesto,restaurant@hotelalbrecht.sk,automation_candidate,91,91,AI recepcia pre 24/7 odpovede a handoff,Reštaurácia Albrecht Staré Mesto hotel booking check-in phone site:hotelalbrecht.sk,0,0,1,0,1,1,1,1,1,0,1,1,Reštaurácia Albrecht: AI recepcia pre 24/7 hosti,"Ahoj,
+
+Všimol som si Reštaurácia Albrecht v Staré Mesto – máte hodnotenie 4.7 (265 recenzií), pekný signál, že máte dobrý servis.
+
+Mate dobru online pritomnost, takze AI recepcia vie rychlo pridat dalsiu vrstvu dostupnosti.
+Pomahame ubytovaniam nasadit AI recepciu, ktora:
+- odpovie hostom 24/7 (SK/EN),
+- vybavi check-in/check-out, parkovanie, dostupnost a bezne otazky,
+- pri specialnom pripade prepoji hosta na cloveka.
+
+AI recepcia pre 24/7 odpovede a handoff.
+
+Ak chces, ukazem ti 15-min demo na realnych scenaroch pre Reštaurácia Albrecht.
+Vyhovuje skor utorok 10:00 alebo streda 14:30?
+
+- Adam"
+42,Ubytovňa Nobelova,Bratislava,,invalid_contact,10,83,Manualny kontakt,Ubytovňa Nobelova Bratislava hotel booking check-in phone,0,0,0,0,1,0,1,1,1,0,1,1,Ubytovňa Nobelova: odlahcenie recepcie cez AI,"Ahoj,
+
+Všimol som si Ubytovňa Nobelova v Bratislava – máte hodnotenie 3.6 (275 recenzií), pekný signál, že máte dobrý servis.
+
+Nemam overeny kontakt, preto posielam len navrh textu.
+Pomahame ubytovaniam nasadit AI recepciu, ktora:
+- odpovie hostom 24/7 (SK/EN),
+- vybavi check-in/check-out, parkovanie, dostupnost a bezne otazky,
+- pri specialnom pripade prepoji hosta na cloveka.
+
+Manualny kontakt.
+
+Ak chces, ukazem ti 15-min demo na realnych scenaroch pre Ubytovňa Nobelova.
+Vyhovuje skor utorok 10:00 alebo streda 14:30?
+
+- Adam"
+43,Hotel Arcus,Bratislava,info@hotelarcus.sk,automation_candidate,85,91,AI recepcia pre 24/7 odpovede a handoff,Hotel Arcus Bratislava hotel booking check-in phone site:www.hotelarcus.sk,0,0,1,1,1,1,1,1,1,0,1,1,Hotel Arcus: AI recepcia pre 24/7 hosti,"Ahoj,
+
+Všimol som si Hotel Arcus v Bratislava – máte hodnotenie 4.4 (292 recenzií), pekný signál, že máte dobrý servis.
+
+Mate dobru online pritomnost, takze AI recepcia vie rychlo pridat dalsiu vrstvu dostupnosti.
+Pomahame ubytovaniam nasadit AI recepciu, ktora:
+- odpovie hostom 24/7 (SK/EN),
+- vybavi check-in/check-out, parkovanie, dostupnost a bezne otazky,
+- pri specialnom pripade prepoji hosta na cloveka.
+
+AI recepcia pre 24/7 odpovede a handoff.
+
+Ak chces, ukazem ti 15-min demo na realnych scenaroch pre Hotel Arcus.
+Vyhovuje skor utorok 10:00 alebo streda 14:30?
+
+- Adam"
+44,Centrum účelových zariadení - Hotel SUZA,Bratislava,cuz@cuz.sk,automation_candidate,85,91,AI recepcia pre 24/7 odpovede a handoff,Centrum účelových zariadení - Hotel SUZA Bratislava hotel booking check-in phone site:cuz.sk,0,0,1,0,1,1,1,1,1,0,1,1,Centrum účelových zariadení - Hotel SUZA: AI recepcia pre 24/7 hosti,"Ahoj,
+
+Všimol som si Centrum účelových zariadení - Hotel SUZA v Bratislava – máte hodnotenie 3.4 (306 recenzií), pekný signál, že máte dobrý servis.
+
+Mate dobru online pritomnost, takze AI recepcia vie rychlo pridat dalsiu vrstvu dostupnosti.
+Pomahame ubytovaniam nasadit AI recepciu, ktora:
+- odpovie hostom 24/7 (SK/EN),
+- vybavi check-in/check-out, parkovanie, dostupnost a bezne otazky,
+- pri specialnom pripade prepoji hosta na cloveka.
+
+AI recepcia pre 24/7 odpovede a handoff.
+
+Ak chces, ukazem ti 15-min demo na realnych scenaroch pre Centrum účelových zariadení - Hotel SUZA.
+Vyhovuje skor utorok 10:00 alebo streda 14:30?
+
+- Adam"
+45,Hotel Esprit,Petržalka,hotelesprit@hotelesprit.sk,automation_candidate,85,91,AI recepcia pre 24/7 odpovede a handoff,Hotel Esprit Petržalka hotel booking check-in phone site:hotelesprit.sk,0,0,1,0,1,1,1,1,1,0,1,1,Hotel Esprit: AI recepcia pre 24/7 hosti,"Ahoj,
+
+Všimol som si Hotel Esprit v Petržalka – máte hodnotenie 4.2 (315 recenzií), pekný signál, že máte dobrý servis.
+
+Mate dobru online pritomnost, takze AI recepcia vie rychlo pridat dalsiu vrstvu dostupnosti.
+Pomahame ubytovaniam nasadit AI recepciu, ktora:
+- odpovie hostom 24/7 (SK/EN),
+- vybavi check-in/check-out, parkovanie, dostupnost a bezne otazky,
+- pri specialnom pripade prepoji hosta na cloveka.
+
+AI recepcia pre 24/7 odpovede a handoff.
+
+Ak chces, ukazem ti 15-min demo na realnych scenaroch pre Hotel Esprit.
+Vyhovuje skor utorok 10:00 alebo streda 14:30?
+
+- Adam"
+46,Hyde Park Hostel,Bratislava,talentarium@gmail.com,automation_candidate,91,91,AI recepcia pre 24/7 odpovede a handoff,Hyde Park Hostel Bratislava hotel booking check-in phone site:www.hyde-park.sk,0,0,1,0,1,1,1,1,1,0,1,1,Hyde Park Hostel: AI recepcia pre 24/7 hosti,"Ahoj,
+
+Všimol som si Hyde Park Hostel v Bratislava – máte hodnotenie 4.5 (339 recenzií), pekný signál, že máte dobrý servis.
+
+Mate dobru online pritomnost, takze AI recepcia vie rychlo pridat dalsiu vrstvu dostupnosti.
+Pomahame ubytovaniam nasadit AI recepciu, ktora:
+- odpovie hostom 24/7 (SK/EN),
+- vybavi check-in/check-out, parkovanie, dostupnost a bezne otazky,
+- pri specialnom pripade prepoji hosta na cloveka.
+
+AI recepcia pre 24/7 odpovede a handoff.
+
+Ak chces, ukazem ti 15-min demo na realnych scenaroch pre Hyde Park Hostel.
+Vyhovuje skor utorok 10:00 alebo streda 14:30?
+
+- Adam"
+47,Villa Ivica,Marianka,villa@ivica.sk,automation_candidate,85,91,AI recepcia pre 24/7 odpovede a handoff,Villa Ivica Marianka hotel booking check-in phone site:www.penzionivica.sk,0,0,1,0,1,1,1,1,1,0,1,1,Villa Ivica: AI recepcia pre 24/7 hosti,"Ahoj,
+
+Všimol som si Villa Ivica v Marianka – máte hodnotenie 4.2 (342 recenzií), pekný signál, že máte dobrý servis.
+
+Mate dobru online pritomnost, takze AI recepcia vie rychlo pridat dalsiu vrstvu dostupnosti.
+Pomahame ubytovaniam nasadit AI recepciu, ktora:
+- odpovie hostom 24/7 (SK/EN),
+- vybavi check-in/check-out, parkovanie, dostupnost a bezne otazky,
+- pri specialnom pripade prepoji hosta na cloveka.
+
+AI recepcia pre 24/7 odpovede a handoff.
+
+Ak chces, ukazem ti 15-min demo na realnych scenaroch pre Villa Ivica.
+Vyhovuje skor utorok 10:00 alebo streda 14:30?
+
+- Adam"
+48,BlueBell Hotel,Bratislava,info@senger.sk,automation_candidate,85,91,AI recepcia pre 24/7 odpovede a handoff,BlueBell Hotel Bratislava hotel booking check-in phone site:www.myhotel.sk,0,1,1,1,1,1,1,1,1,0,1,1,BlueBell Hotel: AI recepcia pre 24/7 hosti,"Ahoj,
+
+Všimol som si BlueBell Hotel v Bratislava – máte hodnotenie 4.5 (346 recenzií), pekný signál, že máte dobrý servis.
+
+Mate dobru online pritomnost, takze AI recepcia vie rychlo pridat dalsiu vrstvu dostupnosti.
+Pomahame ubytovaniam nasadit AI recepciu, ktora:
+- odpovie hostom 24/7 (SK/EN),
+- vybavi check-in/check-out, parkovanie, dostupnost a bezne otazky,
+- pri specialnom pripade prepoji hosta na cloveka.
+
+AI recepcia pre 24/7 odpovede a handoff.
+
+Ak chces, ukazem ti 15-min demo na realnych scenaroch pre BlueBell Hotel.
+Vyhovuje skor utorok 10:00 alebo streda 14:30?
+
+- Adam"
+49,Art Hotel William,Bratislava,,invalid_contact,15,91,Manualny kontakt,Art Hotel William Bratislava hotel booking check-in phone site:www.arthotelwilliam.sk,0,0,0,0,1,1,1,1,1,0,1,1,Art Hotel William: odlahcenie recepcie cez AI,"Ahoj,
+
+Všimol som si Art Hotel William v Bratislava – máte hodnotenie 4.2 (375 recenzií), pekný signál, že máte dobrý servis.
+
+Nemam overeny kontakt, preto posielam len navrh textu.
+Pomahame ubytovaniam nasadit AI recepciu, ktora:
+- odpovie hostom 24/7 (SK/EN),
+- vybavi check-in/check-out, parkovanie, dostupnost a bezne otazky,
+- pri specialnom pripade prepoji hosta na cloveka.
+
+Manualny kontakt.
+
+Ak chces, ukazem ti 15-min demo na realnych scenaroch pre Art Hotel William.
+Vyhovuje skor utorok 10:00 alebo streda 14:30?
+
+- Adam"
+50,Hotel Albrecht,Bratislava,restaurant@hotelalbrecht.sk,automation_candidate,91,91,AI recepcia pre 24/7 odpovede a handoff,Hotel Albrecht Bratislava hotel booking check-in phone site:www.hotelalbrecht.sk,0,0,1,0,1,1,1,1,1,0,1,1,Hotel Albrecht: AI recepcia pre 24/7 hosti,"Ahoj,
+
+Všimol som si Hotel Albrecht v Bratislava – máte hodnotenie 4.5 (376 recenzií), pekný signál, že máte dobrý servis.
+
+Mate dobru online pritomnost, takze AI recepcia vie rychlo pridat dalsiu vrstvu dostupnosti.
+Pomahame ubytovaniam nasadit AI recepciu, ktora:
+- odpovie hostom 24/7 (SK/EN),
+- vybavi check-in/check-out, parkovanie, dostupnost a bezne otazky,
+- pri specialnom pripade prepoji hosta na cloveka.
+
+AI recepcia pre 24/7 odpovede a handoff.
+
+Ak chces, ukazem ti 15-min demo na realnych scenaroch pre Hotel Albrecht.
+Vyhovuje skor utorok 10:00 alebo streda 14:30?
+
+- Adam"
