@@ -1,0 +1,58 @@
+[
+  {
+    "id": "2026-02-18-ai-001",
+    "topic": "AI",
+    "title": "India AI Impact Summit 2026: štartuje veľký AI summit v New Delhi",
+    "link": "https://impact.indiaai.gov.in/",
+    "source": "impact.indiaai.gov.in + worldbank.org",
+    "published_at": "2026-02-18T06:35:00+01:00",
+    "summary_sk": "India hostí AI Impact Summit 2026 (19–20. február, New Delhi), ktorý tlačí tému AI dopadu na ekonomiku, politiku a infra. Pre founderov je to signál, že AI trh sa rýchlo profesionalizuje a témy governance + reálne use-case budú mať väčšiu váhu než hype.",
+    "status": "draft",
+    "approved": false,
+    "xvadur_comment": ""
+  },
+  {
+    "id": "2026-02-18-tech-001",
+    "topic": "tech",
+    "title": "[DRAFT] Tech monitoring item",
+    "link": "https://example.com/tech-source",
+    "source": "manual",
+    "published_at": "2026-02-18T06:35:00+01:00",
+    "summary_sk": "TODO: Doplň 3-5 viet mini-analýzy v slovenčine.",
+    "status": "draft",
+    "approved": false
+  },
+  {
+    "id": "2026-02-18-financie-001",
+    "topic": "financie",
+    "title": "[DRAFT] Financie monitoring item",
+    "link": "https://example.com/finance-source",
+    "source": "manual",
+    "published_at": "2026-02-18T06:35:00+01:00",
+    "summary_sk": "TODO: Doplň 3-5 viet mini-analýzy v slovenčine.",
+    "status": "draft",
+    "approved": false
+  },
+  {
+    "id": "2026-02-18-politika-001",
+    "topic": "politika",
+    "title": "[DRAFT] Politika monitoring item",
+    "link": "https://example.com/politics-source",
+    "source": "manual",
+    "published_at": "2026-02-18T06:35:00+01:00",
+    "summary_sk": "TODO: Doplň 3-5 viet mini-analýzy v slovenčine.",
+    "status": "draft",
+    "approved": false
+  },
+  {
+    "id": "2026-02-18-slovensko-001",
+    "topic": "Slovensko",
+    "title": "[DRAFT] Slovensko monitoring item",
+    "link": "https://example.com/slovakia-source",
+    "source": "manual",
+    "published_at": "2026-02-18T06:35:00+01:00",
+    "summary_sk": "TODO: Doplň 3-5 viet mini-analýzy v slovenčine.",
+    "status": "draft",
+    "approved": false
+  }
+]

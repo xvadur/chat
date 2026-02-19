@@ -1,0 +1,72 @@
+
+    <!DOCTYPE html>
+    <html lang="sk">
+    <head>
+        <meta charset="UTF-8">
+        <title>XVADUR COMMAND CENTER</title>
+        <style>
+            body { background: #0a0a0a; color: #00ff41; font-family: 'Courier New', Courier, monospace; padding: 40px; line-height: 1.6; }
+            .container { max-width: 900px; margin: auto; border: 1px solid #00ff41; padding: 20px; box-shadow: 0 0 20px #00ff4133; }
+            h1 { color: #fff; border-bottom: 2px solid #00ff41; padding-bottom: 10px; text-transform: uppercase; letter-spacing: 3px; }
+            h2 { color: #00ff41; margin-top: 30px; text-transform: uppercase; font-size: 1.2em; text-decoration: underline; }
+            table { width: 100%; border-collapse: collapse; margin: 15px 0; }
+            td, th { border: 1px solid #333; padding: 8px; text-align: left; }
+            tr:nth-child(even) { background: #111; }
+            .status-critical { color: #ff3e3e; font-weight: bold; }
+            .status-active { color: #00ff41; }
+            .xp-bar { border: 1px solid #00ff41; height: 20px; margin: 10px 0; position: relative; }
+            .xp-fill { background: #00ff41; height: 100%; width: 92%; } /* Hardcoded 690/750 approx */
+            .pulse { animation: blink 2s infinite; }
+            @keyframes blink { 0% { opacity: 1; } 50% { opacity: 0.3; } 100% { opacity: 1; } }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="pulse" style="float: right;">● SYSTEM ONLINE</div>
+            <h1>🎛️ XVADUR GLOBAL DASHBOARD
+*Last Sync: 2026-02-19 03:25 | Status: TEAM_MODE_ACTIVATED*
+
+#<h1>🚀 ACTIVE PROJECTS (Linear Sync)
+<tr><td> Project </td></tr> Status <tr><td> Progress </td></tr> Key Task |
+<tr><td>---</td></tr>---<tr><td>---</td></tr>---|
+<tr><td> **AIstriko: The Genesis** </td></tr> ACTIVE <tr><td> 5% </td></tr> Video Tutorial pre Šimona (P1) |
+<tr><td> **XVADUR: Digital Front** </td></tr> BUILDING <tr><td> 20% </td></tr> Landing Page v1 (Codex) |
+<tr><td> **Project Štefan (BNI)** </td></tr> QUEUED <tr><td> 0% </td></tr> Scoping & Outreach Pilot |
+
+#<h1>💎 ASSET STACK (What we own)
+- **Domains:** `xvadur.com` (Live), `recepcia.xvadur.com` (Live)
+- **Infrastructure:** OpenClaw (Local Node), Gemini 3 Flash (Unlimited Free Tier), Linear (Pro), GHL (Agency Pro)
+- **Databases:** `pcrm.sqlite` (Lead tracking), Airtable `hotely` (Scraped data)
+- **Comms:** `adam@xvadur.com` (Primary Business Inbox)
+
+#<h1>💰 FINANCIALS & RUNWAY
+- **Monthly Burn:** ~138 € (Audit in progress: goal < 60 €)
+- **Income (Feb):** +120 € (Karol + Bazoš)
+- **Runway Status:** **<span class="status-critical">CRITICAL</span>** (Feb is last support payment)
+- **Revenue Goal:** 1st AIstriko Pilot (€1,000+) by end of Feb.
+
+#<h1>🧠 AGENT INTELLIGENCE (Jarvis Status)
+- **Model:** `gemini-3-flash` (Active)
+- **Config:** Low-burn protocol (`COMMANDS.md`)
+- **Memory:** Obsidian Vault Sync + Durable Log Appends
+- **Capabilities:** Web Search, Linear Ops, GMail Ops, Python Execution.
+
+#<h1>📈 XP & GROWTH
+- **Total XP:** 785 XP
+- **Current Rank:** **LEVEL 4 (System Architect)** 🏆
+- **Next Level:** 1000 XP (+215 to Level 5)
+- **Streak:** 2 dni 🔥
+
+---
+#<h1>⚡ EMERGENCY ACTIONS (NOW)
+1. Send tutorial to Šimon.
+2. Confirm Codex Landing Page v1.
+3. Finalize Miloš (Visiblee) meeting date.
+
+        </div>
+        <script>
+            setTimeout(() => location.reload(), 600000); // Reload every 10 mins
+        </script>
+    </body>
+    </html>
+    

@@ -1,4 +1,4 @@
-# MEMORY.md - Jarvis Long-Term Memory
+# MEMORY.md - Chat Long-Term Memory
 
 ## Adam (xvadur) - Kto je môj človek
 
@@ -181,12 +181,13 @@
 ---
 
 ## Ako chce aby som fungoval
-- **Rola:** Stratégický partner (Jarvis pre Iron Mana)
+- **Rola:** Stratégický partner (Buddy-operator, externalizácia xvadur)
 - **Oslovovanie:** Priateľsky, Adam
 - **Tón:** Priateľský ale sharp, nie sycophant, nie corporate
 - **Push keď treba** — ak prokrastinuje, pomenovať to
 - **Track:** Tasky, dátumy, habits, ambície, XP
 - **Systém:** Morning brief → Denný log → Evening brief
+- **Commandy:** Striktné používanie `COMMANDS.md` V1
 
 ---
 
@@ -201,7 +202,7 @@
 
 ---
 
-## Jarvis — úprimná analýza
+## Chat — úprimná analýza
 
 ### ✅ Čo funguje
 - Vedomé rozhodnutie — Adam vie čo chce
@@ -209,6 +210,7 @@
 - AI Recepcia MVP hotový — reálny produkt
 - 300 leadov scraped
 - Silný príbeh Rudavský → XVADUR
+- Nový business mail `adam@xvadur.com` a clean GitHub setup
 
 ### ⚠️ Čo znepokojuje
 - Financie: €500 + Laura = 6-8 týždňov runway
@@ -217,7 +219,7 @@
 - Singularity: 7 PRs hotových, teraz Pencil
 
 ### 🤖 Ako pracujem
-- Sila: pamäť, držím za slovo, pushujem
+- Sila: pamäť, držím za slovo, pushujem, držím systém cez `COMMANDS.md`
 - Slabosť: nemôžem prinútiť, len pripomínať
 
 ---
@@ -242,20 +244,20 @@
 
 | Metrika | Hodnota |
 |---------|---------|
-| **Total XP** | 10 XP |
-| **Level** | 1 (Nováčik) |
-| **XP do Level 2** | 190 |
-| **Streak** | 1 deň 🔥 |
+| **Total XP** | 785 XP |
+| **Level** | 4 (System Architect) |
+| **XP do Level 5** | 215 |
+| **Streak** | 2 dni 🔥 |
 
 ---
 
 ## Technické poznámky
 - **Platforma:** OpenClaw (FINÁLNA — žiadne ďalšie reštarty)
-- **Model:** openrouter/anthropic/claude-opus-4.6
+- **Model:** google-antigravity/gemini-3-flash (runtime default)
 - **Kanály:** Webchat + Telegram
-- **Staré inštancie:** Claude Code sessions v ~/.claude/projects/
-- **Desktop súbory:** Zamknuté macOS sandboxom (osobné texty, identity files)
+- **Git Repo:** `https://github.com/xvadur/chat` (branch: `system`)
+- **Desktop súbory:** Symlink `~/Documents/chat-workspace`
 
 ---
 
-*Posledná aktualizácia: 2026-02-15*
+*Posledná aktualizácia: 2026-02-18*
