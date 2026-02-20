@@ -1,0 +1,1 @@
+const isRecord=s=>!!s&&"object"==typeof s&&!Array.isArray(s),isSuccessfulToolResult=s=>isRecord(s)&&!0===s.ok;export const dispatchToolResultToMessageBlocks=(s,o,e)=>{if(!isSuccessfulToolResult(o))return[];const c=[];for(const t of e)t.canHandle(s,o)&&c.push(...t.toMessageBlocks(s,o));return c};

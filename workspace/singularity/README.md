@@ -26,6 +26,7 @@ python3 singularity/scripts/runtime.py "/linear list"
 python3 singularity/scripts/runtime.py "/calendar today"
 python3 singularity/scripts/runtime.py "/git status --short --branch"
 python3 singularity/scripts/runtime.py "/obsidian properties tmp_singularity_test"
+python3 singularity/scripts/runtime.py "/save"
 python3 singularity/scripts/obsidian_properties.py
 python3 singularity/scripts/system_clean.py
 ```

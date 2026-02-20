@@ -12,26 +12,17 @@ INBOX = Path('/Users/_xvadur/Desktop/xvadur_obsidian_januar/+')
 
 def classify(text: str) -> tuple[str, list[str], int]:
     t = text.lower()
-    tags = []
+    tags: list[str] = []  # intentionally minimal; user will tag manually
     doc_type = 'note'
     xp = 10
 
     if any(k in t for k in ['meeting', 'call', 'stretnutie']):
         doc_type = 'meeting'
-        tags += ['meeting']
         xp = 20
     if any(k in t for k in ['idea', 'napad', 'vizia']):
         doc_type = 'idea'
-        tags += ['idea']
         xp = max(xp, 15)
-    if any(k in t for k in ['task', 'todo', 'urobit', '/linear']):
-        tags += ['task']
-    if any(k in t for k in ['aistriko', 'šimon', 'simon', 'david']):
-        tags += ['aistriko']
-    if any(k in t for k in ['xvadur', 'brand', 'singularity']):
-        tags += ['xvadur']
 
-    tags = sorted(set(tags))
     return doc_type, tags, xp
 
 
@@ -60,12 +51,20 @@ def process_file(path: Path) -> bool:
         '---',
         f'title: "{title.replace("\"", "")}"',
         f'created: {now}',
+        f'date: {datetime.now().strftime("%Y-%m-%d")}',
         f'type: {doc_type}',
-        f'tags: [{", ".join(tags)}]' if tags else 'tags: []',
-        'project: XVADUR',
         'status: inbox',
+        'project: XVADUR',
+        'area: [ops]',
+        'priority: P2',
+        'owner: Adam',
+        'assignee: Adam',
+        f'tags: [{", ".join(tags)}]' if tags else 'tags: []',
         f'word_count: {wc}',
         f'xp: {xp}',
+        'energy: medium',
+        'source: obsidian',
+        'summary: ""',
         '---',
         '',
     ]

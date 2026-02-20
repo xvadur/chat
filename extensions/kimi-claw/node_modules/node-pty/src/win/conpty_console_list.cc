@@ -2,43 +2,42 @@
  * Copyright (c) 2019, Microsoft Corporation (MIT License).
  */
 
-#define NODE_ADDON_API_DISABLE_DEPRECATED
-#include <napi.h>
+#include <nan.h>
 #include <windows.h>
 
-static Napi::Value ApiConsoleProcessList(const Napi::CallbackInfo& info) {
-  Napi::Env env(info.Env());
+static NAN_METHOD(ApiConsoleProcessList) {
   if (info.Length() != 1 ||
-      !info[0].IsNumber()) {
-    throw Napi::Error::New(env, "Usage: getConsoleProcessList(shellPid)");
+      !info[0]->IsNumber()) {
+    Nan::ThrowError("Usage: getConsoleProcessList(shellPid)");
+    return;
   }
 
-  const DWORD pid = info[0].As<Napi::Number>().Uint32Value();
+  const SHORT pid = info[0]->Uint32Value(Nan::GetCurrentContext()).FromJust();
 
   if (!FreeConsole()) {
-    throw Napi::Error::New(env, "FreeConsole failed");
+    Nan::ThrowError("FreeConsole failed");
   }
   if (!AttachConsole(pid)) {
-    throw Napi::Error::New(env, "AttachConsole failed");
+    Nan::ThrowError("AttachConsole failed");
   }
   auto processList = std::vector<DWORD>(64);
-  auto processCount = GetConsoleProcessList(&processList[0], static_cast<DWORD>(processList.size()));
+  auto processCount = GetConsoleProcessList(&processList[0], processList.size());
   if (processList.size() < processCount) {
       processList.resize(processCount);
-      processCount = GetConsoleProcessList(&processList[0], static_cast<DWORD>(processList.size()));
+      processCount = GetConsoleProcessList(&processList[0], processList.size());
   }
   FreeConsole();
 
-  Napi::Array result = Napi::Array::New(env);
+  v8::Local<v8::Array> result = Nan::New<v8::Array>();
   for (DWORD i = 0; i < processCount; i++) {
-    result.Set(i, Napi::Number::New(env, processList[i]));
+    Nan::Set(result, i, Nan::New<v8::Number>(processList[i]));
   }
-  return result;
+  info.GetReturnValue().Set(result);
 }
 
-Napi::Object init(Napi::Env env, Napi::Object exports) {
-  exports.Set("getConsoleProcessList", Napi::Function::New(env, ApiConsoleProcessList));
-  return exports;
+extern "C" void init(v8::Local<v8::Object> target) {
+  Nan::HandleScope scope;
+  Nan::SetMethod(target, "getConsoleProcessList", ApiConsoleProcessList);
 };
 
-NODE_API_MODULE(NODE_GYP_MODULE_NAME, init);
+NODE_MODULE(pty, init);

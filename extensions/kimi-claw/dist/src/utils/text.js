@@ -1,10 +1,1 @@
-import { stripTransportMetadata } from "../message-filter.js";
-export const asTrimmedNonEmptyString = (value) => typeof value === "string" && value.trim() ? value.trim() : undefined;
-export const asNonEmptyTextChunk = (value) => typeof value === "string" && value.length > 0 ? value : undefined;
-export const normalizeTransportText = (value) => {
-    if (typeof value !== "string" || value.length === 0) {
-        return undefined;
-    }
-    const cleaned = stripTransportMetadata(value);
-    return cleaned.length > 0 ? cleaned : undefined;
-};
+import{stripTransportMetadata}from"../message-filter.js";export const asTrimmedNonEmptyString=t=>"string"==typeof t&&t.trim()?t.trim():void 0;export const asNonEmptyTextChunk=t=>"string"==typeof t&&t.length>0?t:void 0;export const normalizeTransportText=t=>{if("string"!=typeof t||0===t.length)return;const r=stripTransportMetadata(t);return r.length>0?r:void 0};

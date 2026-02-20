@@ -278,18 +278,27 @@ def handle_obsidian(tokens: list[str]):
         return f"❌ parse error: {e}"
 
     now = datetime.now().strftime("%Y-%m-%d %H:%M")
-    tags = sorted(set((t.get("tags") or []) + [x.lower() for x in (a.get("entities") or [])]))
+    # keep tags intentionally small + stable
+    allowed = {"idea", "meeting", "task", "aistriko", "xvadur", "ops", "finance", "health"}
+    tags = [x for x in (t.get("tags") or []) if x in allowed]
 
     front = [
         "---",
         f'title: "{(a.get("title") or target.stem).replace(chr(34), "")}"',
         f"created: {now}",
+        f"date: {datetime.now().strftime('%Y-%m-%d')}",
         f"type: {a.get('type','note')}",
-        f"tags: [{', '.join(tags)}]" if tags else "tags: []",
-        f"project: {t.get('project','XVADUR')}",
         f"status: {t.get('status','inbox')}",
+        f"project: {t.get('project','XVADUR')}",
+        "area: [ops]",
+        "priority: P2",
+        "owner: Adam",
+        "assignee: Adam",
+        f"tags: [{', '.join(tags)}]" if tags else "tags: []",
         f"word_count: {t.get('word_count', a.get('word_count', 0))}",
         f"xp: {t.get('xp',10)}",
+        "energy: medium",
+        "source: obsidian",
         f"summary: \"{(a.get('summary','')[:180]).replace(chr(34), '')}\"",
         "---",
         "",

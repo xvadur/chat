@@ -1,0 +1,27 @@
+{
+  "data_source_id": "2637ac98-0b92-4d3e-8fe5-b9f9bd96f2fb",
+  "notion_to_obsidian": {
+    "Task": "title",
+    "Day": "date",
+    "Vstavanie": "wake_time",
+    "End of the Day": "sleep_time",
+    "Tags": "tags",
+    "Todo ": "todo",
+    "Jedlo": "food",
+    "wins": "wins",
+    "loss": "loss",
+    "places": "places",
+    "expense": "expense",
+    "Čo sa dialo počas dna ": "day_log",
+    "nasral ta niekto? ": "conflict_notes"
+  },
+  "defaults": {
+    "type": "daily",
+    "status": "active",
+    "project": "XVADUR",
+    "owner": "Adam",
+    "assignee": "Adam",
+    "energy": "medium",
+    "source": "notion"
+  }
+}

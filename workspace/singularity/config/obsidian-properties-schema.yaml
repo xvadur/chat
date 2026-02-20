@@ -1,0 +1,76 @@
+# XVADUR Obsidian Properties Schema (v1 draft)
+# Source target: Notion Daily documents (to be synced once Notion auth is fixed)
+
+required:
+  - title
+  - created
+  - date
+  - type
+  - status
+
+fields:
+  title:
+    type: text
+    example: "Morning Brief 2026-02-20"
+
+  created:
+    type: datetime
+    example: "2026-02-20 10:15"
+
+  date:
+    type: date
+    example: "2026-02-20"
+
+  type:
+    type: select
+    options: [daily, meeting, idea, task, brief, report, note]
+
+  status:
+    type: select
+    options: [inbox, active, waiting, done, archived]
+
+  project:
+    type: select
+    options: [XVADUR, AIstriko, Personal]
+
+  area:
+    type: multi_select
+    options: [ops, sales, content, health, finance, relationships, admin]
+
+  priority:
+    type: select
+    options: [P1, P2, P3, P4]
+
+  owner:
+    type: select
+    options: [Adam, Jarvis]
+
+  assignee:
+    type: select
+    options: [Adam, Jarvis]
+
+  people:
+    type: multi_select
+    options: [Laura, Simon, David, Milos, Dominik, Karol]
+
+  tags:
+    type: multi_select
+    options: [idea, meeting, task, xvadur, aistriko, finance, health, ops]
+
+  xp:
+    type: number
+    example: 10
+
+  energy:
+    type: select
+    options: [low, medium, high]
+
+  word_count:
+    type: number
+
+  summary:
+    type: text
+
+  source:
+    type: select
+    options: [chat, obsidian, linear, calendar, automation]

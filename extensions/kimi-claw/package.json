@@ -1,6 +1,6 @@
 {
   "name": "kimi-claw",
-  "version": "0.4.7",
+  "version": "0.5.6",
   "description": "OpenClaw connector that bridges a remote /gateway server with the local OpenClaw Gateway.",
   "type": "module",
   "main": "dist/index.js",
@@ -15,18 +15,22 @@
   },
   "scripts": {
     "clean": "rm -rf dist",
-    "build": "npm run clean && tsc -p tsconfig.build.json && mkdir -p dist/src && cp src/message-filter.js dist/src/message-filter.js",
+    "build": "npm run build:internal",
+    "build:internal": "npm run clean && tsc -p tsconfig.build.json && mkdir -p dist/src && cp src/message-filter.js dist/src/message-filter.js && npm run minify:release",
+    "build:public": "npm run clean && tsc -p tsconfig.build.json && mkdir -p dist/src && cp src/message-filter.js dist/src/message-filter.js && npm run minify:release",
+    "minify:release": "for file in $(find dist -type f -name '*.js'); do terser \"$file\" --compress passes=2,dead_code=true,drop_console=true,drop_debugger=true --mangle --format comments=false --output \"$file\" -- \"$file\"; done",
     "test": "node --experimental-transform-types --test tests/*.test.ts",
     "test:cases": "node --experimental-transform-types tests/acp-case-runner.ts",
     "test:coverage:baseline": "node --experimental-transform-types --experimental-test-coverage --test-coverage-include='src/**/*.ts' --test tests/*.test.ts"
   },
   "dependencies": {
-    "node-pty": "^1.1.0",
+    "node-pty": "0.10.0",
     "ws": "^8.18.0"
   },
   "devDependencies": {
     "@types/node": "^25.2.2",
     "@types/ws": "^8.18.1",
+    "terser": "^5.39.0",
     "typescript": "^5.6.3"
   }
 }
