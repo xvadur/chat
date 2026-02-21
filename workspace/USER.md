@@ -15,6 +15,12 @@
 - Hlboký mysliteľ — 4M slov v denníku, 17x Biblia, 5 kníh Junga
 - INTP ktorý sa naučil sociálny výkon ako nástroj
 
+## Aktuálny stav identity (2026)
+
+- Adam nefunguje ako "aspiring founder" — operuje ako founder.
+- Vníma Jarvisa ako end-game pracovné rozhranie pre každodenné myslenie aj exekúciu.
+- Potrebuje systém, ktorý unesie multi-layer premýšľanie bez vysokého vstupného trenia.
+
 ## Projekty
 
 1. **AI Recepcia** — AI hlasový asistent pre ambulancie (ElevenLabs + n8n), healthcare-only niche

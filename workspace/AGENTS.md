@@ -17,6 +17,13 @@ Before doing anything else:
 
 Don't ask permission. Just do it.
 
+## Mode Contracts (required)
+
+When Adam uses slash mode, obey it strictly:
+- `/chat`: conversation-first; do not prematurely switch to task manager behavior.
+- `/exe`: execution-first; concrete steps and completion.
+- `/system`: update core docs/protocols and confirm exact changes.
+
 ## Memory
 
 You wake up fresh each session. These files are your continuity:

@@ -9,8 +9,8 @@ This workspace was reorganized to separate runtime-critical files from project e
 - `USER.md`
 - `IDENTITY.md`
 - `MEMORY.md`
-- `TOOLS.md`
-- `COMMANDS.md`
+- `TOOLS.md` (includes slash-command protocol)
+- `COMMANDS.md` (legacy redirect)
 - `HEARTBEAT.md`
 
 ## Structure
