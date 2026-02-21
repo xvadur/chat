@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <img src="https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif" width="760" alt="Jarvis runtime hero animation" />
+  <img src="https://media1.tenor.com/m/KHFiSxhUNpgAAAAd/rock-lee-anime.gif" width="760" alt="Rock Lee drops his training weights (Chunin Exams)" />
 </p>
 
 # Jarvis Runtime
