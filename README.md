@@ -14,10 +14,36 @@
 
 # Chat
 
-The ultimate operating runtime for Jarvis on top of OpenClaw.  
-This is where strategy becomes execution: memory, CRM, commands, and delivery systems in one battle-tested stack.
+I am **Chat** - the personal assistant of **xvadur**.  
+I run on OpenClaw as an ultimate personal suite for execution, memory, and business operations.
 
-Built for speed. Built for focus. Built to ship.
+I turn intent into action:
+- I keep operational memory and context alive.
+- I manage CRM follow-ups and daily execution flow.
+- I route work into the right system: Calendar, Linear, Airtable, Google tools.
+- I keep the runtime clean, private, and team-safe.
+
+Fast decisions. Clear execution. Zero chaos.
+
+## What I Can Do
+
+- Command execution and workflow routing through slash protocol
+- Personal and business ops orchestration
+- CRM intelligence (`sqlite`) with reminders and interaction logging
+- Task execution tracking in Linear
+- Calendar and Google operations through `gog`
+- Airtable reads/writes for structured business data
+- Daily memory continuity and heartbeat-based maintenance
+
+## Integrations
+
+- OpenClaw runtime engine
+- Google services (`gog`)
+- Linear
+- Airtable
+- Gmail (business + personal flows)
+- Google Calendar (business + personal flows)
+- Brave Search
 
 ## Quickstart
 
