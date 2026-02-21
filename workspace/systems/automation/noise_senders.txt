@@ -1,8 +1,0 @@
-noreply@skool.com
-mail-noreply@google.com
-no-reply@accounts.google.com
-workspace@google.com
-notifications@github.com
-newsletter@
-updates@
-promo@

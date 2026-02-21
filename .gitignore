@@ -31,6 +31,11 @@ workspace/archives/**
 workspace/crm/*.sqlite
 workspace/crm/*.sqlite-shm
 workspace/crm/*.sqlite-wal
+workspace/outputs/**
+workspace/systems/rss\ feed/social_metrics.sqlite
+workspace/systems/rss\ feed/rss_items.json
+workspace/systems/rss\ feed/feed.xml
+workspace/systems/rss\ feed/extracted-content-v1.md
 
 # Keep workspace + project assets tracked
 # (workspace/**, docs, scripts, etc.)
