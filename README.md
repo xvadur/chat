@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:f97316,100:ef4444&height=160&section=header&text=Jarvis%20Runtime&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=OpenClaw-based%20operating%20runtime%20for%20Aistryko&descAlignY=58" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:f97316,100:ef4444&height=160&section=header&text=Chat&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=The%20Ultimate%20Personal%20Suite%20on%20OpenClaw&descAlignY=58" />
 </p>
 
 <p align="center">
@@ -12,7 +12,7 @@
   <img src="https://media1.tenor.com/m/KHFiSxhUNpgAAAAd/rock-lee-anime.gif" width="760" alt="Rock Lee drops his training weights (Chunin Exams)" />
 </p>
 
-# Jarvis Runtime
+# Chat
 
 The ultimate operating runtime for Jarvis on top of OpenClaw.  
 This is where strategy becomes execution: memory, CRM, commands, and delivery systems in one battle-tested stack.
