@@ -1,56 +1,87 @@
-# Jarvis Runtime (OpenClaw)
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0ea5e9,100:22c55e&height=160&section=header&text=Jarvis%20Runtime&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=OpenClaw-based%20operating%20runtime%20for%20Aistryko&descAlignY=58" />
+</p>
 
-Local runtime workspace for Jarvis running on top of OpenClaw.
+<p align="center">
+  <a href="https://github.com/xvadur/chat"><img alt="Repo" src="https://img.shields.io/badge/repo-xvadur%2Fchat-111827?style=for-the-badge&logo=github" /></a>
+  <img alt="Branch" src="https://img.shields.io/badge/branch-main-16a34a?style=for-the-badge" />
+  <img alt="Visibility" src="https://img.shields.io/badge/visibility-private-0f172a?style=for-the-badge" />
+</p>
 
-This repository is intended as a clean, versioned runtime shell:
-- runtime structure and conventions
-- safe-to-share workspace files
-- docs and operational notes
+# Jarvis Runtime
 
-Sensitive runtime state is intentionally ignored (`.gitignore`), including:
-- API keys and tokens
-- device identity and pairing files
-- logs, media, and transient session data
-- personal workspace/session content
+Operational runtime for Jarvis on top of OpenClaw.  
+This repo tracks structure, skills, and operating docs while keeping secrets and transient state local-only.
 
-## Privacy Mode
+## Quickstart
 
-This repository is configured as `PRIVATE` on GitHub.
+```bash
+cd /Users/_xvadur/.openclaw
+pnpm openclaw tui
+```
 
-To reduce accidental leaks, the current `.gitignore` defaults to treating runtime
-directories as local-only (`workspace/`, `skills/`, `extensions/`, `plugins/`,
-`cron/`, `agents/`, etc.).
+If CRM DB is missing:
 
-If you want to version a specific runtime file later, remove or narrow the
-matching ignore rule first and commit intentionally.
+```bash
+/Users/_xvadur/.openclaw/workspace/systems/local-scripts/init_crm_db.sh
+```
 
-## Repository Purpose
+## Runtime Map
 
-Use this repo to keep runtime setup reproducible and maintainable while the OpenClaw engine evolves separately.
+- `workspace/` - core identity, memory, systems, outputs
+- `skills/` - local skills (`crm`, `airtable`, `slash-commands`, ...)
+- `credentials/` - local credentials (not tracked)
+- `openclaw.json` - local runtime config (not tracked)
 
-## Typical Layout
+Core workspace docs:
+- `workspace/AGENTS.md`
+- `workspace/SOUL.md`
+- `workspace/USER.md`
+- `workspace/IDENTITY.md`
+- `workspace/MEMORY.md`
+- `workspace/TOOLS.md`
+- `workspace/HEARTBEAT.md`
 
-- `workspace/` - identity, behavior, and operating context files
-- `skills/` - local skills and helpers
-- `extensions/` - optional runtime extensions
-- `cron/` - scheduled-job definitions (safe configs only)
-- `plugins/` - plugin metadata/config stubs
+## Ops Architecture
 
-## Getting Started
+```mermaid
+flowchart LR
+  A["Chat / Commands"] --> B["Skills Router"]
+  B --> C["CRM (SQLite)"]
+  B --> D["Calendar (gog)"]
+  B --> E["Linear"]
+  B --> F["Airtable"]
+  C --> G["Daily Memory"]
+  D --> G
+  E --> G
+```
 
-1. Clone this repository.
-2. Add your local secrets and runtime config files (not committed):
-   - `openclaw.json`
-   - `credentials/*`
-   - `identity/*`
-3. Start OpenClaw runtime from this folder.
+## Command Routing
 
-## Git Workflow
+- `/crm ...` -> local CRM skill + SQLite workflow
+- `/linear ...` -> Linear skill
+- `/gog ...` -> Google services skill
+- `/airtable ...` -> Airtable skill
 
-- Keep `main` deployable and clean.
-- Commit docs, structure, and non-sensitive runtime config templates.
-- Never commit secrets or local session artifacts.
+Command source-of-truth:
+- `skills/slash-commands/SKILL.md`
 
-## Notes
+## Security and Git Hygiene
 
-If you need to share config, use redacted templates (for example `*.example.json`) instead of live runtime files.
+Never commit:
+- secrets/tokens (`openclaw.json`, credentials, identity files)
+- runtime state (`logs`, `media`, browser/session artifacts)
+- local DB artifacts (`*.sqlite`, `*.wal`, `*.shm`)
+
+This repository is intended to stay private and team-safe for runtime collaboration.
+
+## Team Workflow
+
+1. Pull latest `main`.
+2. Keep runtime docs/skills/scripts updated.
+3. Keep secrets local.
+4. Push only safe operational assets.
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:22c55e,100:0ea5e9&height=120&section=footer" />
+</p>
