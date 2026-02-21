@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <img src="https://media.giphy.com/media/13HgwGsXF0aiGY/giphy.gif" width="760" alt="Jarvis runtime hero animation" />
+  <img src="https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif" width="760" alt="Jarvis runtime hero animation" />
 </p>
 
 # Jarvis Runtime
