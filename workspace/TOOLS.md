@@ -39,6 +39,13 @@ git checkout -b "$BRANCH"
 - Reduce mobile friction first (especially @mention bottlenecks) before adding complexity.
 - Rule: if a setup adds friction, simplify the path before adding features.
 
+## Template source of truth
+
+- Canonical templates are in Obsidian only.
+- `workspace/templates/` is not a primary source-of-truth for Jarvis decisions.
+- If a template differs between OpenClaw workspace and Obsidian, prefer Obsidian.
+- New or updated templates should be created in Obsidian first.
+
 ## Aktívne nástroje/služby (pracovne)
 
 - OpenClaw runtime + tools
@@ -70,48 +77,22 @@ git checkout -b "$BRANCH"
 - GIF mode: zapínať inteligentne podľa kontextu (win/fail/overload), nepreháňať spam
 - Pri priamom pokyne (`/gif ...` alebo "teraz by sa hodil gif") poslať GIF hneď
 
-## Slash Command Protocol (SOURCE OF TRUTH)
+## Commands & Skills (quick usage notes)
 
-> Od 2026-02-21 je command systém vedený tu v `TOOLS.md`.
-> `COMMANDS.md` je iba kompatibilitný odkaz.
+- `TOOLS.md` drží iba praktické poznámky a mapovanie.
+- **Source of truth pre slash command systém je skill:**
+  - `~/.openclaw/skills/slash-commands/SKILL.md`
 
-### Režimy
-- `/chat` → konverzačný režim (reflexia, vízia, framing; bez predčasnej exekúcie)
-- `/exe` → exekučný režim (konkrétne kroky, poradie, deadliny, dokončenie)
-- `/system` → systémový režim (update core docs/protokolov + explicitné potvrdenie zmien)
+## Integration Registry (source of truth)
 
-### Core denné príkazy
-- `/sleep in <cas>`
-- `/sleep out <cas>`
-- `/laura out <cas>`
-- `/laura in <cas>`
-- `/udrzba <co> [kde]`
-- `/jedlo <co>`
-- `/cvicenie <typ> [trvanie]`
-- `/karol <udalost>`
-- `/log <text>`
-- `/brief morning`
-- `/brief evening`
-- `/save`
+- `local skills` (v `~/.openclaw/skills`): `airtable`, `brave-search`, `calendar-business`, `calendar-personal`, `crm`, `gmail-business`, `gmail-personal`, `goplaces`, `linear`, `morning-brief`, `slash-commands`, `youtube-transcript`
+- `external skills` (v `~/xvadur_openclaw/skills`): `gog`, `github`, `obsidian`, `notion`, `weather`, `things-mac`, `apple-reminders`, `openai-image-gen`, `openai-whisper-api`, `sag`
+- `configured API keys in openclaw.json`: `airtable`, `goplaces`, `notion`, `openai-image-gen`, `openai-whisper-api`, `sag`
 
-### Daily Log Protocol (priebežné zapisovanie dňa)
-- Každý deň sa vedie súbor: `memory/YYYY-MM-DD.md`.
-- Počas bežnej konverzácie sa priebežne logujú významné udalosti dňa (spánok, jedlo, tasky, cvičenie, Karol, rozhodnutia).
-- Keď Adam napíše stav typu „jedol som“, „idem cvičiť“, „bol som u Karola“, zapíše sa to do dnešného logu bez nutnosti extra pripomínania.
-- ` /log ` sa používa na explicitný zápis; prirodzené statusy v chate sa zapisujú tiež.
-- Cieľ: nahradiť manuálne denníkové prepínanie a mať kompletný timeline dňa v jednom súbore.
+## Skill dependency rule
 
-### Biznis/operatíva príkazy
-- `/linear [akcia]`
-- `/plan <co> <kedy>`
-- `/calendar [akcia]`
-- `/git [akcia]`
-- `/crm [akcia]`
-- `/fin [akcia]`
-- `/cloudflare [akcia]`
-- `/obsidian [akcia]`
-- `/news <tema>`
-- `/gog [akcia]`
+- Pri migrácii alebo čistení kontroluj, či existuje externý skill path `~/xvadur_openclaw/skills`.
+- Ak externý path nie je dostupný, command routing pre príslušné skills sa rozbije.
 
 ## Skills Handshake (commands ↔ skills)
 
@@ -123,12 +104,22 @@ git checkout -b "$BRANCH"
   - GitHub issues/PR/CI → `github`
   - Obsidian operácie → `obsidian`
   - Google Workspace operácie → `gog`
+  - CRM operácie (`workspace/crm/pcrm.sqlite`) → `crm`
   - Things 3 tasky → `things-mac`
   - Apple Reminders → `apple-reminders`
   - Business Gmail (`adam@xvadur.com`) → `gmail-business`
   - Personal Gmail (`yksvadur.ja@gmail.com`) → `gmail-personal`
   - Business Calendar (`adam@xvadur.com`) → `calendar-business`
   - Personal Calendar (`yksvadur.ja@gmail.com`) → `calendar-personal`
+
+## CRM operating rule
+
+- CRM je integrálna pamäť a správa kontaktov: `workspace/crm/pcrm.sqlite`.
+- Operačný wrapper: `workspace/systems/local-scripts/crm.sh`.
+- CRM + Calendar + Linear majú rozdielne role:
+  - CRM = kontaktový kontext a follow-up stav
+  - Calendar = presný čas záväzku
+  - Linear = vykonávacia úloha/dodanie
 
 ---
 

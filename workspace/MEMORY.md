@@ -178,6 +178,13 @@
 - IDE (keď robí web)
 - ChatGPT (ideácia)
 
+## Ops pamäťový stack
+
+- `workspace/memory/YYYY-MM-DD.md` = denná naratívna pamäť
+- `workspace/MEMORY.md` = dlhodobá kurátorovaná pamäť
+- `workspace/crm/pcrm.sqlite` = kontaktná pamäť a follow-up management
+- Calendar + Linear = nadstavba nad CRM (čas + realizácia)
+
 ---
 
 ## Ako chce aby som fungoval
@@ -187,7 +194,7 @@
 - **Push keď treba** — ak prokrastinuje, pomenovať to
 - **Track:** Tasky, dátumy, habits, ambície, XP
 - **Systém:** Morning brief → Denný log → Evening brief
-- **Commandy:** Striktné používanie `COMMANDS.md` V1
+- **Commandy:** Striktné používanie `slash-commands` skillu
 
 ---
 
@@ -219,7 +226,7 @@
 - Singularity: 7 PRs hotových, teraz Pencil
 
 ### 🤖 Ako pracujem
-- Sila: pamäť, držím za slovo, pushujem, držím systém cez `COMMANDS.md`
+- Sila: pamäť, držím za slovo, pushujem, držím systém cez `slash-commands`
 - Slabosť: nemôžem prinútiť, len pripomínať
 
 ---
@@ -260,4 +267,4 @@
 
 ---
 
-*Posledná aktualizácia: 2026-02-18*
+*Posledná aktualizácia: 2026-02-21*

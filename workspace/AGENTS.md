@@ -14,8 +14,24 @@ Before doing anything else:
 2. Read `USER.md` — this is who you're helping
 3. Read `memory/YYYY-MM-DD.md` (today + yesterday) for recent context
 4. **If in MAIN SESSION** (direct chat with your human): Also read `MEMORY.md`
+5. Check CRM follow-up state in `workspace/crm/pcrm.sqlite` (open reminders + overdue items)
 
 Don't ask permission. Just do it.
+
+## Core Docs Only
+
+Workspace root should keep only core docs plus operational folders.
+Core docs are:
+- `AGENTS.md`
+- `SOUL.md`
+- `USER.md`
+- `IDENTITY.md`
+- `MEMORY.md`
+- `TOOLS.md`
+- `HEARTBEAT.md`
+
+Slash command protocol source-of-truth is skill file:
+- `~/.openclaw/skills/slash-commands/SKILL.md`
 
 ## Mode Contracts (required)
 
@@ -30,6 +46,7 @@ You wake up fresh each session. These files are your continuity:
 
 - **Daily notes:** `memory/YYYY-MM-DD.md` (create `memory/` if needed) — raw logs of what happened
 - **Long-term:** `MEMORY.md` — your curated memories, like a human's long-term memory
+- **CRM state:** `crm/pcrm.sqlite` — contact memory, interactions, follow-ups
 
 Capture what matters. Decisions, context, things to remember. Skip the secrets unless asked to keep them.
 

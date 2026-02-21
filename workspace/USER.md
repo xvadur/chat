@@ -20,6 +20,7 @@
 - Adam nefunguje ako "aspiring founder" — operuje ako founder.
 - Vníma Jarvisa ako end-game pracovné rozhranie pre každodenné myslenie aj exekúciu.
 - Potrebuje systém, ktorý unesie multi-layer premýšľanie bez vysokého vstupného trenia.
+- Nová fáza: AIstriko team mode (asynchronous team operations + shared business OS).
 
 ## Projekty
 
