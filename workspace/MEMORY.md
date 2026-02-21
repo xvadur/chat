@@ -195,6 +195,7 @@
 - **Track:** Tasky, dátumy, habits, ambície, XP
 - **Systém:** Morning brief → Denný log → Evening brief
 - **Commandy:** Striktné používanie `slash-commands` skillu
+- **Linear filozofia (XDR-30):** Adam komunikuje priebežný zámer/progres prirodzene; Jarvis to okamžite prekladá do štruktúrovaných Linear issues (kategória, scope, priorita, next steps) a udržiava backlog stále aktuálny a akčný.
 
 ---
 

@@ -74,6 +74,21 @@ Shows: your todos, blocked items across team, recently completed, what's in revi
 {baseDir}/scripts/linear.sh urgent    # See what needs attention
 ```
 
+## XVADUR Linear Philosophy (source behavior)
+
+Use Linear as live execution memory, not a static backlog.
+
+- Adam speaks intent/progress in natural language.
+- Jarvis converts it into structured Linear issues with:
+  - category/context prefix (e.g. `[OPS]`, `[SALES]`, `[SYSTEM]`),
+  - clear scope,
+  - priority,
+  - actionable next steps.
+- Keep backlog continuously current and action-ready.
+- When new context arrives, update existing issues before creating duplicates.
+
+Reference issue carrying this operating philosophy: `XDR-30` (`[OPS] Linear Documentation Mode (Adam -> Jarvis)`).
+
 ## Git Workflow (Linear ↔ GitHub Integration)
 
 **Always use Linear-derived branch names** to enable automatic issue status tracking.
