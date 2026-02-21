@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0ea5e9,100:22c55e&height=160&section=header&text=Jarvis%20Runtime&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=OpenClaw-based%20operating%20runtime%20for%20Aistryko&descAlignY=58" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:f97316,100:ef4444&height=160&section=header&text=Jarvis%20Runtime&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=OpenClaw-based%20operating%20runtime%20for%20Aistryko&descAlignY=58" />
 </p>
 
 <p align="center">
@@ -87,5 +87,5 @@ This repository is intended to stay private and team-safe for runtime collaborat
 4. Push only safe operational assets.
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:22c55e,100:0ea5e9&height=120&section=footer" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:ef4444,100:f97316&height=120&section=footer" />
 </p>
