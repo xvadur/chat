@@ -14,8 +14,10 @@
 
 # Jarvis Runtime
 
-Operational runtime for Jarvis on top of OpenClaw.  
-This repo tracks structure, skills, and operating docs while keeping secrets and transient state local-only.
+The ultimate operating runtime for Jarvis on top of OpenClaw.  
+This is where strategy becomes execution: memory, CRM, commands, and delivery systems in one battle-tested stack.
+
+Built for speed. Built for focus. Built to ship.
 
 ## Quickstart
 
@@ -24,7 +26,7 @@ cd /Users/_xvadur/.openclaw
 pnpm openclaw tui
 ```
 
-If CRM DB is missing:
+If CRM DB is missing, bootstrap it in one command:
 
 ```bash
 /Users/_xvadur/.openclaw/workspace/systems/local-scripts/init_crm_db.sh
@@ -32,10 +34,10 @@ If CRM DB is missing:
 
 ## Runtime Map
 
-- `workspace/` - core identity, memory, systems, outputs
-- `skills/` - local skills (`crm`, `airtable`, `slash-commands`, ...)
-- `credentials/` - local credentials (not tracked)
-- `openclaw.json` - local runtime config (not tracked)
+- `workspace/` - command center: identity, memory, systems, outputs
+- `skills/` - execution modules (`crm`, `airtable`, `slash-commands`, ...)
+- `credentials/` - local secrets (never tracked)
+- `openclaw.json` - local runtime config (never tracked)
 
 Core workspace docs:
 - `workspace/AGENTS.md`
@@ -62,10 +64,10 @@ flowchart LR
 
 ## Command Routing
 
-- `/crm ...` -> local CRM skill + SQLite workflow
-- `/linear ...` -> Linear skill
-- `/gog ...` -> Google services skill
-- `/airtable ...` -> Airtable skill
+- `/crm ...` -> relationship intelligence and follow-up control
+- `/linear ...` -> execution ownership and delivery tracking
+- `/gog ...` -> Google services operations layer
+- `/airtable ...` -> structured data sync layer
 
 Command source-of-truth:
 - `skills/slash-commands/SKILL.md`
@@ -77,12 +79,12 @@ Never commit:
 - runtime state (`logs`, `media`, browser/session artifacts)
 - local DB artifacts (`*.sqlite`, `*.wal`, `*.shm`)
 
-This repository is intended to stay private and team-safe for runtime collaboration.
+Runtime stays private, clean, and team-safe by default.
 
 ## Team Workflow
 
 1. Pull latest `main`.
-2. Keep runtime docs/skills/scripts updated.
+2. Execute from the system, then document what changed.
 3. Keep secrets local.
 4. Push only safe operational assets.
 
