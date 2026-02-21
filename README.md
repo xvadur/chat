@@ -8,6 +8,10 @@
   <img alt="Visibility" src="https://img.shields.io/badge/visibility-private-0f172a?style=for-the-badge" />
 </p>
 
+<p align="center">
+  <img src="https://media.giphy.com/media/13HgwGsXF0aiGY/giphy.gif" width="760" alt="Jarvis runtime hero animation" />
+</p>
+
 # Jarvis Runtime
 
 Operational runtime for Jarvis on top of OpenClaw.  
