@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "skills": {
+    "self-improving-agent": {
+      "version": "1.0.10",
+      "installedAt": 1771720262547
+    },
+    "google-calendar": {
+      "version": "0.1.0",
+      "installedAt": 1771720263938
+    },
+    "opencode-controller": {
+      "version": "1.0.0",
+      "installedAt": 1771720276608
+    },
+    "prompt-engineering-expert": {
+      "version": "1.0.0",
+      "installedAt": 1771720277882
+    },
+    "yahoo-finance": {
+      "version": "1.0.0",
+      "installedAt": 1771720286466
+    },
+    "humanizer": {
+      "version": "1.0.0",
+      "installedAt": 1771720287460
+    },
+    "cloudflare-toolkit": {
+      "version": "1.5.0",
+      "installedAt": 1771722818220
+    },
+    "supabase": {
+      "version": "1.0.0",
+      "installedAt": 1771722993481
+    }
+  }
+}

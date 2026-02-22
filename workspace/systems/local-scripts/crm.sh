@@ -14,6 +14,12 @@ Usage:
   crm.sh add-reminder <contact_id> <title> [due_at_iso]
   crm.sh log <contact_id> <channel> <direction> <subject> [snippet]
   crm.sh sync-note <text>
+
+  # Workout DB (detailed)
+  crm.sh workout-new [session_date_yyyy-mm-dd] [note]
+  crm.sh workout-add <session_id> <exercise_name> <weight_kg> <reps> [set_order]
+  crm.sh workout-day [session_date_yyyy-mm-dd]
+  crm.sh workout-show <session_id>
 USAGE
 }
 
@@ -103,6 +109,63 @@ cmd_sync_note() {
   echo "CRM note synced to $TODAY_FILE"
 }
 
+cmd_workout_new() {
+  local session_date="${1:-$(date +%F)}"
+  local note
+  note="$(sql_escape "${2:-}")"
+  local sid
+  sid=$(sqlite3 "$DB" "INSERT INTO workout_sessions (session_date, note) VALUES ('$session_date', '$note'); SELECT last_insert_rowid();")
+  echo "Workout session created: $sid ($session_date)"
+}
+
+cmd_workout_add() {
+  local session_id="$1"
+  local exercise
+  exercise="$(sql_escape "$2")"
+  local weight_kg="$3"
+  local reps="$4"
+  local set_order="${5:-}"
+
+  local ex_id
+  ex_id=$(sqlite3 "$DB" "SELECT id FROM workout_exercises WHERE session_id=$session_id AND exercise_name='$exercise' ORDER BY id LIMIT 1;")
+  if [[ -z "$ex_id" ]]; then
+    local ex_order
+    ex_order=$(sqlite3 "$DB" "SELECT COALESCE(MAX(exercise_order),0)+1 FROM workout_exercises WHERE session_id=$session_id;")
+    ex_id=$(sqlite3 "$DB" "INSERT INTO workout_exercises (session_id, exercise_name, exercise_order) VALUES ($session_id, '$exercise', $ex_order); SELECT last_insert_rowid();")
+  fi
+
+  if [[ -z "$set_order" ]]; then
+    set_order=$(sqlite3 "$DB" "SELECT COALESCE(MAX(set_order),0)+1 FROM workout_sets WHERE exercise_id=$ex_id;")
+  fi
+
+  sqlite3 "$DB" "INSERT INTO workout_sets (exercise_id, set_order, weight_kg, reps) VALUES ($ex_id, $set_order, $weight_kg, $reps);"
+  echo "Workout set added: session=$session_id exercise='$2' set=$set_order ${weight_kg}kg x ${reps}"
+}
+
+cmd_workout_day() {
+  local session_date="${1:-$(date +%F)}"
+  sqlite3 -header -column "$DB" "
+    SELECT ws.id AS session_id, ws.session_date, we.exercise_name, wset.set_order, wset.weight_kg, wset.reps
+    FROM workout_sessions ws
+    JOIN workout_exercises we ON we.session_id = ws.id
+    JOIN workout_sets wset ON wset.exercise_id = we.id
+    WHERE ws.session_date = '$session_date'
+    ORDER BY ws.id DESC, we.exercise_order ASC, wset.set_order ASC;
+  "
+}
+
+cmd_workout_show() {
+  local session_id="$1"
+  sqlite3 -header -column "$DB" "
+    SELECT ws.id AS session_id, ws.session_date, ws.note, we.exercise_name, wset.set_order, wset.weight_kg, wset.reps
+    FROM workout_sessions ws
+    JOIN workout_exercises we ON we.session_id = ws.id
+    JOIN workout_sets wset ON wset.exercise_id = we.id
+    WHERE ws.id = $session_id
+    ORDER BY we.exercise_order ASC, wset.set_order ASC;
+  "
+}
+
 main() {
   require_db
   local cmd="${1:-}"
@@ -123,6 +186,20 @@ main() {
     sync-note)
       [[ $# -ge 1 ]] || { usage; exit 1; }
       cmd_sync_note "$*"
+      ;;
+    workout-new)
+      cmd_workout_new "$@"
+      ;;
+    workout-add)
+      [[ $# -ge 4 ]] || { usage; exit 1; }
+      cmd_workout_add "$@"
+      ;;
+    workout-day)
+      cmd_workout_day "$@"
+      ;;
+    workout-show)
+      [[ $# -ge 1 ]] || { usage; exit 1; }
+      cmd_workout_show "$@"
       ;;
     *)
       usage

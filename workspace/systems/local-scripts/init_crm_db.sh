@@ -105,11 +105,49 @@ CREATE TABLE IF NOT EXISTS meals (
 
 CREATE TABLE IF NOT EXISTS exercise_sessions (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
+  session_id INTEGER,
   activity TEXT NOT NULL,
   duration_minutes INTEGER,
   note TEXT,
-  created_at DATETIME DEFAULT CURRENT_TIMESTAMP
+  created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+  FOREIGN KEY(session_id) REFERENCES workout_sessions(id) ON DELETE SET NULL
 );
+
+-- Detailed strength workout schema
+CREATE TABLE IF NOT EXISTS workout_sessions (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  session_date TEXT NOT NULL,
+  started_at TEXT,
+  ended_at TEXT,
+  note TEXT,
+  created_at TEXT NOT NULL DEFAULT (datetime('now'))
+);
+
+CREATE TABLE IF NOT EXISTS workout_exercises (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  session_id INTEGER NOT NULL,
+  exercise_name TEXT NOT NULL,
+  exercise_order INTEGER NOT NULL DEFAULT 1,
+  note TEXT,
+  FOREIGN KEY (session_id) REFERENCES workout_sessions(id) ON DELETE CASCADE
+);
+
+CREATE TABLE IF NOT EXISTS workout_sets (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  exercise_id INTEGER NOT NULL,
+  set_order INTEGER NOT NULL,
+  weight_kg REAL NOT NULL,
+  reps INTEGER NOT NULL,
+  rpe REAL,
+  note TEXT,
+  FOREIGN KEY (exercise_id) REFERENCES workout_exercises(id) ON DELETE CASCADE
+);
+
+CREATE INDEX IF NOT EXISTS idx_workout_sessions_date ON workout_sessions(session_date);
+CREATE INDEX IF NOT EXISTS idx_workout_exercises_session ON workout_exercises(session_id);
+CREATE INDEX IF NOT EXISTS idx_workout_sets_exercise ON workout_sets(exercise_id);
+CREATE INDEX IF NOT EXISTS idx_exercise_sessions_session_id ON exercise_sessions(session_id);
+CREATE INDEX IF NOT EXISTS idx_exercise_sessions_created_at ON exercise_sessions(created_at);
 
 CREATE TABLE IF NOT EXISTS maintenance_log (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
