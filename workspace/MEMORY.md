@@ -268,4 +268,57 @@
 
 ---
 
-*Posledná aktualizácia: 2026-02-21*
+## 🤖 Skill Ecosystem (Aktualizované 2026-02-22)
+
+### Massívna expanzia capabilities
+Dnes sme nainštalovali **16 nových skillov** — celkovo máme **28 skills**!
+
+#### 🆕 NOVÉ SKILLY (16)
+1. **n8n** — Workflow automation pre AI Recepciu
+2. **github** — GitHub CLI (repos, PRs, issues)
+3. **google-calendar** — Google Calendar API (adam@xvadur.com)
+4. **self-improving-agent** — Pasívne učenie z chýb
+5. **free-ride** — Free AI modely cez OpenRouter
+6. **prompt-engineering-expert** — Prompt optimalizácia
+7. **opencode-controller** — Ovládanie OpenClaw
+8. **yahoo-finance** — Stock data zadarmo
+9. **humanizer** — Odstráni AI patterny z textu
+10. **frontend-design** — Astro web dev guidelines
+11. **news-summary** — RSS + OpenRouter daily briefings
+12. **imsg** — iMessage/SMS z terminálu
+13. **gifgrep** — GIF vyhľadávanie
+14. **blogwatcher** — RSS monitoring
+15. **cloudflare-toolkit** — DNS, SSL, zone management
+16. **supabase** — Database + vector search
+
+#### 📊 Rozdelenie podľa kategórií
+- **Business/Ops (8):** n8n, github, google-calendar, airtable, linear, calendar-*, gmail-*, crm
+- **AI/Content (7):** brave-search, free-ride, humanizer, news-summary, prompt-engineering, self-improving, youtube-transcript
+- **Dev/Tech (7):** cloudflare, supabase, frontend-design, opencode-controller, yahoo-finance
+- **Utility (6):** imsg, gifgrep, blogwatcher, goplaces, morning-brief, slash-commands
+
+#### 🔑 Všetky API Keys nastavené
+✅ N8N_API_KEY + N8N_BASE_URL  
+✅ OPENROUTER_API_KEY  
+✅ GOOGLE_CLIENT_ID/SECRET/REFRESH_TOKEN (adam@xvadur.com)  
+✅ CLOUDFLARE_API_TOKEN  
+✅ SUPABASE_URL + SERVICE_KEY  
+✅ Airtable, Linear, ElevenLabs, Brave, Notion (existujúce)
+
+#### 🖥️ CLI nástroje nainštalované
+✅ gh (GitHub)  
+✅ imsg (iMessage)  
+✅ gifgrep (GIF search)  
+✅ blogwatcher (RSS monitoring)  
+✅ spotify_player (REMOVED — vyžaduje platbu)
+
+#### 🗑️ ABORTED
+- Reddit (nahradený research inými nástrojmi)
+- Spotify (vyžaduje Spotify Premium)
+
+### Impact
+Jarvis je teraz **plne vybavený osobný asistent** s capabilities od infra managementu (Cloudflare, Supabase) cez workflow automation (n8n) až po content creation (humanizer, prompt engineering).
+
+---
+
+*Posledná aktualizácia: 2026-02-22*

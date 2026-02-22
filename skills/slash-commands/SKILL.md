@@ -22,6 +22,7 @@ Single source of truth for command behavior and routing.
 - `/udrzba <co> [kde]`
 - `/jedlo <co>`
 - `/cvicenie <typ> [trvanie]`
+  - pri detailnom tréningu (série/váhy) zapisuj aj do workout DB (`pcrm.sqlite`) cez `workspace/systems/local-scripts/crm.sh` (`workout-new`, `workout-add`, `workout-day`)
 - `/karol <udalost>`
 - `/log <text>`
 - `/brief morning`

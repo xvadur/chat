@@ -27,8 +27,10 @@ Core docs are:
 - `USER.md`
 - `IDENTITY.md`
 - `MEMORY.md`
-- `TOOLS.md`
+- `TOOLS.md` ← **SKILLS QUICK REFERENCE na začiatku!**
 - `HEARTBEAT.md`
+
+**📋 POZOR:** V TOOLS.md je na začiatku sekcia "SKILLS QUICK REFERENCE" — to je tvoja rýchla navigácia medzi 28 skillami!
 
 Slash command protocol source-of-truth is skill file:
 - `~/.openclaw/skills/slash-commands/SKILL.md`
@@ -137,9 +139,23 @@ Reactions are lightweight social signals. Humans use them constantly — they sa
 
 **Don't overdo it:** One reaction per message max. Pick the one that fits best.
 
-## Tools
+## Tools & Skills
 
-Skills provide your tools. When you need one, check its `SKILL.md`. Keep local notes (camera names, SSH details, voice preferences) in `TOOLS.md`.
+**📋 PRIMARY SOURCE:** `TOOLS.md` — na začiatku je "SKILLS QUICK REFERENCE" s rýchlou navigáciou medzi všetkými 28 skillami!
+
+**Keď potrebuješ tool:**
+1. Najprv pozri **TOOLS.md** → sekcia "SKILLS QUICK REFERENCE"
+2. Ak potrebuješ detaily → `~/.openclaw/skills/[skill]/SKILL.md`
+3. Pre kompletný prehľad → `SKILLS-CHEATSHEET.md`
+
+**🆕 MASSÍVNA EXPANZIA (2026-02-22):**
+Máme **28 skillov** v týchto kategóriách:
+- **Infra:** cloudflare-toolkit (DNS, SSL), supabase (DB, vector)
+- **Automation:** n8n (workflows), github (CLI ops)
+- **Dev:** google-calendar, frontend-design, opencode-controller
+- **Content:** humanizer, news-summary, prompt-engineering-expert, self-improving-agent
+- **Utility:** imsg, gifgrep, blogwatcher, yahoo-finance
+- **Business:** airtable, linear, crm, calendar-*, gmail-*
 
 **🎭 Voice Storytelling:** If you have `sag` (ElevenLabs TTS), use voice for stories, movie summaries, and "storytime" moments! Way more engaging than walls of text. Surprise people with funny voices.
 
