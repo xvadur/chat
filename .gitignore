@@ -5,6 +5,12 @@
 openclaw.json
 openclaw.json.bak*
 credentials_*.md
+credentials/**
+.env
+.env.*
+*.pem
+*.key
+*.p12
 identity/
 devices/
 
