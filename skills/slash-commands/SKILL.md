@@ -71,3 +71,10 @@ Single source of truth for command behavior and routing.
 ## Rule
 
 Keep this file as source-of-truth for command protocol changes. Keep `TOOLS.md` as quick operational notes only.
+
+## OpenClaw command reliability
+
+- If the task requires OpenClaw CLI and `openclaw` is missing in PATH, use:
+  - `workspace/systems/local-scripts/openclaw.sh <args>`
+- Example fallback:
+  - `workspace/systems/local-scripts/openclaw.sh update status`
