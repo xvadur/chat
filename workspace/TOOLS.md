@@ -2,6 +2,16 @@
 
 Praktický cheat sheet pre Adam/xvadur setup.
 
+## OpenClaw CLI fallback (anti `command not found`)
+
+- Keď zlyhá `openclaw ...` s `command not found`, nepoužívaj holý príkaz znovu.
+- Použi wrapper: `workspace/systems/local-scripts/openclaw.sh <args>`
+  - napr. `workspace/systems/local-scripts/openclaw.sh update status`
+- Wrapper skúsi v poradí:
+  1) globálny `openclaw` (PATH)
+  2) `pnpm --dir ~/.openclaw openclaw ...`
+  3) vypíše presný návod na opravu
+
 ## 🎯 SKILLS QUICK REFERENCE (28 total)
 
 **Kedy použiť ktorý skill:**
